@@ -40,7 +40,9 @@ lng_pair: id_links
 page_data:
   main:
     header: "Links"
-    info: "저의 블로그와 프로그램에 대한 링크 혹은 다양한 정보 링크를 공유하는 장소입니다~ 많은 도음이 되었으면 합니다"
+    info: 
+    "저의 블로그와 프로그램에 대한 링크 혹은 다양한 정보 링크를 공유하는 장소입니다~ 
+    <br> 많은 도음이 되었으면 합니다!"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:

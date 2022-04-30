@@ -103,7 +103,7 @@ page_data:
     - type: id_Lab
       project_name: "Ferroelectric FET 제작 (~2021-11-12)"
       project_excerpt: "FeFET 제작과정 및 mask제작"
-      img: ":FeFET.png"
+      img: ":FeFET.jpg"
       img_title: "img title6"
       date: "2021-08-27"
       post: |
