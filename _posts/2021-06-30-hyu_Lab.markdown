@@ -1,0 +1,57 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_hyu(Bachelor)
+title: Hanyang University's Lab (~2022-01-14)
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+author: Songjunsu
+# multiple category is not supported
+category: hanyang univ
+# multiple tag entries are possible
+tags: [hanyang univ, Bachelor, Lab]
+# thumbnail image for post
+img: ":HYU.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2021-06-30 12:00:00 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-01-01 10:04:30 +0900
+# check the meta_common_description in _data/lang/[language].yml
+#meta_description: ""
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+<!-- outline-start -->
+## Hanyang University ERICA Campus ASDL Laboratory
+
+Period : 2021-06-30 ~ 2022-01-14
+
+For more information, visit [Project](https://junsusong98.github.io/tabs/projects.html#id_Lab)!
+
+[Hanyang University ERICA Campus ASDL Laboratory](https://yh2424.github.io/)
+
+***
+
+#### Project
+- GaN-mini LED (2021-06-30 ~ 2021-08-02)
+- TFT performance check (2021-08-02 to 2021-10-06)
+- Condition change according to TFT heat treatment conditions (Capstone) (2021-08-20 to 2021-12-01)
+- Manufactured by Ferroelectric FET (2021-08-27 to 2021-11-12)
+- TCAD Sentaurus Download and Execution Process (2021-10-01 to 2021-11-12)
+
+

@@ -1,0 +1,440 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "Projects"
+    info: "Let me introduce the project that I worked on!!"
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":4.jpg"
+    back_color: "lightblue"
+
+  category:
+    - title: "Git"
+      type: id_git
+      color: "#6495ED"
+    - title: "Lab"
+      type: id_Lab
+      color: "#62b462"
+    - title: "Activities"
+      type: id_club
+      color: "#FFB6C1"
+    - title: "Computer"
+      type: id_computer
+      color: "#2FD0ED"
+    - title: "Python"
+      type: id_python
+      color: "gray"
+    - title: "Example"
+      type: id_example
+      color: "#DCDCDC"
+
+  list:
+    # git
+    - type: id_git
+      project_name: "Github blogging process"
+      project_excerpt: "Create my own homepage"
+      img: ":github.png"
+      img_title: "img title8"
+      date: "2022-04-20"
+      post: |
+        ## 1. Motivation
+        I always wanted to make my own homepage. 
+        I tried to make it using react and node.js, but it took a long time to learn design and coding.
+        Therefore, while looking for a simple way to make it, I learned how to create a blog with github.
+        
+        ***
+        ### 2. Start github blog
+        1. Start with [github_blog_create](https://velog.io/@shg4821/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1)
+        1. Choose one from [Jekyll theme](https://jamstackthemes.dev/ssg/jekyll/)
+        1. check [README](https://github.com/junsusong98/junsusong98.github.io/blob/main/README.md#readme)--> check Github pages
+        1. Import it to 'local' using git clone, modify code using VScode, and `git push`
+          - After that, add, commit, and push are repeated to continue pushing.;;
+          - Check the **local build** of README.
+          - But I may not know what you mean...
+
+        ***
+
+        ### 3. Local build detailed method
+        1. Install ruby [Install Jekyll](https://jekyllrb.com/docs/installation/)
+        2. Go from Ruby 'start command'.
+
+        ![Image](:ruby.png)
+        
+        3. Enter `gem install bundler jekyll` after going to code address imported to 'local' via cd
+        
+        ![Image](:ruby2.png)
+        
+        ![Image](:ruby3.png)
+        
+        4. Enter `bundle exec jekyll serve` after installation is completed
+        
+        ![Image](:ruby4.png)
+        
+        5. Enter **http://localhost:4000/** in Chrome after loading!!
+
+        Then, you can see that it's floating well
+
+        ***
+
+        ## 4. Analyzing my own homepage code
+
+        |   name   | detail  |        Info                                                                       |
+        | :------: | :-----: | :-------------------------------------------------------------------------------: |
+        | _data    | owner   | Where to enter your name and personal information                                 |
+        |          | conf    | In the main, add a language and change the picture on the left                    |
+        |          | content | Place to manage **Project**                                                       |
+        |          |  lang   | Where you enter the **contents of home** and the overall contents of the homepage |
+        | _layouts |   -     | Determine the overall tools for the categories on the left                        |
+        | _post    |  -      | Place to manage **(En)Blog**                                                      |
+        | assets   | img     | Where to save pictures                                                            |
+        | tabs     |   -     | Place to manage **(En)links** and **(En)About**                                   |
+        | index.md |    -    | Where to change **(En)home's photo**                                              |
+        | ko       |   -     | Place to manage **(Ko)links** and **(Ko)About** and **(Ko)Blog**                  |
+        | vi       |  -      | Place to manage **(Vi)links** and **(Vi)About** and **(Vi)Blog**                  |
+
+        Oh, it's hard! But it's so nice that it's organized neatly!
+
+        Decorate your own homepage from 2022-04-20!
+
+    # 연구실
+    - type: id_Lab
+      project_name: "Ferroelectric FET 제작 (~2021-11-12)"
+      project_excerpt: "FeFET 제작과정 및 mask제작"
+      img: ":FeFET.png"
+      img_title: "img title6"
+      date: "2021-08-27"
+      post: |
+        (with 진태원, 노태현)
+        Be the change that you wish to see in the world.
+
+    - type: id_Lab
+      project_name: "TFT 열처리 조건에 따른 상태 변화 [캡스톤] (~ 2021-12-01)"
+      project_excerpt: "Hot plate : AS, 150도, 200도, 250도"
+      img: ":TFT.jpg"
+      img_title: "img title5"
+      date: "2021-08-20"
+      post: |
+        (with 진태원, 선신개, 노태현)
+
+        You only live once, but if you do it right, once is enough.
+        발표 : 2021-12-01
+
+    - type: id_Lab
+      project_name: "TFT 성능 확인 (~ 2021-10-06)"
+      project_excerpt: "TFT[Thin File Transistor] Width, Length에 따른 TFT 성질"
+      img: ":TFT(W,L).jpg"
+      img_title: "img title4"
+      date: "2021-08-02"
+      post: |
+        (with 진태원)
+        Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+      
+    - type: id_Lab
+      project_name: "TCAD Sentaurus 다운 로드 및 실행 과정 (~ 2021-11-12)"
+      project_excerpt: "리눅스 CenOS8 버전, 반도체 시뮬레이션 TCAD Sentaurus"
+      img: ":sentaurus.png"
+      img_title: "img title6"
+      date: "2021-10-01"
+      post: |
+        Technology Computer-Aided Design (TCAD) refers to using computer simulations to develop and optimize semiconductor processing technologies and devices. 
+        TCAD simulation tools solve fundamental, physical, partial differential equations, such as diffusion and transport equations for discretized geometries, representing the silicon wafer or the layer system in a semiconductor device. 
+        This deep physical approach gives TCAD simulation predictive accuracy.
+        
+        Therefore, it is possible to substitute TCAD computer simulations for costly and time-consuming test wafer runs when developing and characterizing a new semiconductor device or technology.
+
+    - type: id_Lab
+      project_name: "GaN-mini LED (~2021-08-02)"
+      project_excerpt: "GaN mini LED mask제작"
+      img: ":LED_mask.jpg"
+      #img_title: "img title2"
+      date: "2021-06-30"
+      post: |
+        (with 김강석, 박승민)
+
+        Let me not to the marriage of true minds
+        Admit impediments. Love is not love
+        Which alters when it alteration finds,
+        Or bends with the remover to remove.
+        O no, it is an ever-fixed mark
+        That looks on tempests and is never shaken;
+        It is the star to every wand'ring barque,
+        Whose worth's unknown, although his height be taken.
+        Love's not Time's fool, though rosy lips and cheeks
+        Within his bending sickle's compass come;
+        Love alters not with his brief hours and weeks,
+        But bears it out even to the edge of doom.
+        If this be error and upon me proved,
+        I never writ, nor no man ever loved.
+
+    # 대외 활동
+    - type: id_club
+      project_name: "IC-PBL 경진대회(2019) (~ 2019-12-19)"
+      project_excerpt: "ERICA를 부탁해"
+      img: ":IC-PBL(2019).png"
+      img_title: "img title9"
+      date: "2019-09-01"
+      post: |
+        조장 : 송준수
+
+        팀원 : 진태원, 김민제, 양희준
+
+        https://quv.kr/
+
+    - type: id_club
+      project_name: "창업동아리[SSSAP] (~ 2021-08-30)"
+      project_excerpt: "쇼핑 어플리케이션"
+      img: ":startup.png"
+      img_title: "img title10"
+      date: "2021-01-01"
+      post: |
+        조장 : 송준수
+
+        팀원 : 김상훈, 김동구, 김성목, 노태현, 박승민, 박재혁
+
+    - type: id_club
+      project_name: "IC-PBL 경진대회(2021) (~ 2021-08-04)"
+      project_excerpt: "IC-PBL을 통해 배운 경험을 공유하자"
+      img: ":IC-PBL(2021)_info.png"
+      img_title: "img title11"
+      date: "2021-06-01"
+      post: |
+        조장 : 송준수
+
+        팀원 : 김강석, 박승민
+
+        (수상사진 IC-PBL(2021)_prove.png, IC-pbl.png)
+
+        Be the change that you wish to see in the world.
+
+    # 컴퓨터
+    - type: id_computer
+      project_name: "Http socket 제작 (~ 2022-04-23)"
+      project_excerpt: "computer network : Http socket 제작"
+      img: ":HTTP.png"
+      img_title: "img title7"
+      date: "2022-03-23"
+      post: |
+        Be the change that you wish to see in the world.
+
+    - type: id_computer
+      project_name: "Making Our Own Robot with Ideas (~ 2019-11-30)"
+      project_excerpt: "The Idea of Photoelectronic Creation : Making Robots for Everyday Life"
+      img: ":ideal3.png"
+      img_title: "img title7"
+      date: "2019-09-01"
+      post: |
+        ## The Idea Task of Photoelectronic Creation
+        - project1: A robot that acts according to the path of various situations.
+        - Project2 : Making robots necessary for everyday life.
+
+        ***
+
+        ## project1
+        
+        ![Image](:ideal2.jpg)
+
+        If you want to see [Video](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/ideal.mp4), please click the link and refer to ideal.mp4!
+
+        ## project2
+        Reason for creation: 
+        As more people go to eat alone, there will be more tables for one person
+
+        ![Image](:ideal3.png)
+
+        ![Image](:ideal.png)
+
+        If you raise the stick, it moves the object to the right color.
+
+    # python
+    - type: id_python
+      project_name: "데이터 자동 분석 GUI (~ 2021-06-21)"
+      project_excerpt: "공학프로그래밍2 : python을 이용한 데이터 분석"
+      img: ":python.png"
+      img_title: "img title1"
+      date: "2021-03-02"
+      post: |
+        (with 김강석, 최일규)
+        # Title
+        This is project content.
+
+        ![Image](:python.png)
+
+    # example
+    - type: id_example
+      project_name: "Example Project Creation"
+      project_excerpt: "Example of creation"
+      img: ":example.png"
+      img_title: "img title12"
+      date: "1998-02-01"
+      post: |
+        # Examples
+
+        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+
+        ### Headings (centered)
+        {:data-align="center"}
+
+        # Heading 1
+
+        ## Heading 2
+
+        ### Heading 3
+
+        #### Heading 4
+
+        ##### Heading 5
+
+        ###### Heading 6
+
+        ***
+
+        ### Paragraphs
+
+        #### Paragraph
+
+        **William Shakespeare**, Let me not to the marriage of true minds
+        Admit impediments. Love is not love
+        Which alters when it alteration finds,
+        Or bends with the remover to remove.
+        O no, it is an ever-fixed mark
+        That looks on tempests and is never shaken;
+        It is the star to every wand'ring barque,
+        Whose worth's unknown, although his height be taken.
+        Love's not Time's fool, though rosy lips and cheeks
+        Within his bending sickle's compass come;
+        Love alters not with his brief hours and weeks,
+        But bears it out even to the edge of doom.
+        If this be error and upon me proved,
+        I never writ, nor no man ever loved.
+
+        #### Texts
+
+        Quoted text `Hello world`
+
+        Bold text **Hello world**
+
+        Italic text _Hello world_
+
+        kbd text <kbd>Hello world</kbd>
+
+        #### Blockquote
+
+        > **William Shakespeare**, Let me not to the marriage of true minds
+        Admit impediments. Love is not love
+        Which alters when it alteration finds,
+        Or bends with the remover to remove.
+        O no, it is an ever-fixed mark
+        That looks on tempests and is never shaken;
+        It is the star to every wand'ring barque,
+        Whose worth's unknown, although his height be taken.
+        Love's not Time's fool, though rosy lips and cheeks
+        Within his bending sickle's compass come;
+        Love alters not with his brief hours and weeks,
+        But bears it out even to the edge of doom.
+        If this be error and upon me proved,
+        I never writ, nor no man ever loved.
+
+        ### Link
+
+        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
+
+        ### Picture
+
+        ![such a lovely place](:projects-heading.jpg)
+
+        ### Picture (centered)
+
+        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
+
+        ### Lists
+
+        - Apple
+        - Banana
+        - Orange
+
+        1. Fruits
+            1. Apples
+                - Granny Smith
+                - Mutsu
+            1. Bananas
+                - Cavendish
+                - Red
+        1. Vegetables
+
+        ***
+
+        ### Tables
+
+        #### Small Table (centered)
+
+        | Fruits(not aligned) | Alignment (centered) | num (right align) |
+        | ------------------- | :------------------: | ----------------: |
+        | Apple               |       centered       |              9999 |
+        | Banana              |  centered long text  |               999 |
+        | Orange              |       centered       |                99 |
+        | Lemon               |       centered       |                 9 |
+        {:data-align="center"}
+
+        #### Wide Table (centered)
+
+        scroll enabled when page is narrow
+
+        | Fruits | num (left align) | num (right align) | num  | num  | num  |
+        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
+        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
+        | Banana | 111              |               111 | 222  | 333  | 444  |
+        | Orange | 11               |                11 | 22   | 33   | 44   |
+        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
+        {:data-align="center"}
+
+        #### Wider Table
+
+        scroll enabled when page is narrow
+
+        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
+        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
+        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
+        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
+        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
+        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
+
+        ### Code
+
+        #### Quote
+
+        ```python
+        for i in range(5, 10):
+          print(i)
+        ```
+
+        You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.<!-- outline-end --> You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+        To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+        
+        Jekyll also offers powerful support for code snippets:
+
+        {% highlight ruby %}
+        def print_hi(name)
+          puts "Hi, #{name}"
+        end
+        print_hi('Tom')
+        #=> prints 'Hi, Tom' to STDOUT.
+        {% endhighlight %}
+
+        Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+        [jekyll-docs]: https://jekyllrb.com/docs/home
+        [jekyll-gh]:   https://github.com/jekyll/jekyll
+        [jekyll-talk]: https://talk.jekyllrb.com/
+
+        #### 문단 나누기
+
+        Quoted text `Hello world`
+
+        {{ website_info_text_first }}
+        Bold text **Hello world**
+
+        {{ website_info_text_second }}
+        Italic text _Hello world_
