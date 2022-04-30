@@ -27,7 +27,7 @@ not_found:
 no_translation_tooltip: No Translation
 
 navigation:
-  brand_sub_text: Jekyll theme
+  brand_sub_text: welcome to my Blog
   contact_header: Contact
 
 color_scheme_switch_tooltip: Color scheme
@@ -132,7 +132,7 @@ home:
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
   top_header_line1: "Welcome To"
   # if commented, top header will be a single line
-  top_header_line2: "This is $site_brand Blog."
+  top_header_line2: "This is $site_brand 's Blog."
 
 # for archives layout
 archives:

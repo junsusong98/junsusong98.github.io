@@ -50,7 +50,12 @@ img: ":3.jpg"
 
 ![img](:HYU.jpg){: width="100" height="100"}
 ![img](:HYU2.png){: width="100" height="100"}
-![img](:HYU3.jpg){: width="300" height="300"}
+![img](:HYU4.png){: width="300" height="100"}
+
+![img](:sputter.png){: width="100" height="100"}
+![img](:Evaporator.png){: width="100" height="100"}
+![img](:Aligner.jpg){: width="100" height="100"}
+![img](:Keithley.png){: width="100" height="100"}
 
 ### Official Grade
 - University Major Credit

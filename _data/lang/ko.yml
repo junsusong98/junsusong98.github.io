@@ -27,7 +27,7 @@ not_found:
 no_translation_tooltip: 번역하지 않았습니다.
 
 navigation:
-  brand_sub_text: Jekyll 테마
+  brand_sub_text: 저의 Blog를 환영합니다
   contact_header: 연락처
 
 color_scheme_switch_tooltip: 색 구성표
