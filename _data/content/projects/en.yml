@@ -227,18 +227,18 @@ page_data:
       date: "2019-09-01"
       post: |
         ## The Idea Task of Photoelectronic Creation
-        - project1: A robot that acts according to the path of various situations.
+        - Project1: A robot that acts according to the path of various situations.
         - Project2 : Making robots necessary for everyday life.
 
         ***
 
-        ## project1
+        ## Project1
         
         ![Image](:ideal2.jpg)
 
         If you want to see [Video](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/ideal.mp4), please click the link and refer to ideal.mp4!
 
-        ## project2
+        ## Project2
         Reason for creation: 
         As more people go to eat alone, there will be more tables for one person
 
