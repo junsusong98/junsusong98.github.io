@@ -11,7 +11,7 @@ category: hanyang univ
 # multiple tag entries are possible
 tags: [hanyang univ, Bachelor, Lab]
 # thumbnail image for post
-img: ":HYU.jpg"
+img: ":HYU2.png"
 # disable comments on this page
 #comments_disable: true
 

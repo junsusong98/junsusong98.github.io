@@ -11,7 +11,7 @@ category: 한양대
 # multiple tag entries are possible
 tags: [한양대, 대회]
 # thumbnail image for post
-img: ":HYU.jpg"
+img: ":HYU2.png"
 # disable comments on this page
 #comments_disable: true
 
