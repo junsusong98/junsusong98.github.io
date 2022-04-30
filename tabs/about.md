@@ -52,7 +52,7 @@ img: ":3.jpg"
 ![img](:HYU2.png){: width="100" height="100"}
 ![img](:HYU4.png){: width="300" height="100"}
 
-![img](:sputter.png){: width="100" height="100"}
+![img](:Sputter.png){: width="100" height="100"}
 ![img](:Evaporator.png){: width="100" height="100"}
 ![img](:Aligner.jpg){: width="100" height="100"}
 ![img](:Keithley.png){: width="100" height="100"}
