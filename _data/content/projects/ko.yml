@@ -103,7 +103,7 @@ page_data:
     - type: id_Lab
       project_name: "Ferroelectric FET 제작 (~2021-11-12)"
       project_excerpt: "FeFET 제작과정 및 mask제작"
-      img: ":FeFET.png"
+      img: ":FeFET.jpg"
       img_title: "img title6"
       date: "2021-08-27"
       post: |
@@ -149,6 +149,8 @@ page_data:
 
         ## 결과
         발표날 : 2021-12-01
+
+        ## 참고문헌
 
         ***
 
@@ -298,7 +300,7 @@ page_data:
 
         ## 팀원 소개
         조장 : 송준수
-        
+
         팀원 : [김강석](https://yh2424.github.io/people/kangseokkim/) , [박승민](https://yh2424.github.io/people/seoungminpark/)
 
         ***
