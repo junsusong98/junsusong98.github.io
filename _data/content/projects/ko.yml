@@ -108,6 +108,11 @@ page_data:
       date: "2021-08-27"
       post: |
         ## 동기
+        논문 : [IGZO channel ferroelectric memory FET](https://ieeexplore.ieee.org/document/9224469) (Masaharu Kobayashi ,1-4 Sept. 2020)
+        
+        논문을 토대로 HZO를 첨가하여 IGZO가 아닌 ITZO에서의 Ferroelectric 현상을 확인하기 위해 실험을 진행하였다.
+
+        그러기 위해서 FeFET의 제작과정을 잘 구상하는 것이 중요하고 Photolithography 공정에서 필요한 mask를 제작해보았다.
 
         ***
 
@@ -118,12 +123,214 @@ page_data:
         ***
 
         ## 진행 방식
+        **가려진 부분은 연구실만의 privary가 있기 때문에 이해부탁드립니다.**
+
+        ![Image](:FeFET2.png)
+
+        공정을 진행함에 있어 어떤 식으로 Si 기판 위에 증착되는지 확인해봐야한다. 
+        
+        따라서 ppt의 도형을 이용하여 만들어보면서 증착되는 과정을 확인해본다.
+
+        ![Image](:FeFET4.png)
+
+        각 단게마다 어떤 공정 과정이 필요한지 확인 하는 작업 또한 필요했습니다. 
+
+        여러번 확인을 안하게 된다면 mask가 있어야 할 곳에 없고 없어야 할 곳에 있는 경우가 생길 수 있습니다.
+        
+        다시 mask 제작을 기다려야 할 수 있기 때문에 신중하게 확인해야 합니다.
+
+        ![Image](:FeFET3.png)
+
+        이제는 Klayout을 이용하여 mask를 제작해보고 ppt를 확인하면서 문제가 없는지 한번 더 확인해본다. 
 
         ***
 
         ## 결과
 
+        다시 공정하는 일 없이 모두 마무리 하였고 ferroelectic 현상을 확인 하였다.
+
+        하지만 IGZO보다 성능은 낮게 나왔다. 
+
         ***
+
+        ## 코드
+
+        Klayout python 코드입니다. 
+
+        - 네모 만들기
+
+        ```python
+        class Square :
+          global layout,unit,top
+          
+          def __init__(self, x, y, width, height,l):  
+            self.x = x/unit
+            self.y = y/unit
+            self.width = width/unit
+            self.height = height/unit
+            self.l = l
+            self.lay = layout.layer(l,0)
+            
+            self.box = pya.Box(self.x-self.width/2,self.y-self.height/2,self.x+self.width/2,self.y+self.height/2)
+            
+          
+          def info(self):
+            return pya.Region(self.box)
+            
+          def create(self):   
+            obj = pya.Region(self.box)
+            res = top.shapes(self.lay).insert(self.box) 
+            return obj
+          
+          def create_hole(self,h_x,h_y,h_width,h_height):
+            h_x = h_x/unit
+            h_y = h_y/unit
+            h_width = h_width/unit
+            h_height = h_height/unit
+            self.h_box = pya.Box(h_x-h_width/2,h_y-h_height/2,h_x+h_width/2,h_y+h_height/2)
+          
+            self.box = pya.Polygon(self.box)
+            self.box.insert_hole(self.h_box)
+            obj = pya.Region(self.box)
+            res= top.shapes(self.lay).insert(self.box)
+            return obj
+          
+          def dup(self,dif_x,dif_y,num):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.box
+            total_obj = pya.Region(new_obj)
+            top.shapes(self.lay).insert(new_obj)
+            for i in range(0,num):
+              new_obj = new_obj.dup()
+              new_obj = new_obj.moved(dif_x,dif_y)
+              res = top.shapes(self.lay).insert(new_obj)
+              total_obj += new_obj
+            return total_obj
+            
+          def dup_2(self,dif_x,dif_y,num1,num2):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.box
+            total_obj = pya.Region()
+            
+            for i in range(0,num1):
+              if i!=0:
+                new_obj = new_obj.dup()
+                new_obj = new_obj.moved(0,dif_y)
+              for j in range(0,num2):
+                if j ==0 and i!=0:
+                  new_obj = new_obj.moved(-(num2-1)*dif_x,0)
+                new_box = new_obj.dup()
+                if j ==0:
+                  pass
+                else:
+                  new_obj = new_obj.moved(dif_x,0)
+                res = top.shapes(self.lay).insert(new_obj)
+                total_obj += new_obj
+                
+            return total_obj
+
+          def rotate(self,degree):
+            self.box.move(-self.x,-self.y)
+            rotate = pya.ICplxTrans(1,degree,False,0,0)
+            new_obj =pya.Polygon(self.box).transform(rotate)
+          
+            new_obj.move(self.x,self.y) 
+            res = top.shapes(self.lay).insert(new_obj)
+              
+            return new_obj
+        ```
+
+        - 원형 만들기
+
+        ```python
+        class Circle:
+          global layout,unit,top,angle_point
+          
+          def __init__(self, x, y, r,degree, rotation,l):  
+            self.x = x/unit
+            self.y = y/unit
+            self.r = r/unit
+            self.l = l
+            self.lay = layout.layer(l,0)
+            self.degree = degree
+            self.n_point = self.degree / angle_point + 1
+            self.radian_step = 2.0*pi*(self.degree/360) / (self.n_point - 1)
+            self.radian_offset = 2.0*pi*(rotation/360)
+            self.points = [pya.Point(round(self.r * math.cos(i * self.radian_step + self.radian_offset) + self.x), round(self.r * math.sin(i * self.radian_step + self.radian_offset) + self.y)) for i in range(int(self.n_point))]
+            
+            if self.degree != 360:
+              self.points.append(pya.Point(self.x, self.y))  
+            
+            self.circle = pya.Polygon(self.points)
+            
+
+          def create(self):   
+            res= top.shapes(self.lay).insert(self.circle)
+            obj = pya.Region(self.circle) 
+            return obj
+          
+          def create_hole(self,r2):
+            r2 = r2/unit
+            self.points2 = [pya.Point(round(r2 * math.cos(i * self.radian_step + self.radian_offset) + self.x), round(r2 * math.sin(i * self.radian_step + self.radian_offset) + self.y)) for i in range(int(self.n_point))]
+            
+            if self.degree != 360:
+              self.points2.append(pya.Point(self.x, self.y))
+              
+            self.circle.insert_hole(self.points2)
+          
+            res= top.shapes(self.lay).insert(self.circle)
+            obj = pya.Region(self.circle) 
+            return obj
+
+          
+          def dup(self,dif_x,dif_y,num):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.circle
+            total_obj = pya.Region(new_obj)
+            top.shapes(self.lay).insert(new_obj)
+            
+            for i in range(0,num):
+              
+              new_obj = new_obj.dup()
+              new_obj = new_obj.moved(dif_x,dif_y)
+              pya.Region(new_obj)
+              res = top.shapes(self.lay).insert(new_obj)
+              total_obj += new_obj
+            return total_obj
+            
+          def dup_2(self,dif_x,dif_y,num1,num2):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.circle
+            total_obj = pya.Region()
+            
+            for i in range(0,num1):
+              if i!=0:
+                new_obj = new_obj.dup()
+                new_obj = new_obj.moved(0,dif_y)
+              for j in range(0,num2):
+                if j ==0 and i!=0:
+                  new_obj = new_obj.moved(-(num2-1)*dif_x,0)
+                new_obj = new_obj.dup()
+                if j ==0:
+                  pass
+                else:
+                  new_obj = new_obj.moved(dif_x,0)
+                  
+                pya.Region(new_obj)
+                res = top.shapes(self.lay).insert(new_obj)
+                total_obj += new_obj
+            return total_obj
+        ```
+
+        그 외에 align mark, 이름 만들기 등 다른 모양도 만드는 코드도 정의 해두었습니다.
+
+        만약 필요하시거나 활용하고 싶으시면 메일 주시면 감사하겠습니다. 
+
+        저의 예시 코드와 상세한 설명 해드리겠습니다.
 
     - type: id_Lab
       project_name: "TFT 열처리 조건에 따른 상태 변화 [캡스톤] (~ 2021-12-01)"
@@ -134,6 +341,22 @@ page_data:
       post: |
         ## 동기
 
+        ITZO(In-Sn-Zn-O)는 IGZO보다 Mobility(이동도)가 높다.
+
+        또한 n 3+ 와 Sn 4+ 의 5s 오비탈에서 효율적인 궤도 겹칩 현상이 발생하여 전자의 이동이 수월하다.
+
+        공정과정에 있어 Annealing은 ITZO에 미치는 영향이 있다.
+        - Annealing 공정은 TFT 박막의 전기적 특성과 안정성을 증가시킨다. 또한 oxygen vacancy 제거, M-O 결합 형성, 전하 운반자 생성을 증가 시킨다.
+        - 챔버에 있는 산소를 채널의 빈공간으로 확산 시켜 산소의 빈공간을 줄이고 a-ITZO/SiO2 사이의 interface trap을 증가시킨다.
+
+        따라서 **Annealing에 따라 ITZO의 특성을 파악할 것이다.**
+
+        조건
+        - Hot plate (AS, 150°C, 200°C, 250°C) [1 시간]
+        - RTA (AS, 200°C, 300°C, 400°C, 500°C) [30 초]
+        
+        발표날 : 2021-12-01
+
         ***
 
         ## 팀원 소개
@@ -143,14 +366,48 @@ page_data:
 
         ***
 
-        ## 진행 방식
+        ## 진행 방식 & 결과
+
+        ### [Experiment 1] ITZO 의 온도의존성확인
+
+        ![Image](:TFT2.png)
+
+        ![Image](:TFT3.png)
+        
+        `문제 발생`
+
+        ![Image](:TFT4.png)
+
+        ### [Experiment 2] Isolation 이후소자변화
+
+        ![Image](:TFT5.png)
+
+        `문제 해결`
+
+        ![Image](:TFT6.png)
+
+        ### [Experiment 3] RTA
+
+        ![Image](:TFT7.png)
+
+        ![Image](:TFT8.png)
+
+        ### 결론
+
+        ![Image](:TFT9.png)
 
         ***
 
-        ## 결과
-        발표날 : 2021-12-01
+        ## 최종 결론
+
+        ![Image](:TFT10.png)
+
+        ***
 
         ## 참고문헌
+
+        [1] Junghwan Kim, Hoichang Yang& Jae Kyeong Jeong(2020.October.1). Nature research
+        [2] Youngjoon Choi, Saeroonter Choi and Jaekyun Kim(2020. September. 29). Semicomductor Science and Technology
 
         ***
 
@@ -163,6 +420,12 @@ page_data:
       post: |
         ## 동기
 
+        TFT(Thin File Transistor)의 전압전류관계는 다음과 같다.
+
+        ![Image](:TFT_VI.png)
+
+        따라서 정말 W,L의 변화에 따라 TFT의 성질을 변하는지 확인해보는 실험을 진행해 보았다. 
+
         ***
 
         ## 팀원 소개
@@ -172,9 +435,25 @@ page_data:
 
         ## 진행 방식
 
+        다음과 같은 TFT를 이용
+
+        ![Image](:TFT(W,L)2.png)
+
+        metal에 모양을 만들어줄 mask
+
+        ![Image](:TFT(W,L)3.png)
+
         ***
 
         ## 결과
+
+        #### Width변화에 따른 결과!
+
+        ![Image](:TFT(W,L)4.png)
+
+        #### Length변화에 따른 결과!
+
+        ![Image](:TFT(W,L)5.png)
 
         ***
       
@@ -342,7 +621,7 @@ page_data:
       post: |
         ## 광전자창의아이디어 과제
         - Project1 : 여러 상황의 길에 따라 행동하는 로봇
-        - project2 : 일상생활에 필요한 로봇을 만들어보기
+        - Project2 : 일상생활에 필요한 로봇을 만들어보기
 
         ***
 
