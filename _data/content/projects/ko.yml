@@ -427,7 +427,9 @@ page_data:
 
         TFT(Thin File Transistor)의 전압전류관계는 다음과 같다.
 
-        ![Image](:TFT_VI.png)
+        ![Image](:TFT_VI2.png)
+
+        ![Image](:TFT_VI3.png)
 
         따라서 정말 W,L의 변화에 따라 TFT의 성질을 변하는지 확인해보는 실험을 진행해 보았다. 
 
