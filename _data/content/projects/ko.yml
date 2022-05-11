@@ -107,7 +107,7 @@ page_data:
       img_title: "img title6"
       date: "2021-08-27"
       post: |
-        ## 동기
+        ## 1. 동기
         논문 : [IGZO channel ferroelectric memory FET](https://ieeexplore.ieee.org/document/9224469) (Masaharu Kobayashi ,1-4 Sept. 2020)
         
         논문을 토대로 HZO를 첨가하여 IGZO가 아닌 ITZO에서의 Ferroelectric 현상을 확인하기 위해 실험을 진행하였다.
@@ -116,13 +116,13 @@ page_data:
 
         ***
 
-        ## 팀원 소개
+        ## 2. 팀원 소개
         - [진태원](https://yh2424.github.io/people/taewonjin/)
         - [노태현](https://yh2424.github.io/people/NTH/)
 
         ***
 
-        ## 진행 방식
+        ## 3. 진행 방식
         **가려진 부분은 연구실만의 privary가 있기 때문에 이해부탁드립니다.**
 
         ![Image](:FeFET2.png)
@@ -143,9 +143,13 @@ page_data:
 
         이제는 Klayout을 이용하여 mask를 제작해보고 ppt를 확인하면서 문제가 없는지 한번 더 확인해본다. 
 
+        ![Image](:FeFET5.png)
+
+        mask제작을 회사에 의뢰하기 위한 단계
+
         ***
 
-        ## 결과
+        ## 4. 결과
 
         다시 공정하는 일 없이 모두 마무리 하였고 ferroelectic 현상을 확인 하였다.
 
@@ -153,7 +157,7 @@ page_data:
 
         ***
 
-        ## 코드
+        ## 5. 코드
 
         Klayout python 코드입니다. 
 
@@ -339,7 +343,7 @@ page_data:
       img_title: "img title5"
       date: "2021-08-20"
       post: |
-        ## 동기
+        ## 1. 동기
 
         ITZO(In-Sn-Zn-O)는 IGZO보다 Mobility(이동도)가 높다.
 
@@ -351,7 +355,7 @@ page_data:
 
         따라서 **Annealing에 따라 ITZO의 특성을 파악할 것이다.**
 
-        조건
+        `조건`
         - Hot plate (AS, 150°C, 200°C, 250°C) [1 시간]
         - RTA (AS, 200°C, 300°C, 400°C, 500°C) [30 초]
         
@@ -359,16 +363,16 @@ page_data:
 
         ***
 
-        ## 팀원 소개
+        ## 2. 팀원 소개
         - [진태원](https://yh2424.github.io/people/taewonjin/)
         - [선신개](https://yh2424.github.io/people/xinkaisun/)
         - [노태현](https://yh2424.github.io/people/NTH/)
 
         ***
 
-        ## 진행 방식 & 결과
+        ## 3. 진행 방식 & 결과
 
-        ### [Experiment 1] ITZO 의 온도의존성확인
+        - <kbd> [Experiment 1] ITZO 의 온도의존성확인 </kbd>
 
         ![Image](:TFT2.png)
 
@@ -378,7 +382,7 @@ page_data:
 
         ![Image](:TFT4.png)
 
-        ### [Experiment 2] Isolation 이후소자변화
+        - <kbd> [Experiment 2] Isolation 이후소자변화 </kbd>
 
         ![Image](:TFT5.png)
 
@@ -386,27 +390,28 @@ page_data:
 
         ![Image](:TFT6.png)
 
-        ### [Experiment 3] RTA
+        - <kbd> [Experiment 3] RTA </kbd>
 
         ![Image](:TFT7.png)
 
         ![Image](:TFT8.png)
 
-        ### 결론
+        - <kbd> 결론 </kbd>
 
         ![Image](:TFT9.png)
 
         ***
 
-        ## 최종 결론
+        ## 4. 최종 결론
 
         ![Image](:TFT10.png)
 
         ***
 
-        ## 참고문헌
+        ## 6. 참고문헌
 
         [1] Junghwan Kim, Hoichang Yang& Jae Kyeong Jeong(2020.October.1). Nature research
+
         [2] Youngjoon Choi, Saeroonter Choi and Jaekyun Kim(2020. September. 29). Semicomductor Science and Technology
 
         ***
@@ -418,7 +423,7 @@ page_data:
       img_title: "img title4"
       date: "2021-08-02"
       post: |
-        ## 동기
+        ## 1. 동기
 
         TFT(Thin File Transistor)의 전압전류관계는 다음과 같다.
 
@@ -428,12 +433,12 @@ page_data:
 
         ***
 
-        ## 팀원 소개
+        ## 2. 팀원 소개
         - [진태원](https://yh2424.github.io/people/taewonjin/)
 
         ***
 
-        ## 진행 방식
+        ## 3. 진행 방식
 
         다음과 같은 TFT를 이용
 
@@ -445,13 +450,13 @@ page_data:
 
         ***
 
-        ## 결과
+        ## 4. 결과
 
-        #### Width변화에 따른 결과!
+        <kbd> Width변화에 따른 결과! </kbd>
 
         ![Image](:TFT(W,L)4.png)
 
-        #### Length변화에 따른 결과!
+        <kbd> Length변화에 따른 결과! </kbd>
 
         ![Image](:TFT(W,L)5.png)
 
@@ -464,11 +469,8 @@ page_data:
       img_title: "img title6"
       date: "2021-10-01"
       post: |
-        ## 동기
-
-        ***
-
-        ##  TCAD Sentaurus란?
+        
+        ##  1. TCAD Sentaurus란?
         TCAD(Technology Computer-Aided Design)는 컴퓨터 시뮬레이션을 사용하여 반도체 처리 기술 및 장치를 개발하고 최적화하는 것을 말합니다. 
         TCAD 시뮬레이션 도구는 반도체 장치의 실리콘 웨이퍼 또는 레이어 시스템을 나타내는 이산화된 형상에 대한 확산 및 전송 방정식과 같은 기본, 물리적, 편미분 방정식을 해결합니다. 
         이 심층적인 물리적 접근 방식은 TCAD 시뮬레이션 예측 정확도를 제공합니다.
@@ -477,11 +479,15 @@ page_data:
 
         ***
 
-        ## 진행 방식
+        ## 2. 진행 방식
+
+        자세한 진행방법은 pdf를 참고해주시면 감사하겠습니다. [PDF](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/SENTAURUS다운로드방법_컴퓨터설정_송준수.pdf)
 
         ***
 
-        ## 결과
+        ## 3. 결과
+
+        ![Image](:sentaurus2.jpg)
 
         ***
 
@@ -492,21 +498,17 @@ page_data:
       #img_title: "img title2"
       date: "2021-06-30"
       post: |
-        ## 동기
-
-        ***
-
-        ## 팀원 소개
+        ## 1. 팀원 소개
         - [김강석](https://yh2424.github.io/people/kangseokkim/)
         - [박승민](https://yh2424.github.io/people/seoungminpark/)
 
         ***
 
-        ## 진행 방식
+        ## 2. 진행 방식
 
-        ***
+        ![Image](:LED_mask2.jpg)
 
-        ## 결과
+        **상세한 공정과정은 연구실만의 privary가 있기 때문에 이해부탁드립니다.**
 
         ***
 
