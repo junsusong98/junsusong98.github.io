@@ -27,9 +27,6 @@ page_data:
     - title: "Python"
       type: id_python
       color: "gray"
-    - title: "Example"
-      type: id_example
-      color: "#DCDCDC"
 
   list:
     # git
@@ -101,73 +98,418 @@ page_data:
 
     # 연구실
     - type: id_Lab
-      project_name: "Ferroelectric FET 제작 (~2021-11-12)"
-      project_excerpt: "FeFET 제작과정 및 mask제작"
+      project_name: "Making a Ferroelectric FET (~2021-11-12)"
+      project_excerpt: "FeFET production process and Mask production"
       img: ":FeFET.jpg"
       img_title: "img title6"
       date: "2021-08-27"
       post: |
-        (with 진태원, 노태현)
-        Be the change that you wish to see in the world.
+        ## 1. Motivation
+        Paper : [IGZO channel ferroelectric memory FET](https://ieeexplore.ieee.org/document/9224469) (Masaharu Kobayashi ,1-4 Sept. 2020)
+        
+        An experiment was conducted to confirm the ferroelectric phenomenon in ITZO rather than IGZO by adding HZO based on the paper.
+
+        To that end, it is important to plan the manufacturing process of FeFET well, and we made the mask necessary for the photolithography process.
+
+        ***
+
+        ## 2. Introduction of team members
+        - [Taewon Jin](https://yh2424.github.io/people/taewonjin/)
+        - [Teahyeon Noh](https://yh2424.github.io/people/NTH/)
+
+        ***
+
+        ## 3. Progress
+        **Please understand that there is a private part of the lab that is covered.**
+
+        ![Image](:FeFET2.png)
+
+        In the process, it is necessary to check how it is deposited on the Si substrate.
+        
+        Therefore, we check the deposition process while making it using the shape of the ppt.
+
+        ![Image](:FeFET4.png)
+
+        It was also necessary to identify which process was required for each step.
+
+        If the mask is not checked several times, the position of the Mask may change.
+        
+        I may have to wait for the Mask production again, so we need to check carefully.
+
+        ![Image](:FeFET3.png)
+
+        I made a Mask using Klayout and check the ppt to see if there is any problem.
+
+        ![Image](:FeFET5.png)
+
+        Steps to request the manufacture of the Mask to the company
+
+        ***
+
+        ## 4. Result
+
+        All were completed without re-deposition and the ferroelectic phenomenon was confirmed.
+
+        However, the performance was lower than that of IGZO.
+
+        ***
+
+        ## 5. Code
+
+        This is the Klayout python code.
+
+        - Making a square
+
+        ```python
+        class Square :
+          global layout,unit,top
+          
+          def __init__(self, x, y, width, height,l):  
+            self.x = x/unit
+            self.y = y/unit
+            self.width = width/unit
+            self.height = height/unit
+            self.l = l
+            self.lay = layout.layer(l,0)
+            
+            self.box = pya.Box(self.x-self.width/2,self.y-self.height/2,self.x+self.width/2,self.y+self.height/2)
+            
+          
+          def info(self):
+            return pya.Region(self.box)
+            
+          def create(self):   
+            obj = pya.Region(self.box)
+            res = top.shapes(self.lay).insert(self.box) 
+            return obj
+          
+          def create_hole(self,h_x,h_y,h_width,h_height):
+            h_x = h_x/unit
+            h_y = h_y/unit
+            h_width = h_width/unit
+            h_height = h_height/unit
+            self.h_box = pya.Box(h_x-h_width/2,h_y-h_height/2,h_x+h_width/2,h_y+h_height/2)
+          
+            self.box = pya.Polygon(self.box)
+            self.box.insert_hole(self.h_box)
+            obj = pya.Region(self.box)
+            res= top.shapes(self.lay).insert(self.box)
+            return obj
+          
+          def dup(self,dif_x,dif_y,num):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.box
+            total_obj = pya.Region(new_obj)
+            top.shapes(self.lay).insert(new_obj)
+            for i in range(0,num):
+              new_obj = new_obj.dup()
+              new_obj = new_obj.moved(dif_x,dif_y)
+              res = top.shapes(self.lay).insert(new_obj)
+              total_obj += new_obj
+            return total_obj
+            
+          def dup_2(self,dif_x,dif_y,num1,num2):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.box
+            total_obj = pya.Region()
+            
+            for i in range(0,num1):
+              if i!=0:
+                new_obj = new_obj.dup()
+                new_obj = new_obj.moved(0,dif_y)
+              for j in range(0,num2):
+                if j ==0 and i!=0:
+                  new_obj = new_obj.moved(-(num2-1)*dif_x,0)
+                new_box = new_obj.dup()
+                if j ==0:
+                  pass
+                else:
+                  new_obj = new_obj.moved(dif_x,0)
+                res = top.shapes(self.lay).insert(new_obj)
+                total_obj += new_obj
+                
+            return total_obj
+
+          def rotate(self,degree):
+            self.box.move(-self.x,-self.y)
+            rotate = pya.ICplxTrans(1,degree,False,0,0)
+            new_obj =pya.Polygon(self.box).transform(rotate)
+          
+            new_obj.move(self.x,self.y) 
+            res = top.shapes(self.lay).insert(new_obj)
+              
+            return new_obj
+        ```
+
+        - Making a circle
+
+        ```python
+        class Circle:
+          global layout,unit,top,angle_point
+          
+          def __init__(self, x, y, r,degree, rotation,l):  
+            self.x = x/unit
+            self.y = y/unit
+            self.r = r/unit
+            self.l = l
+            self.lay = layout.layer(l,0)
+            self.degree = degree
+            self.n_point = self.degree / angle_point + 1
+            self.radian_step = 2.0*pi*(self.degree/360) / (self.n_point - 1)
+            self.radian_offset = 2.0*pi*(rotation/360)
+            self.points = [pya.Point(round(self.r * math.cos(i * self.radian_step + self.radian_offset) + self.x), round(self.r * math.sin(i * self.radian_step + self.radian_offset) + self.y)) for i in range(int(self.n_point))]
+            
+            if self.degree != 360:
+              self.points.append(pya.Point(self.x, self.y))  
+            
+            self.circle = pya.Polygon(self.points)
+            
+
+          def create(self):   
+            res= top.shapes(self.lay).insert(self.circle)
+            obj = pya.Region(self.circle) 
+            return obj
+          
+          def create_hole(self,r2):
+            r2 = r2/unit
+            self.points2 = [pya.Point(round(r2 * math.cos(i * self.radian_step + self.radian_offset) + self.x), round(r2 * math.sin(i * self.radian_step + self.radian_offset) + self.y)) for i in range(int(self.n_point))]
+            
+            if self.degree != 360:
+              self.points2.append(pya.Point(self.x, self.y))
+              
+            self.circle.insert_hole(self.points2)
+          
+            res= top.shapes(self.lay).insert(self.circle)
+            obj = pya.Region(self.circle) 
+            return obj
+
+          
+          def dup(self,dif_x,dif_y,num):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.circle
+            total_obj = pya.Region(new_obj)
+            top.shapes(self.lay).insert(new_obj)
+            
+            for i in range(0,num):
+              
+              new_obj = new_obj.dup()
+              new_obj = new_obj.moved(dif_x,dif_y)
+              pya.Region(new_obj)
+              res = top.shapes(self.lay).insert(new_obj)
+              total_obj += new_obj
+            return total_obj
+            
+          def dup_2(self,dif_x,dif_y,num1,num2):
+            dif_x = dif_x/unit
+            dif_y = dif_y/unit
+            new_obj = self.circle
+            total_obj = pya.Region()
+            
+            for i in range(0,num1):
+              if i!=0:
+                new_obj = new_obj.dup()
+                new_obj = new_obj.moved(0,dif_y)
+              for j in range(0,num2):
+                if j ==0 and i!=0:
+                  new_obj = new_obj.moved(-(num2-1)*dif_x,0)
+                new_obj = new_obj.dup()
+                if j ==0:
+                  pass
+                else:
+                  new_obj = new_obj.moved(dif_x,0)
+                  
+                pya.Region(new_obj)
+                res = top.shapes(self.lay).insert(new_obj)
+                total_obj += new_obj
+            return total_obj
+        ```
+
+        In addition, I have defined codes that make other shapes such as align mark and name.
+
+        If you need it or want to use it, please send me an email.
+
+        I will explain in detail with my example code.
 
     - type: id_Lab
-      project_name: "TFT 열처리 조건에 따른 상태 변화 [캡스톤] (~ 2021-12-01)"
-      project_excerpt: "Hot plate : AS, 150도, 200도, 250도"
+      project_name: "Condition change according to TFT heat treatment conditions [Capstone] (~ 2021-12-01)"
+      project_excerpt: "Hot plate : AS, 150°C, 200°C, 250°C"
       img: ":TFT.jpg"
       img_title: "img title5"
       date: "2021-08-20"
       post: |
-        (with 진태원, 선신개, 노태현)
+        ## 1. Motivation
 
-        You only live once, but if you do it right, once is enough.
-        발표 : 2021-12-01
+        ITZO (In-Sn-Zn-O) has higher mobility than IGZO.
+
+        In addition, an efficient orbital overlapping chip phenomenon occurs in the 5s orbital of n3+ and Sn4+, making it easy to move electrons.
+
+        Annelling has an effect on ITZO in the process.
+        - The annealing process increases the electrical properties and stability of the TFT thin film. It also increases oxygen vacancy removal, M-O bond formation, and charge carrier generation.
+        - Oxygen in the chamber is diffused into the empty space of the channel to reduce the empty space of oxygen and increase the interface trap between a-ITZO/SiO2.
+
+        Thus, **I will grasp the characteristics of ITZO according to Annelling.**
+
+        `Conditions`
+        - Hot plate (AS, 150°C, 200°C, 250°C) [1 hour]
+        - RTA (AS, 200°C, 300°C, 400°C, 500°C) [30 second]
+        
+        Announcement day : 2021-12-01
+
+        ***
+
+        ## 2. Introduction of team members
+        - [Taewon Jin](https://yh2424.github.io/people/taewonjin/)
+        - [Xinkai Sun](https://yh2424.github.io/people/xinkaisun/)
+        - [Teahyeon Noh](https://yh2424.github.io/people/NTH/)
+
+        ***
+
+        ## 3. Progress & Results
+
+        - <kbd> [Experiment 1] Determine the temperature dependence of ITZO </kbd>
+
+        ![Image](:TFT2.png)
+
+        ![Image](:TFT3.png)
+        
+        `Problem Occurred`
+
+        ![Image](:TFT4.png)
+
+        - <kbd> [Experiment 2] Changes in the device after isolation </kbd>
+
+        ![Image](:TFT5.png)
+
+        `Solution`
+
+        ![Image](:TFT6.png)
+
+        - <kbd> [Experiment 3] RTA </kbd>
+
+        ![Image](:TFT7.png)
+
+        ![Image](:TFT8.png)
+
+        - <kbd> Conclusion </kbd>
+
+        ![Image](:TFT9.png)
+
+        ***
+
+        ## 4. The final conclusion
+
+        ![Image](:TFT10.png)
+
+        ***
+
+        ## 5. Reference
+
+        [1] Junghwan Kim, Hoichang Yang& Jae Kyeong Jeong(2020.October.1). Nature research
+
+        [2] Youngjoon Choi, Saeroonter Choi and Jaekyun Kim(2020. September. 29). Semicomductor Science and Technology
+
+        ***
 
     - type: id_Lab
-      project_name: "TFT 성능 확인 (~ 2021-10-06)"
-      project_excerpt: "TFT[Thin File Transistor] Width, Length에 따른 TFT 성질"
+      project_name: "Check TFT performance (~ 2021-10-06)"
+      project_excerpt: "TFT[Thin File Transistor] Properties according to TFT Width, Length"
       img: ":TFT(W,L).jpg"
       img_title: "img title4"
       date: "2021-08-02"
       post: |
-        (with 진태원)
-        Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+          ## 1. Motivation
+
+          The voltage-current relationship of TFT(Thin File Transistor) is as follows.
+
+          ![Image](:TFT_VI2.png){: width="200" height="200"}
+
+          ![Image](:TFT_VI3.png){: width="200" height="200"}
+
+          Therefore, an experiment was conducted to check whether the properties of TFTs change according to changes in W and L.
+
+          ***
+
+          ## 2. Introduction of team members
+          - [Taewon Jin](https://yh2424.github.io/people/taewonjin/)
+
+          ***
+
+          ## 3. Process
+
+          Use the following TFTs:
+
+          ![Image](:TFT(W,L)2.png)
+
+          The Mask that will shape the Metal
+
+          ![Image](:TFT(W,L)3.png)
+
+          ***
+
+          ## 4. Conclusion
+
+          <kbd> Result of Width change! </kbd>
+
+          ![Image](:TFT(W,L)4.png)
+
+          <kbd> Result of Length change! </kbd>
+
+          ![Image](:TFT(W,L)5.png)
+
+          ***
       
     - type: id_Lab
-      project_name: "TCAD Sentaurus 다운 로드 및 실행 과정 (~ 2021-11-12)"
-      project_excerpt: "리눅스 CenOS8 버전, 반도체 시뮬레이션 TCAD Sentaurus"
+      project_name: "TCAD Sentaurus Download and Execution Process (~ 2021-11-12)"
+      project_excerpt: "Linux CenOS8 version, Semiconductor Simulation TCAD Sentaurus"
       img: ":sentaurus.png"
       img_title: "img title6"
       date: "2021-10-01"
       post: |
+        
+        ##  1. What is TCAD Sentaurus?
         Technology Computer-Aided Design (TCAD) refers to using computer simulations to develop and optimize semiconductor processing technologies and devices. 
         TCAD simulation tools solve fundamental, physical, partial differential equations, such as diffusion and transport equations for discretized geometries, representing the silicon wafer or the layer system in a semiconductor device. 
         This deep physical approach gives TCAD simulation predictive accuracy.
         
         Therefore, it is possible to substitute TCAD computer simulations for costly and time-consuming test wafer runs when developing and characterizing a new semiconductor device or technology.
 
+        ***
+
+        ## 2. Process
+
+        I would appreciate it if you could refer to the pdf for detailed instructions. [PDF](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/SENTAURUS다운로드방법_컴퓨터설정_송준수.pdf)
+
+        ***
+
+        ## 3. Result
+
+        ![Image](:sentaurus2.jpg)
+
+        ***
+
     - type: id_Lab
       project_name: "GaN-mini LED (~2021-08-02)"
-      project_excerpt: "GaN mini LED mask제작"
+      project_excerpt: "Making GaN mini LED Mask"
       img: ":LED_mask.jpg"
       #img_title: "img title2"
       date: "2021-06-30"
       post: |
-        (with 김강석, 박승민)
+        ## 1. Introduction of team members
+        - [Kangseok Kim](https://yh2424.github.io/people/kangseokkim/)
+        - [Seoungmin Park](https://yh2424.github.io/people/seoungminpark/)
 
-        Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
+        ***
+
+        ## 2. Process
+
+        ![Image](:LED_mask2.jpg)
+
+        **Please understand that the detailed process has a private laboratory.**
+
+        ***
 
     # 대외 활동
     - type: id_club
@@ -261,180 +603,3 @@ page_data:
         This is project content.
 
         ![Image](:python.png)
-
-    # example
-    - type: id_example
-      project_name: "Example Project Creation"
-      project_excerpt: "Example of creation"
-      img: ":example.png"
-      img_title: "img title12"
-      date: "1998-02-01"
-      post: |
-        # Examples
-
-        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
-
-        ### Headings (centered)
-        {:data-align="center"}
-
-        # Heading 1
-
-        ## Heading 2
-
-        ### Heading 3
-
-        #### Heading 4
-
-        ##### Heading 5
-
-        ###### Heading 6
-
-        ***
-
-        ### Paragraphs
-
-        #### Paragraph
-
-        **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        #### Texts
-
-        Quoted text `Hello world`
-
-        Bold text **Hello world**
-
-        Italic text _Hello world_
-
-        kbd text <kbd>Hello world</kbd>
-
-        #### Blockquote
-
-        > **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        ### Link
-
-        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-        ### Picture
-
-        ![such a lovely place](:projects-heading.jpg)
-
-        ### Picture (centered)
-
-        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
-
-        ### Lists
-
-        - Apple
-        - Banana
-        - Orange
-
-        1. Fruits
-            1. Apples
-                - Granny Smith
-                - Mutsu
-            1. Bananas
-                - Cavendish
-                - Red
-        1. Vegetables
-
-        ***
-
-        ### Tables
-
-        #### Small Table (centered)
-
-        | Fruits(not aligned) | Alignment (centered) | num (right align) |
-        | ------------------- | :------------------: | ----------------: |
-        | Apple               |       centered       |              9999 |
-        | Banana              |  centered long text  |               999 |
-        | Orange              |       centered       |                99 |
-        | Lemon               |       centered       |                 9 |
-        {:data-align="center"}
-
-        #### Wide Table (centered)
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-        | Banana | 111              |               111 | 222  | 333  | 444  |
-        | Orange | 11               |                11 | 22   | 33   | 44   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
-        {:data-align="center"}
-
-        #### Wider Table
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-        ### Code
-
-        #### Quote
-
-        ```python
-        for i in range(5, 10):
-          print(i)
-        ```
-
-        You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.<!-- outline-end --> You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-        To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-        
-        Jekyll also offers powerful support for code snippets:
-
-        {% highlight ruby %}
-        def print_hi(name)
-          puts "Hi, #{name}"
-        end
-        print_hi('Tom')
-        #=> prints 'Hi, Tom' to STDOUT.
-        {% endhighlight %}
-
-        Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-        [jekyll-docs]: https://jekyllrb.com/docs/home
-        [jekyll-gh]:   https://github.com/jekyll/jekyll
-        [jekyll-talk]: https://talk.jekyllrb.com/
-
-        #### 문단 나누기
-
-        Quoted text `Hello world`
-
-        {{ website_info_text_first }}
-        Bold text **Hello world**
-
-        {{ website_info_text_second }}
-        Italic text _Hello world_
