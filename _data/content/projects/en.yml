@@ -513,54 +513,152 @@ page_data:
 
     # 대외 활동
     - type: id_club
-      project_name: "IC-PBL 경진대회(2019) (~ 2019-12-19)"
-      project_excerpt: "ERICA를 부탁해"
+      project_name: "IC-PBL Contest (2019) (~ 2019-12-19)"
+      project_excerpt: "Take care of ERICA"
       img: ":IC-PBL(2019).png"
       img_title: "img title9"
       date: "2019-09-01"
       post: |
-        조장 : 송준수
+        ## 1. Explain of the contest
 
-        팀원 : 진태원, 김민제, 양희준
+        ![Image](:IC-PBL(2019).png)
 
-        https://quv.kr/
+        It is a contest to present ideas about what Hanyang University ERICA needs.
+
+        ***
+
+        ## 2. Introduction of team members
+        Leader: Junsu Song (ME)
+
+        Team members: Jin Taewon, Kim Minje, Yang Heejun
+
+        ![Image](:contest19.png)
+
+
+        ***
+
+        ## 3. Process
+
+        Our team presented <kbd>the problem of Hanyang University application</kbd> and conducted a survey accordingly.
+
+        ![Image](:contest19_2.png)
+
+        ![Image](:contest19_3.png)
+
+        ![Image](:contest19_4.png)
+
+        We proceeded with the <kbd>preparation step</kbd> for designing the optimal application.
+
+        - Current status of application contracts with school
+
+        ![Image](:contest19_5.png)
+
+        ![Image](:contest19_6.png)
+
+        - Investigate what students need
+
+        ![Image](:contest19_7.png)
+
+        - Research the optimal GUI by examining various universities
+
+        ![Image](:contest19_8.png)
+
+        ![Image](:IC-PBL(2019).jpg)
+
+        <kbd>The final GUI</kbd> designed by our team [Website used](https://quv.kr/)
+
+        ![Image](:contest19_9.png)
+
+        ![Image](:contest19_10.png)
+
+        ![Image](:contest19_11.png)
+
+        ***
+
+        ## 4. Result
+
+        We won `the Excellence Award` ~!
+
+        ![Image](:IC-PBL_prime.jpg)
+
+        ***
 
     - type: id_club
-      project_name: "창업동아리[SSSAP] (~ 2021-08-30)"
-      project_excerpt: "쇼핑 어플리케이션"
+      project_name: "Start-up club [SSSAP] (~ 2021-08-30)"
+      project_excerpt: "shopping application"
       img: ":startup.png"
       img_title: "img title10"
       date: "2021-01-01"
       post: |
-        조장 : 송준수
+        ## 1. Motivation
 
-        팀원 : 김상훈, 김동구, 김성목, 노태현, 박승민, 박재혁
+        The start-up club was started under the guidance of [Professor Kim Young-hyun](https://yh2424.github.io/people/younghyunkim/).
+
+        Until February, the team members steadily presented their ideas once a week and selected the best start-up idea among them.
+
+        After that, I presented my idea to Hanyang University's [start-up education center](https://eec.hanyang.ac.kr/circles/clubView/124) and I was able to receive support as a start-up club.
+
+        I decided to participate in the contest and get the team's ideas evaluated.
+
+        ![Image](:SID.png)
+
+        ***
+
+        ## 2. Introduction of team members
+        Leader: Junsu Song (ME)
+
+        Team members: Kim Sang Hoon, Kim Dong Gu, Kim Sung Mok, Roh Tae Hyun, Park Seung Min, Park Jae Hyuk
+
+        ![Image](:startup_club.png)
+
+        ***
+
+        ## 3. Process
+
+
+        ***
+
+        ## 4. Result
+
+        ![Image](:startup_prime.png)
+
+        ![Image](:startup_prime.jpg)
+
+        ***
 
     - type: id_club
-      project_name: "IC-PBL 경진대회(2021) (~ 2021-08-04)"
-      project_excerpt: "IC-PBL을 통해 배운 경험을 공유하자"
+      project_name: "IC-PBL contest(2021) (~ 2021-08-04)"
+      project_excerpt: "Share your experiences with IC-PBL"
       img: ":IC-PBL(2021)_info.png"
       img_title: "img title11"
       date: "2021-06-01"
       post: |
-        조장 : 송준수
+        ## 1. Explain of the contest
+        ![Image](:IC-PBL(2021)_info.png)
 
-        팀원 : 김강석, 박승민
+        ***
 
-        (수상사진 IC-PBL(2021)_prove.png, IC-pbl.png)
+        ## 2. Introduction of team members
+        Leader: Junsu Song (ME)
 
-        Be the change that you wish to see in the world.
+        Team members: [Kangseok Kim](https://yh2424.github.io/people/kangseokkim/), [Seoungmin Park](https://yh2424.github.io/people/seoungminpark/)
+        ***
+
+        ## 3. Process
+
+        ![Image](:python.png)
+
+        ***
+
+        ## 4. Result
+
+        ![Image](:IC-PBL(2021)_prove.png)
+
+        ![Image](:IC-PBL.png)
+
+        ***
 
     # 컴퓨터
-    - type: id_computer
-      project_name: "Http socket 제작 (~ 2022-04-23)"
-      project_excerpt: "computer network : Http socket 제작"
-      img: ":HTTP.png"
-      img_title: "img title7"
-      date: "2022-03-23"
-      post: |
-        Be the change that you wish to see in the world.
-
     - type: id_computer
       project_name: "Making Our Own Robot with Ideas (~ 2019-11-30)"
       project_excerpt: "The Idea of Photoelectronic Creation : Making Robots for Everyday Life"
@@ -598,8 +696,19 @@ page_data:
       img_title: "img title1"
       date: "2021-03-02"
       post: |
-        (with 김강석, 최일규)
-        # Title
-        This is project content.
+        ## 1. 동기
 
-        ![Image](:python.png)
+        ***
+
+        ## 2. 팀원 소개
+        팀원 : [김강석](https://yh2424.github.io/people/kangseokkim/) , 최일규
+
+        ***
+
+        ## 3. 진행 방식
+
+        ***
+
+        ## 4. 결과
+
+        ***
