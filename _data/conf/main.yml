@@ -288,64 +288,64 @@ google:
     # disable this feature entirely for development or production env.
     ignore: development
 
-###########################################################
-#                Cookie consent
-###########################################################
-# make sure google_analytics_id is set in _data/owner.yml
-# make sure your environment does not match with google.analytics.ignore
-cookie_consent:
-  enable: false
-  # if this is true, the consent box will be hidden even if the user does not change the switch position.
-  hide_consent_bar_with_save_button: true
-  gtag_default_config:
-    # settings below will be set with gtag("set", ...)
-    # these setting may be different in your case. Please check before using it.
-    # https://developers.google.com/analytics/devguides/collection/gtagjs
-    anonymize_ip: true
-    ads_data_redaction: true
-    cookie_flags: 'SameSite=None;Secure'
-  groups:
-    # google gtag default settings with categories
-    # settings below categories will be set with gtag("consent", "default", ...)
-    # these setting may be different in your case. Please check before using it.
-    # https://developers.google.com/tag-platform/devguides/consent
-    # for group, set security_storage, analytics_storage, functionality_storage, personalization_storage, ad_storage
-    # for value, set "granted" or "denied"
-    necessary:
-      group: [security_storage]
-      value: "granted"
-      wait_for_update: 500
-      # same as domain in _config.yml file
-      cookie_domain: ""
-      no_check_box: true
-    analytics:
-      group: [analytics_storage]
-      value: "denied"
-    preferences:
-      group: [functionality_storage, personalization_storage]
-      value: "denied"
-    advertising:
-      group: [ad_storage]
-      value: "denied"
-  groups_switches_and_values:
-    # set values true or false or hide
-    analytics: true
-    preferences: false
-    advertising: false
-  bar_buttons:
-    # button order and options, for deleting buttons set order to zero
-    accept: [3, btn-priority]
-    settings: [2]
-    deny: [1]
-  setting_buttons:
-    # button order and options, for deleting buttons set order to zero
-    accept: [2, btn-priority]
-    save: [3]
-    deny: [1, btn-left]
-  # replace text with related cookie_consent.panel_settings.gtag_info item
-  gtag_info_replace: "$gtag_info"
-  privacy_link_replace: "$privacy_link"
-  # this adds cookie setting button to side nav bottom
-  side_nav_setting_button:
-    enable: true
-    tooltip: true
+# ###########################################################
+# #                Cookie consent
+# ###########################################################
+# # make sure google_analytics_id is set in _data/owner.yml
+# # make sure your environment does not match with google.analytics.ignore
+# cookie_consent:
+#   enable: false
+#   # if this is true, the consent box will be hidden even if the user does not change the switch position.
+#   hide_consent_bar_with_save_button: true
+#   gtag_default_config:
+#     # settings below will be set with gtag("set", ...)
+#     # these setting may be different in your case. Please check before using it.
+#     # https://developers.google.com/analytics/devguides/collection/gtagjs
+#     anonymize_ip: true
+#     ads_data_redaction: true
+#     cookie_flags: 'SameSite=None;Secure'
+#   groups:
+#     # google gtag default settings with categories
+#     # settings below categories will be set with gtag("consent", "default", ...)
+#     # these setting may be different in your case. Please check before using it.
+#     # https://developers.google.com/tag-platform/devguides/consent
+#     # for group, set security_storage, analytics_storage, functionality_storage, personalization_storage, ad_storage
+#     # for value, set "granted" or "denied"
+#     necessary:
+#       group: [security_storage]
+#       value: "granted"
+#       wait_for_update: 500
+#       # same as domain in _config.yml file
+#       cookie_domain: ""
+#       no_check_box: true
+#     analytics:
+#       group: [analytics_storage]
+#       value: "denied"
+#     preferences:
+#       group: [functionality_storage, personalization_storage]
+#       value: "denied"
+#     advertising:
+#       group: [ad_storage]
+#       value: "denied"
+#   groups_switches_and_values:
+#     # set values true or false or hide
+#     analytics: true
+#     preferences: false
+#     advertising: false
+#   bar_buttons:
+#     # button order and options, for deleting buttons set order to zero
+#     accept: [3, btn-priority]
+#     settings: [2]
+#     deny: [1]
+#   setting_buttons:
+#     # button order and options, for deleting buttons set order to zero
+#     accept: [2, btn-priority]
+#     save: [3]
+#     deny: [1, btn-left]
+#   # replace text with related cookie_consent.panel_settings.gtag_info item
+#   gtag_info_replace: "$gtag_info"
+#   privacy_link_replace: "$privacy_link"
+#   # this adds cookie setting button to side nav bottom
+#   side_nav_setting_button:
+#     enable: true
+#     tooltip: true
