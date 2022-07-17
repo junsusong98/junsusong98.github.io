@@ -59,6 +59,7 @@ img: ":3.jpg"
 - University Major Credit
     - Photonics & Nanoelectronics GPA: 4.21 / 4.5 (credit: 55)
     - Computer Engineering GPA: 4.5   / 4.5 (credit: 17)
+    Total GPA : **4.24 / 4.5** 
 
 - TOEIC
     - (To be acquired)

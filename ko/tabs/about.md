@@ -59,7 +59,8 @@ img: ":3.jpg"
 ### 공식 성적
 - University Major Credit
     - 나노광전자학과 GPA: 4.21 / 4.5 (credit: 55)
-    - 컴퓨터전공 GPA: 4.5  / 4.5 (credit: 17)
+    - 컴퓨터전공 GPA: 4.5  / 4.5 (credit: 30)
+    총 학점 : **4.24 / 4.5**
 
 - TOEIC
     - (취득 예정)
