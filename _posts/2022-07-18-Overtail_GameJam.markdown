@@ -1,22 +1,22 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: 취업동아리 (~ 2022-06-30)
+title: Overtail GameJam (~2022-07-20)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
 author: Songjunsu
 # multiple category is not supported
-category: 한양대
+category: hanyang univ
 # multiple tag entries are possible
-tags: [한양대, 동아리]
+tags: [hanyang univ, contest]
 # thumbnail image for post
 img: ":HYU2.png"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-02-20 12:00:00 +0900
+date: 2022-07-18 12:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -37,26 +37,26 @@ date: 2022-02-20 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
+## Overtail_GameJam[2022]
 
-## 취업동아리
+For more information, visit [Project](https://junsusong98.github.io/tabs/projects.html#id_club)!
 
-취업동아리 인원 : 10명
+Competition: Overtail_GameJam
 
-***
+Organized by: College of computing
 
-#### 목차
-1. 오티
-2. 직무적합성
-3. 기업지원동기
-4. 성장과정
-5. 삼성전자 자기소개서 피드백
-6. 면접 평가 요소
-7. 면접 1분 자기소개
-8. 면접
-9. 삼성전자 면접준비
+Period: Monday, July 18, 2022 to Wednesday, July 20, 2022 (3 Days)
+
+Topic: On the 18th, three words related to summer will be randomly extracted and distributed to the team. Create a game using keywords for the next 3 days
 
 ***
 
-#### 지원 현황
-- 삼성전자 인턴 지원 (메모리사업부 - 반도체공정설계)
+Team name: NaRoHo
 
+Keywords: water(물), heat(더위), passion(정열)
+
+Team member: [Kim Taeyeop](https://blog.naver.com/bible20141) , [Kim kangseok](https://yh2424.github.io/people/kangseokkim/) , Song Junsu
+
+***
+
+Result: 2022 Overtail Game Jam Software Dean's Excellence Award (3rd place)

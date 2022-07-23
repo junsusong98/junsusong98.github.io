@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: 취업동아리 (~ 2022-06-30)
+title: 오버테일 게임잼 (~2022-07-20)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -9,14 +9,14 @@ author: Songjunsu
 # multiple category is not supported
 category: 한양대
 # multiple tag entries are possible
-tags: [한양대, 동아리]
+tags: [한양대, 대회]
 # thumbnail image for post
 img: ":HYU2.png"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-02-20 12:00:00 +0900
+date: 2022-07-18 12:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -37,26 +37,32 @@ date: 2022-02-20 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
+## 오버테일 게임잼[2022]
 
-## 취업동아리
+자세한 이야기는 [프로젝트](https://junsusong98.github.io/ko/tabs/projects.html#id_club) 에서 보시면 됩니다!
 
-취업동아리 인원 : 10명
+대회 : 게임잼
 
-***
+주최 : 소프트웨어학부
 
-#### 목차
-1. 오티
-2. 직무적합성
-3. 기업지원동기
-4. 성장과정
-5. 삼성전자 자기소개서 피드백
-6. 면접 평가 요소
-7. 면접 1분 자기소개
-8. 면접
-9. 삼성전자 면접준비
+기간 : 2022년 7월 18일 월요일 ~ 7월 20일 수요일 (무박 3일)
+
+주제 : 18일날 여름과 관련된 3가지 단어를 랜덤 추출하여 팀에게 배분된다. 이후 3일동안 키워드를 활용하여 게임을 만들어 보기
 
 ***
 
-#### 지원 현황
-- 삼성전자 인턴 지원 (메모리사업부 - 반도체공정설계)
+팀명 : 나로호
 
+제시 받은 키워드 : 물, 더위, 정열
+
+팀원 : [김태엽](https://blog.naver.com/bible20141) , [김강석](https://yh2424.github.io/people/kangseokkim/) , 송준수
+
+***
+
+결과 : 우수상 수상 (3위)
+
+<!-- ![img](:IC-PBL(2021)_info.png){: width="300" height="300"}
+
+![img](:IC-PBL(2021)_prove.png){: width="300" height="300"}
+
+![img](:IC-pbl.png) -->

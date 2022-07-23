@@ -81,11 +81,13 @@ img: ":3.jpg"
 ### 수상 경력
 - IC-PBL 경진대회 우수상 수상 (2019, 2021) [링크](https://yh2424.github.io/2021-08-11-Award/)
 - 원페이퍼 창업경진대회 SID Awards (2021)
+- 2022 오버테일 게임잼 소프트웨어학장상 우수상 수상(2022)
 - 프라임 인재 장학금 (2017,2019-2022)
 
 ### 스킬
-- 프로그래밍 언어 : C, C++, Python, React, Node.js, MySQL
+- 프로그래밍 언어 : C, C++, C# ,Python, React, Node.js, MySQL
 - 운영체제(os) : Linux(Ubuntu, CentOS8), Mac OS
 - 반도체 프로그램 : Klayout (python) [ 캡스톤 & 연구실 ]
 - 회로 프로그램 : PSpice [ 광전자실험 ]
 - 메모리 프로그램 : Microchip Studio (ATmega128) [ 전자회로및IOT실험 ]
+- 게임 제작 프로그램 : Unity (C#), Blender(3D model tool) 

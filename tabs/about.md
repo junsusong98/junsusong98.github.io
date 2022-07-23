@@ -80,11 +80,13 @@ img: ":3.jpg"
 ### Awards and Honors
 - Winner of Outstanding Award at IC-PBL Competition (2019, 2021) [link](https://yh2424.github.io/2021-08-11-Award/)
 - One Paper Startup Competition SID Awards (2021)
+- 2022 Overtail Game Jam Software Dean's Excellence Award (2022)
 - Prime Talent Scholarship (2017, 2019-2022)
 
 ### Skills
-- Programming language: C, C++, Python, React, Node.js, MySQL
+- Programming language: C, C++, C# , Python, React, Node.js, MySQL
 - Operating System(os) : Linux(Ubuntu, CentOS8), Mac OS
 - Semiconductor Production Program: Klayout (python) [ Capstone & Laboratory ]
 - Circuit Program: PSpice [ optoelectronic experiment ]
 - Memory Program: Microchip Studio (ATmega128) [ Electronic Circuits and IOT Experiments ]
+- Game-making program : Unity (C#), Blender(3D model tool) 
