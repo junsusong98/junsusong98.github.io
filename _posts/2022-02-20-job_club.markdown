@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: Job_club (~ ing)
+title: Job_club (~ 2022-06-30)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml

@@ -61,6 +61,8 @@ date: 2022-07-18 12:00:00 +0900
 
 결과 : 우수상 수상 (3위)
 
+발표 영상 : https://youtu.be/uRoRvXMdkAk
+
 <!-- ![img](:IC-PBL(2021)_info.png){: width="300" height="300"}
 
 ![img](:IC-PBL(2021)_prove.png){: width="300" height="300"}

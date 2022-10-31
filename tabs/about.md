@@ -65,7 +65,7 @@ img: ":3.jpg"
     - (To be acquired)
 
 - TOEIC Speaking
-    - (To be acquired)
+    - Intermediate Mid 1 / 110 (2022.09.04)
 
 ### Research Interests
 - Oxide Semiconductors ITZO TFT

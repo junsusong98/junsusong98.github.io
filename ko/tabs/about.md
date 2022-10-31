@@ -66,7 +66,7 @@ img: ":3.jpg"
     - (취득 예정)
 
 - TOEIC Speaking
-    - (취득 예정)
+    - Intermediate Mid 1 / 110 (2022.09.04)
 
 ### 연구
 - Oxide Semiconductors ITZO TFT
