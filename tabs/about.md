@@ -38,7 +38,7 @@ img: ":3.jpg"
 ### Introduction
 - Name : **Junsu Song**
 - Date of birth : **February 1st, 1998**
-- Address : **67 Seonbu Plaza Buk-ro, Danwon-gu, Ansan-si, Gyeonggi-do (Sujeongyang)**
+- Address : **Danwon-gu, Ansan-si, Gyeonggi-do (Sujeongyang)**
 - Email : **sb020578@hanyang.ac.kr , sb020578@naver.com**
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
