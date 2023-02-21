@@ -86,6 +86,11 @@ img: ":3.jpg"
 - 2022 Overtail Game Jam Software Dean's Excellence Award (2022)
 - Prime Talent Scholarship (2017, 2019-2022)
 
+### Educational activities
+- NCS Display Comprehensive Course (이공계 핵심인재 양성 평생교육원)
+- Semiconductor Failure Analysis and Reliability Assessment (반도체설계교육센터(IDEC))
+- ferroelectric device and application (반도체설계교육센터(IDEC))
+
 ### Skills
 - Programming language: C, C++, C# , Python, React, Node.js, MySQL
 - Operating System(os) : Linux(Ubuntu, CentOS8), Mac OS
