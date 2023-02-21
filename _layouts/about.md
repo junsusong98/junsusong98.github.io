@@ -64,6 +64,6 @@ layout: default
 </div>
 
 <div align="center">
-  <img src="https://junsusong98.github.io/assets/img/default/profile2.jpg" width="500" height="500" alt="screen_mock">
+  <img src="https://junsusong98.github.io/assets/img/default/k-display.jpeg" width="500" height="500" alt="screen_mock">
   <br><br>
 </div>

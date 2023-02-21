@@ -72,9 +72,9 @@ img: ":3.jpg"
     - (취득 예정)
 
 ### 연구
-- Oxide Semiconductors ITZO TFT
-- Ferroelectric FET (FeFET)
-- GaN-based light source
+- Oxide TFT
+    - Oxide Semiconductors ITZO TFT
+    - Ferroelectric ITZO TFT (FeFET)
 
 ### 연구 경험
 - Advanced Semiconductor Devices Laboratory, Hanyang University (Jun. 2021 ~ Jan. 2022)

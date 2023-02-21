@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Examples
-title: 블로그 작성 예시
+title: 생일
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -9,7 +9,7 @@ author: SongJunsu
 # multiple category is not supported
 category: 테스트
 # multiple tag entries are possible
-tags: [테스트, 예시]
+tags: [테스트]
 # thumbnail image for post
 img: ":example.png"
 # disable comments on this page
@@ -36,6 +36,10 @@ date: 1998-02-01 12:00:00 +0900
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
+
+{%- capture readme_file -%}{%- include_relative _README.md -%}{%- endcapture -%}
+{%- assign tmp_content = readme_file | split: "<!-- readme -->" -%}
+{{tmp_content[1]}}
 
 <!-- outline-start -->
 

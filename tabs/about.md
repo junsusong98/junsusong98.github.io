@@ -71,9 +71,9 @@ img: ":3.jpg"
     - (To be acquired)
 
 ### Research Interests
-- Oxide Semiconductors ITZO TFT
-- Ferroelectric FET (FeFET)
-- GaN-based light source
+- Oxide TFT
+    - Oxide Semiconductors ITZO TFT
+    - Ferroelectric ITZO TFT (FeFET)
 
 ### Research Experiences
 - Advanced Semiconductor Devices Laboratory, Hanyang University (Jun. 2021 ~ Jan. 2022)

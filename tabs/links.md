@@ -50,9 +50,12 @@ page_data:
     - title: "Related_info"
       type: id_related_info
       color: "#62b462"
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
+    - title: "Major_semiconductor"
+      type: id_semiconductor
       color: "gray"
+    - title: "Major_computer"
+      type: id_computer
+      color: "blue"
 
   list:
     # Study
@@ -68,34 +71,16 @@ page_data:
       info: "Advanced Semiconductor Devices Laboratory (ASDL), Hanyang University (Jun.2021 ~Jan.2022) - [Younghyun Kim, Ph.D.]"
 
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Stack OverFlow (programming)"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
-    - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Liquid for Designers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid for Programmers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "Liquid for Programmers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid Reference"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub"
-    - type: id_jekyiiliquid
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+     # 반도체
+    - type: id_semiconductor
+      title: "A Overall Study on the TFT of Hanyang University (Undergraduate)"
+      url: "https://junsusong98.github.io/ko/tabs/projects.html#id_Lab"
+      info: "It is the achievement and research that I have achieved while living in the laboratory of undergraduate students at Hanyang University."
+
+    # Computer
+    - type: id_computer
+      title: "Take YouTube for `Stanford CS231`"
+      url: "https://youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk"
+      info: "It basically informs the principles of AI."
 ---
 

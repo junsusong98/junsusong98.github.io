@@ -50,9 +50,12 @@ page_data:
     - title: "관련정보"
       type: id_related_info
       color: "#62b462"
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
+    - title: "Major_semiconductor"
+      type: id_semiconductor
       color: "gray"
+    - title: "Major_computer"
+      type: id_computer
+      color: "blue"
 
   list:
     # Study
@@ -68,33 +71,16 @@ page_data:
       info: "Advanced Semiconductor Devices Laboratory (ASDL), Hanyang University (Jun.2021 ~Jan.2022) - [김영현교수님]"
 
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Stack OverFlow (programming)"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
-    - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Liquid for Designers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid for Programmers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "Liquid for Programmers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid Reference"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub"
-    - type: id_jekyiiliquid
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+    # 반도체
+    - type: id_semiconductor
+      title: "한양대(학부) TFT의 전반적인 연구"
+      url: "https://junsusong98.github.io/ko/tabs/projects.html#id_Lab"
+      info: "한양대 학부생 연구실 생활을 하면서 이뤄낸 성과와 연구입니다."
+
+    # Computer
+    - type: id_computer
+      title: "Stanford CS231 유투브 수강"
+      url: "https://youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk"
+      info: "AI원리를 기초적으로 알려준다."
+    
 ---
