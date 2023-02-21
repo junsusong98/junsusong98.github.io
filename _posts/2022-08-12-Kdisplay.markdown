@@ -7,9 +7,9 @@ title: K-Display
 # if not specified, .name will be used from _data/owner.yml
 author: Songjunsu
 # multiple category is not supported
-category: 전시회
+category: exhibition
 # multiple tag entries are possible
-tags: [전시회]
+tags: [exhibition]
 # thumbnail image for post
 img: ":k-display.jpeg"
 # disable comments on this page
@@ -39,24 +39,34 @@ date: 2022-08-12 12:00:00 +0900
 <!-- outline-start -->
 ## K-Display[2022.08.12]
 
-K-Display 2022 전시회를 다녀올 수 있는 기회가 생겨 다녀왔습니다.
-디스플레이의 제품들을 보면서 저도 이런 성능이 나오는 제품들을 꼭 개발하고 싶다는 생각을 가게 되었습니다!
+I had a chance to go to the K-Display 2022 exhibition.
+Looking at the products on the display, I really wanted to develop products with this kind of performance!
 
 ***
 
-### Samsung Display
+## Samsung Display
 
 ![img](:samsung_1.jpg)
 ![img](:samsung_2.jpg)
-QD-OLED
+
+#### QD-OLED
+
 ![img](:samsung_3.jpg)
+
+#### LCD - OLED - QD-OLED 의 비교
+
 ![img](:samsung_4.jpg)
+
+#### Flex S
+
 ![img](:samsung_5.jpg)
 ![img](:samsung_6.jpg)
 
+#### Eco²OLED™
+
 ***
 
-### LG Display
+## LG Display
 
 ![img](:LG_0.jpg)
 ![img](:LG_1.jpg)

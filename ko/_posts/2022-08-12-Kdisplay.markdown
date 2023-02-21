@@ -37,31 +37,41 @@ date: 2022-08-12 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
-## K-Display[2022.08.12]
+# K-Display[2022.08.12]
 
 K-Display 2022 전시회를 다녀올 수 있는 기회가 생겨 다녀왔습니다.
-디스플레이의 제품들을 보면서 저도 이런 성능이 나오는 제품들을 꼭 개발하고 싶다는 생각을 가게 되었습니다!
+디스플레이의 제품들을 보면서 저도 이런 성능이 나오는 제품들을 꼭 개발하고 싶다는 생각을 가지게 되었습니다!
 
 ***
 
-### 삼성디스플레이
+## Samsung Display
 
-![img](:2O22_kdisplay/samsung_1.jpg)
-![img](:2O22_kdisplay/samsung_2.jpg)
-QD-OLED
-![img](:2O22_kdisplay/samsung_3.jpg)
-![img](:2O22_kdisplay/samsung_4.jpg)
-![img](:2O22_kdisplay/samsung_5.jpg)
-![img](:2O22_kdisplay/samsung_6.jpg)
+![img](:samsung_1.jpg)
+![img](:samsung_2.jpg)
+
+#### QD-OLED
+
+![img](:samsung_3.jpg)
+
+#### LCD - OLED - QD-OLED 의 비교
+
+![img](:samsung_4.jpg)
+
+#### Flex S
+
+![img](:samsung_5.jpg)
+![img](:samsung_6.jpg)
+
+#### Eco²OLED™
 
 ***
 
-### LG디스플레이
+## LG Display
 
-![img](:2O22_kdisplay/LG_0.jpg)
-![img](:2O22_kdisplay/LG_1.jpg)
-![img](:2O22_kdisplay/LG_2.jpg)
-![img](:2O22_kdisplay/LG_3.jpg)
+![img](:LG_0.jpg)
+![img](:LG_1.jpg)
+![img](:LG_2.jpg)
+![img](:LG_3.jpg)
 
 
 <!-- ![img](:IC-PBL(2021)_info.png){: width="300" height="300"}
