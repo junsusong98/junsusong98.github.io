@@ -46,22 +46,22 @@ K-Display 2022 전시회를 다녀올 수 있는 기회가 생겨 다녀왔습�
 
 ### Samsung Display
 
-![img](:2O22_kdisplay/samsung_1.jpg)
-![img](:2O22_kdisplay/samsung_2.jpg)
+![img](:samsung_1.jpg)
+![img](:samsung_2.jpg)
 QD-OLED
-![img](:2O22_kdisplay/samsung_3.jpg)
-![img](:2O22_kdisplay/samsung_4.jpg)
-![img](:2O22_kdisplay/samsung_5.jpg)
-![img](:2O22_kdisplay/samsung_6.jpg)
+![img](:samsung_3.jpg)
+![img](:samsung_4.jpg)
+![img](:samsung_5.jpg)
+![img](:samsung_6.jpg)
 
 ***
 
 ### LG Display
 
-![img](:2O22_kdisplay/LG_0.jpg)
-![img](:2O22_kdisplay/LG_1.jpg)
-![img](:2O22_kdisplay/LG_2.jpg)
-![img](:2O22_kdisplay/LG_3.jpg)
+![img](:LG_0.jpg)
+![img](:LG_1.jpg)
+![img](:LG_2.jpg)
+![img](:LG_3.jpg)
 
 
 <!-- ![img](:IC-PBL(2021)_info.png){: width="300" height="300"}
