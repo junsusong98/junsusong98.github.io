@@ -50,10 +50,10 @@ page_data:
     - title: "관련정보"
       type: id_related_info
       color: "#62b462"
-    - title: "Major_semiconductor"
+    - title: "전공-반도체"
       type: id_semiconductor
       color: "gray"
-    - title: "Major_computer"
+    - title: "전공-컴퓨터"
       type: id_computer
       color: "blue"
 

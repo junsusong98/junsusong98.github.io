@@ -5,7 +5,7 @@ title: 생일
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
-author: SongJunsu
+author: Songjunsu
 # multiple category is not supported
 category: 테스트
 # multiple tag entries are possible
