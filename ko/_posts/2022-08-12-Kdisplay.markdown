@@ -1,22 +1,22 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: 오버테일 게임잼 (~2022-07-20)
+title: K-Display
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
 author: Songjunsu
 # multiple category is not supported
-category: 한양대
+category: 전시회
 # multiple tag entries are possible
-tags: [한양대, 대회]
+tags: [전시회]
 # thumbnail image for post
-img: ":HYU2.png"
+img: ":k-display.jpeg"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-07-18 12:00:00 +0900
+date: 2022-08-12 12:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -37,33 +37,32 @@ date: 2022-07-18 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
-## 오버테일 게임잼[2022]
+## K-Display[2022.08.12]
 
-자세한 이야기는 [프로젝트](https://junsusong98.github.io/ko/tabs/projects.html#id_club) 에서 보시면 됩니다!
-
-대회 : 게임잼
-
-주최 : 소프트웨어학부
-
-기간 : 2022년 7월 18일 월요일 ~ 7월 20일 수요일 (무박 3일)
-
-주제 : 18일날 여름과 관련된 3가지 단어를 랜덤 추출하여 팀에게 배분된다. 이후 3일동안 키워드를 활용하여 게임을 만들어 보기
+K-Display 2022 전시회를 다녀올 수 있는 기회가 생겨 다녀왔습니다.
+디스플레이의 제품들을 보면서 저도 이런 성능이 나오는 제품들을 꼭 개발하고 싶다는 생각을 가게 되었습니다!
 
 ***
 
-팀명 : 나로호
+### 삼성디스플레이
 
-제시 받은 키워드 : 물, 더위, 정열
-
-팀원 : [김태엽](https://blog.naver.com/bible20141) , [김강석](https://yh2424.github.io/people/kangseokkim/) , 송준수
+![img](:2O22_kdisplay/samsung_1.jpg)
+![img](:2O22_kdisplay/samsung_2.jpg)
+QD-OLED
+![img](:2O22_kdisplay/samsung_3.jpg)
+![img](:2O22_kdisplay/samsung_4.jpg)
+![img](:2O22_kdisplay/samsung_5.jpg)
+![img](:2O22_kdisplay/samsung_6.jpg)
 
 ***
 
-결과 : 우수상 수상 (3위)
+### LG디스플레이
 
-발표 영상 : https://youtu.be/uRoRvXMdkAk
+![img](:2O22_kdisplay/LG_0.jpg)
+![img](:2O22_kdisplay/LG_1.jpg)
+![img](:2O22_kdisplay/LG_2.jpg)
+![img](:2O22_kdisplay/LG_3.jpg)
 
-![img](:Overtail.jpg)
 
 <!-- ![img](:IC-PBL(2021)_info.png){: width="300" height="300"}
 
