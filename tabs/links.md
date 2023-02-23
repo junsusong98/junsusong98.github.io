@@ -79,7 +79,7 @@ page_data:
 
     # Computer
     - type: id_computer
-      title: "Take YouTube for `Stanford CS231`"
+      title: "Taking Stanford CS231 lectures"
       url: "https://youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk"
       info: "It basically informs the principles of AI."
 ---

@@ -68,9 +68,6 @@ img: ":3.jpg"
 - TOEIC Speaking
     - Intermediate Mid 1 / 110 (2022.09.04)
 
-- OPIc
-    - (취득 예정)
-
 ### 연구
 - Oxide TFT
     - Oxide Semiconductors ITZO TFT
@@ -91,6 +88,8 @@ img: ":3.jpg"
 - NCS 디스플레이 종합과정 (이공계 핵심인재 양성 평생교육원)
 - 반도체 고장분석 및 신뢰성 평가 (반도체설계교육센터(IDEC))
 - 강유전체 소자 및 응용 (반도체설계교육센터(IDEC))
+- LG Aimer (LG AI연구원)
+- Stanford CS231 (딥러닝기반영상분석)
 
 ### 스킬
 - 프로그래밍 언어 : C, C++, C# ,Python, React, Node.js, MySQL

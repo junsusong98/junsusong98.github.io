@@ -62,13 +62,10 @@ img: ":3.jpg"
         - Total GPA : **4.24 / 4.5** (credit: 149)
 
 - TOEIC
-    - (To be acquired)
+    - (updating soon)
 
 - TOEIC Speaking
     - Intermediate Mid 1 / 110 (2022.09.04)
-
-- OPIc
-    - (To be acquired)
 
 ### Research Interests
 - Oxide TFT
@@ -90,6 +87,8 @@ img: ":3.jpg"
 - NCS Display Comprehensive Course (이공계 핵심인재 양성 평생교육원)
 - Semiconductor Failure Analysis and Reliability Assessment (반도체설계교육센터(IDEC))
 - ferroelectric device and application (반도체설계교육센터(IDEC))
+- LG Aimer (LG AI Researcher)
+- Stanford CS231 (Convolutional Neural Networks for Visual Recognition)
 
 ### Skills
 - Programming language: C, C++, C# , Python, React, Node.js, MySQL

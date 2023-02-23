@@ -79,7 +79,7 @@ page_data:
 
     # Computer
     - type: id_computer
-      title: "Stanford CS231 유투브 수강"
+      title: "Stanford CS231 수업 수강"
       url: "https://youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk"
       info: "AI원리를 기초적으로 알려준다."
     
