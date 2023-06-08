@@ -44,7 +44,7 @@ img: ":k-display_.jpeg"
 
 ### 학력
 - 2017 ~ present
-    - 한양대학교 ERICA 캠퍼스 (Ansan, korea)
+    - 한양대학교
     - [나노광전자학과](http://photonics.hanyang.ac.kr/) & [컴퓨터전공](http://sw.hanyang.ac.kr/)
     - B.S (4학년 재학)
 

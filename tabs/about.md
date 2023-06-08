@@ -44,7 +44,7 @@ img: ":k-display_.jpeg"
 
 ### Education
 - 2017 ~ present
-    - Hanyang university ERICA Campus (Ansan, korea)
+    - Hanyang University
     - [Department of Photonics & Nanoelectronics](http://photonics.hanyang.ac.kr/) & [Department of Computer Engineering](http://sw.hanyang.ac.kr/)
     - B.S (a Senior)
 
