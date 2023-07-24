@@ -66,7 +66,7 @@ page_data:
 
     # Related_info
     - type: id_related_info
-      title: "Hanyang University ERICA Campus ASDL Lab"
+      title: "Hanyang University ASDL Lab"
       url: "https://yh2424.github.io/"
       info: "Advanced Semiconductor Devices Laboratory (ASDL), Hanyang University (Jun.2021 ~Jan.2022) - [Younghyun Kim, Ph.D.]"
 

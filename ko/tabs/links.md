@@ -66,7 +66,7 @@ page_data:
 
     # 관련정보
     - type: id_related_info
-      title: "한양대학교 ERICA 캠퍼스 ASDL연구실"
+      title: "한양대학교 ASDL연구실"
       url: "https://yh2424.github.io/"
       info: "Advanced Semiconductor Devices Laboratory (ASDL), Hanyang University (Jun.2021 ~Jan.2022) - [김영현교수님]"
 

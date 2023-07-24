@@ -43,7 +43,7 @@ date: 2021-06-30 12:00:00 +0900
 
 자세한 이야기는 [프로젝트](https://junsusong98.github.io/ko/tabs/projects.html#id_Lab) 에서 보시면 됩니다!
 
-[한양대학교 ERICA 캠퍼스 ASDL연구실](https://yh2424.github.io/)
+[한양대학교 ASDL연구실](https://yh2424.github.io/)
 
 ***
 

@@ -43,7 +43,7 @@ Period : 2021-06-30 ~ 2022-01-14
 
 For more information, visit [Project](https://junsusong98.github.io/tabs/projects.html#id_Lab)!
 
-[Hanyang University ERICA Campus ASDL Laboratory](https://yh2424.github.io/)
+[Hanyang University ASDL Laboratory](https://yh2424.github.io/)
 
 ***
 

@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: 한양대학교 ERICA 캠퍼스 나노광전자학과 입학 (~ing)
+title: 한양대학교 나노광전자학과 입학 (~2023-08-17)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -37,7 +37,7 @@ date: 2017-03-01 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
-## 한양대학교 ERICA캠퍼스 합격!!
+## 한양대학교 합격!!
 
 [한양대학교](https://www.hanyang.ac.kr/#none) 논술 전형으로 입학
 
