@@ -48,6 +48,7 @@ img: ":k-display_.jpeg"
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - 전력 전자 팀
     - 연구참여생
+    
 ![img](:Pohang.png){: width="100" height="100"}
 ![img](:WADE.png){: width="100" height="100"}
 
