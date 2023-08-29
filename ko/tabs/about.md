@@ -48,9 +48,9 @@ img: ":k-display_.jpeg"
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - 전력 전자 팀
     - 연구참여생
-    
-![img](:Pohang.png){: width="100" height="100"}
-![img](:WADE.png){: width="100" height="100"}
+
+![img](:Pohang.png){: width="500" height="300"}
+![img](:WADE.png){: width="500" height="300"}
 
 - 2017.03.01 ~ 2023.08.17
     - 한양대학교
@@ -84,6 +84,7 @@ img: ":k-display_.jpeg"
 - Oxide TFT
     - Oxide Semiconductors ITZO TFT
     - Ferroelectric ITZO TFT (FeFET)
+
 ### 연구 경험
 - Advanced Semiconductor Devices Laboratory, Hanyang University (Jun. 2021 ~ Jan. 2022)
     - “고성능 ITZO TFT을 위한 thermal annealing 공정 최적화”
