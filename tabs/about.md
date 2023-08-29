@@ -49,8 +49,8 @@ img: ":k-display_.jpeg"
         - Power Electronics Group
     - Research Participant
 
-![img](:Pohang.png){: width="500" height="300"}
-![img](:WADE.png){: width="500" height="300"}
+![img](:Pohang.png){: width="300" height="200"}
+![img](:WADE.png){: width="300" height="200"}
 
 - 2017.03.01 ~ 2023.08.17
     - Hanyang University
