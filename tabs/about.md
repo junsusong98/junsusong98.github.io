@@ -43,7 +43,15 @@ img: ":k-display_.jpeg"
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### Education
-- 2017 ~ present
+- 2023.06.12 ~ present
+    - Pohang University (POSTECH)
+    - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
+        - Power Electronics Group
+    - Research Participant
+![img](:Pohang.png){: width="100" height="100"}
+![img](:WADE.png){: width="100" height="100"}
+
+- 2017.03.01 ~ 2023.08.17
     - Hanyang University
     - [Department of Photonics & Nanoelectronics](http://photonics.hanyang.ac.kr/) & [Department of Computer Engineering](http://sw.hanyang.ac.kr/)
     - B.S (a Senior)
@@ -59,7 +67,7 @@ img: ":k-display_.jpeg"
 - University Major Credit
     - Photonics & Nanoelectronics GPA: **4.21 / 4.5** (credit: 55)
     - Computer Engineering GPA: **4.32 / 4.5** (credit: 42)
-        - Total GPA : **4.24 / 4.5** (credit: 149)
+        - Total GPA : **4.24 / 4.5** (credit: 150)
 
 - TOEIC
     - (updating soon)
@@ -68,10 +76,12 @@ img: ":k-display_.jpeg"
     - Intermediate Mid 1 / 110 (2022.09.04)
 
 ### Research Interests
+- Power Electronics
+    - Dc-to-Dc Converter
+
 - Oxide TFT
     - Oxide Semiconductors ITZO TFT
     - Ferroelectric ITZO TFT (FeFET)
-
 ### Research Experiences
 - Advanced Semiconductor Devices Laboratory, Hanyang University (Jun. 2021 ~ Jan. 2022)
     - “고성능 ITZO TFT을 위한 thermal annealing 공정 최적화”
@@ -91,9 +101,15 @@ img: ":k-display_.jpeg"
 - Stanford CS231 (Convolutional Neural Networks for Visual Recognition)
 
 ### Skills
-- Programming language: C, C++, C# , Python, React, Node.js, MySQL
-- Operating System(os) : Linux(Ubuntu, CentOS8), Mac OS
-- Semiconductor Production Program: Klayout (python) [ Capstone & Laboratory ]
-- Circuit Program: PSpice [ optoelectronic experiment ]
-- Memory Program: Microchip Studio (ATmega128) [ Electronic Circuits and IOT Experiments ]
-- Game-making program : Unity (C#), Blender(3D model tool) 
+- Programming language: 
+    - C, C++, Python
+- Operating System(os) : 
+    - Linux(Ubuntu, CentOS8), Mac OS
+- Semiconductor Production Program: 
+    - Klayout (python)
+- Circuit Program: 
+    - PSpice , Matlab simulink, PLECS
+- Memory Program: 
+    - Microchip Studio (ATmega128)
+- Game-making program : 
+    - Unity (C#), Blender(3D model tool) 

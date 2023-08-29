@@ -43,7 +43,15 @@ img: ":k-display_.jpeg"
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### 학력
-- 2017 ~ present
+- 2023.06.12 ~ present
+    - 포항공과대학교 (포스텍)
+    - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
+        - 전력 전자 팀
+    - 연구참여생
+![img](:Pohang.png){: width="100" height="100"}
+![img](:WADE.png){: width="100" height="100"}
+
+- 2017.03.01 ~ 2023.08.17
     - 한양대학교
     - [나노광전자학과](http://photonics.hanyang.ac.kr/) & [컴퓨터전공](http://sw.hanyang.ac.kr/)
     - B.S (4학년 재학)
@@ -69,14 +77,15 @@ img: ":k-display_.jpeg"
     - Intermediate Mid 1 / 110 (2022.09.04)
 
 ### 연구
+- Power Electronics
+    - Dc-to-Dc Converter
+
 - Oxide TFT
     - Oxide Semiconductors ITZO TFT
     - Ferroelectric ITZO TFT (FeFET)
-
 ### 연구 경험
 - Advanced Semiconductor Devices Laboratory, Hanyang University (Jun. 2021 ~ Jan. 2022)
     - “고성능 ITZO TFT을 위한 thermal annealing 공정 최적화”
-
 
 ### 수상 경력
 - IC-PBL 경진대회 우수상 수상 (2019, 2021) [링크](https://yh2424.github.io/2021-08-11-Award/)
@@ -92,9 +101,9 @@ img: ":k-display_.jpeg"
 - Stanford CS231 (딥러닝기반영상분석)
 
 ### 스킬
-- 프로그래밍 언어 : C, C++, C# ,Python, React, Node.js, MySQL
+- 프로그래밍 언어 : C, C++, Python
 - 운영체제(os) : Linux(Ubuntu, CentOS8), Mac OS
-- 반도체 프로그램 : Klayout (python) [ 캡스톤 & 연구실 ]
-- 회로 프로그램 : PSpice [ 광전자실험 ]
-- 메모리 프로그램 : Microchip Studio (ATmega128) [ 전자회로및IOT실험 ]
+- 반도체 프로그램 : Klayout (python)
+- 회로 프로그램 : PSpice , Matlab simulink, PLECS
+- 메모리 프로그램 : Microchip Studio (ATmega128)
 - 게임 제작 프로그램 : Unity (C#), Blender(3D model tool) 
