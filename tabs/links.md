@@ -66,9 +66,14 @@ page_data:
 
     # Related_info
     - type: id_related_info
+      title: "Pohang University (POSTECH) WADE Lab"
+      url: "https://sites.google.com/view/kimwooksung/home?authuser=0"
+      info: "AWave Arrays & Display Engineering Lab (WADE Lab), Pohang University (Jun.2023 ~ present) - [Dr. Wook-Sung Kim]"
+
+    - type: id_related_info
       title: "Hanyang University ASDL Lab"
       url: "https://yh2424.github.io/"
-      info: "Advanced Semiconductor Devices Laboratory (ASDL), Hanyang University (Jun.2021 ~Jan.2022) - [Younghyun Kim, Ph.D.]"
+      info: "Advanced Semiconductor Devices Laboratory (ASDL), Hanyang University (Jun.2021 ~Jan.2022) - [Dr. Younghyun Kim]"
 
 
      # 반도체

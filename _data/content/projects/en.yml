@@ -513,6 +513,55 @@ page_data:
 
     # 대외 활동
     - type: id_club
+      project_name: "Overtail_GameJam[2022] (~ 2022-07-20)"
+      project_excerpt: "Make your own game"
+      img: ":Game1.png"
+      img_title: "img title9"
+      date: "2022-07-18"
+      post: |
+        ## 1. Explain of the contest
+
+        Competition: Overtail_GameJam
+
+        Organized by: College of computing
+
+        Period: Monday, July 18, 2022 to Wednesday, July 20, 2022 (3 Days)  
+
+        ![Image](:Game_schedule.jpg)
+
+        ***
+
+        ## 2. Introduction of team members
+
+        Team member: [Kim Taeyeop](https://blog.naver.com/bible20141) , [Kim kangseok](https://yh2424.github.io/people/kangseokkim/) , Song Junsu
+
+        ***
+
+        ## 3. Process
+
+        Team name: NaRoHo
+
+        Keywords: water(물), heat(더위), passion(정열)  
+
+        Topic: On the 18th, three words related to summer will be randomly extracted and distributed to the team. Create a game using keywords for the next 3 days
+
+        ![img](:Game2.jpg)
+
+        After making the game, film the video and upload it to YouTube.
+
+        ***
+
+        ## 4. Result
+
+        Result: 2022 Overtail Game Jam Software Dean's Excellence Award (3rd place)
+
+        Announcement video : [https://youtu.be/uRoRvXMdkAk](https://youtu.be/uRoRvXMdkAk)
+
+        ![img](:Overtail.jpg)
+
+        ***
+
+    - type: id_club
       project_name: "IC-PBL Contest (2019) (~ 2019-12-19)"
       project_excerpt: "Take care of ERICA"
       img: ":IC-PBL(2019).png"

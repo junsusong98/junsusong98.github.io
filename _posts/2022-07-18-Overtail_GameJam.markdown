@@ -61,7 +61,7 @@ Team member: [Kim Taeyeop](https://blog.naver.com/bible20141) , [Kim kangseok](h
 
 Result: 2022 Overtail Game Jam Software Dean's Excellence Award (3rd place)
 
-Announcement video : https://youtu.be/uRoRvXMdkAk
+Announcement video : [https://youtu.be/uRoRvXMdkAk](https://youtu.be/uRoRvXMdkAk)
 
 ![img](:Overtail.jpg)
 

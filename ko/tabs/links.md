@@ -66,10 +66,14 @@ page_data:
 
     # 관련정보
     - type: id_related_info
+      title: "포항공과대학교 WADE연구실"
+      url: "https://sites.google.com/view/kimwooksung/home?authuser=0"
+      info: "AWave Arrays & Display Engineering Lab (WADE Lab), Pohang University (Jun.2023 ~ present) - [김욱성 교수님]"
+    
+    - type: id_related_info
       title: "한양대학교 ASDL연구실"
       url: "https://yh2424.github.io/"
       info: "Advanced Semiconductor Devices Laboratory (ASDL), Hanyang University (Jun.2021 ~Jan.2022) - [김영현교수님]"
-
 
     # 반도체
     - type: id_semiconductor

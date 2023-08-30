@@ -104,7 +104,7 @@ img: ":k-display_.jpeg"
 
 ### Skills
 - Programming language: 
-    - C, C++, Python
+    - Python, C, java
 - Operating System(os) : 
     - Linux(Ubuntu, CentOS8), Mac OS
 - Semiconductor Production Program: 

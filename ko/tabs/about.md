@@ -69,7 +69,7 @@ img: ":k-display_.jpeg"
 - University Major Credit
     - 나노광전자학과 GPA: **4.21 / 4.5** (credit: 55)
     - 컴퓨터전공 GPA: **4.32 / 4.5** (credit: 42)
-        - 총 학점 : **4.24 / 4.5** (credit: 149)
+        - 총 학점 : **4.24 / 4.5** (credit: 150)
 
 - TOEIC
     - (취득 예정)
@@ -103,7 +103,7 @@ img: ":k-display_.jpeg"
 - Stanford CS231 (딥러닝기반영상분석)
 
 ### 스킬
-- 프로그래밍 언어 : C, C++, Python
+- 프로그래밍 언어 : Python, C, java
 - 운영체제(os) : Linux(Ubuntu, CentOS8), Mac OS
 - 반도체 프로그램 : Klayout (python)
 - 회로 프로그램 : PSpice , Matlab simulink, PLECS

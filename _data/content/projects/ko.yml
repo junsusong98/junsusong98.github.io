@@ -513,6 +513,55 @@ page_data:
 
     # 대외 활동
     - type: id_club
+      project_name: "오버테일 게임잼(2022) (~ 2022-07-20)"
+      project_excerpt: "나만의 게임 만들기"
+      img: ":Game1.png"
+      img_title: "img title9"
+      date: "2022-07-18"
+      post: |
+        ## 1. 대회 설명
+
+        대회 : 게임잼
+
+        주최 : 소프트웨어학부
+
+        기간 : 2022년 7월 18일 월요일 ~ 7월 20일 수요일 (무박 3일)  
+
+        ![Image](:Game_schedule.jpg)
+
+        ***
+
+        ## 2. 팀원 소개
+
+        팀원 : [김태엽](https://blog.naver.com/bible20141) , [김강석](https://yh2424.github.io/people/kangseokkim/) , 송준수
+
+        ***
+
+        ## 3. 진행 방식
+
+        팀 이름 : 나로호
+
+        제시 받은 키워드 : 물, 더위, 정열
+
+        주제 : 18일날 여름과 관련된 3가지 단어를 랜덤 추출하여 팀에게 배분된다. 이후 3일동안 키워드를 활용하여 게임을 만들어 보기
+
+        ![img](:Game2.jpg)
+
+        이후에 동영상 찰영 후에 Youtude에 업로드 합니다.
+
+        ***
+
+        ## 4. 결과
+
+        결과 : 우수상 수상 (3위)
+
+        발표 영상 : [https://youtu.be/uRoRvXMdkAk](https://youtu.be/uRoRvXMdkAk)
+
+        ![img](:Overtail.jpg)
+
+        ***
+
+    - type: id_club
       project_name: "IC-PBL 경진대회(2019) (~ 2019-12-19)"
       project_excerpt: "ERICA를 부탁해"
       img: ":IC-PBL(2019).png"
