@@ -68,7 +68,7 @@ page_data:
     - type: id_related_info
       title: "포항공과대학교 WADE연구실"
       url: "https://sites.google.com/view/kimwooksung/home?authuser=0"
-      info: "AWave Arrays & Display Engineering Lab (WADE Lab), Pohang University (Jun.2023 ~ present) - [김욱성 교수님]"
+      info: "Wave Arrays & Display Engineering Lab (WADE Lab), Pohang University (Jun.2023 ~ present) - [김욱성 교수님]"
     
     - type: id_related_info
       title: "한양대학교 ASDL연구실"
