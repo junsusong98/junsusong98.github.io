@@ -664,6 +664,11 @@ page_data:
 
         ## 3. 진행 방식
 
+        ![Image](:Club3.png)
+
+        ![Image](:Club.png)
+
+        ![Image](:Club2.png)
 
         ***
 
@@ -745,19 +750,24 @@ page_data:
       img_title: "img title1"
       date: "2021-03-02"
       post: |
-        ## 1. 동기
-
-        ***
-
-        ## 2. 팀원 소개
+        
+        ## 1. 팀원 소개
         팀원 : [김강석](https://yh2424.github.io/people/kangseokkim/) , 최일규
 
         ***
 
-        ## 3. 진행 방식
+        ## 2. 진행 방식
 
-        ***
+        파이썬을 통해서 프로젝트를 만들었습니다. 소자에서 측정한 값들을 프로젝트에 넣습니다. 
 
-        ## 4. 결과
+        ![Image](:Grape3.png)
+
+        ![Image](:Grape4.png)
+
+        프로젝트는 밑에 사진과 같이 그래프를 자동을 만들 수 있도록 설계했습니다. 
+
+        ![Image](:Grape1.png)
+
+        ![Image](:Grape2.png)
 
         ***

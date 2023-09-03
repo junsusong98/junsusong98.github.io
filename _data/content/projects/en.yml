@@ -513,7 +513,7 @@ page_data:
 
     # 대외 활동
     - type: id_club
-      project_name: "Overtail_GameJam[2022] (~ 2022-07-20)"
+      project_name: "Overtail GameJam[2022] (~ 2022-07-20)"
       project_excerpt: "Make your own game"
       img: ":Game1.png"
       img_title: "img title9"
@@ -664,6 +664,11 @@ page_data:
 
         ## 3. Process
 
+        ![Image](:Club3.png)
+
+        ![Image](:Club.png)
+
+        ![Image](:Club2.png)
 
         ***
 
@@ -740,25 +745,30 @@ page_data:
 
     # python
     - type: id_python
-      project_name: "데이터 자동 분석 GUI (~ 2021-06-21)"
-      project_excerpt: "공학프로그래밍2 : python을 이용한 데이터 분석"
+      project_name: "Automatic Data Analysis GUI (~ 2021-06-21)"
+      project_excerpt: "Engineering Programming 2 : Data Analysis Using Python"
       img: ":python.png"
       img_title: "img title1"
       date: "2021-03-02"
       post: |
-        ## 1. 동기
+      
+        ## 1. Introduction of team members
+        Team members : [Kangseok Kim](https://yh2424.github.io/people/kangseokkim/) , Choi Ilgyu
 
         ***
 
-        ## 2. 팀원 소개
-        팀원 : [김강석](https://yh2424.github.io/people/kangseokkim/) , 최일규
+        ## 2. Process
 
-        ***
+        I made a project through Python. Put the values measured by the semiconductor device into the project.
 
-        ## 3. 진행 방식
+        ![Image](:Grape3.png)
 
-        ***
+        ![Image](:Grape4.png)
 
-        ## 4. 결과
+        The project is designed to automatically create graphs as shown in the picture below. 
+
+        ![Image](:Grape1.png)
+
+        ![Image](:Grape2.png)
 
         ***
