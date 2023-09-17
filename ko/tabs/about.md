@@ -47,7 +47,7 @@ img: ":k-display_.jpeg"
     - 포항공과대학교 (포스텍)
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - 전력 전자 팀
-    - 연구참여생
+    - 연구원
 
 ![img](:Pohang.png){: width="300" height="200"}
 ![img](:WADE.png){: width="300" height="200"}
@@ -72,7 +72,7 @@ img: ":k-display_.jpeg"
         - 총 학점 : **4.24 / 4.5** (credit: 150)
 
 - TOEIC
-    - (취득 예정)
+    - 700/990 (2023.08.06)
 
 - TOEIC Speaking
     - Intermediate Mid 1 / 110 (2022.09.04)

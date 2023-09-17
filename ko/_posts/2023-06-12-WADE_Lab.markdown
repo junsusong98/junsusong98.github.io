@@ -9,7 +9,7 @@ author: Songjunsu
 # multiple category is not supported
 category: 포항공대
 # multiple tag entries are possible
-tags: [포항공대, 연구참여생, 연구실]
+tags: [포항공대, 연구원, 연구실]
 # thumbnail image for post
 img: ":PHU.png"
 # disable comments on this page

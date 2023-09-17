@@ -47,7 +47,7 @@ img: ":k-display_.jpeg"
     - Pohang University (POSTECH)
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - Power Electronics Group
-    - Research Participant
+    - Researcher
 
 ![img](:Pohang.png){: width="300" height="200"}
 ![img](:WADE.png){: width="300" height="200"}
@@ -71,7 +71,7 @@ img: ":k-display_.jpeg"
         - Total GPA : **4.24 / 4.5** (credit: 150)
 
 - TOEIC
-    - (updating soon)
+    - 700 / 990 (2023.08.06)
 
 - TOEIC Speaking
     - Intermediate Mid 1 / 110 (2022.09.04)
