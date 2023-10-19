@@ -49,4 +49,7 @@ date: 2023-06-12 12:00:00 +0900
 - Power Electronics
     - Dc-to-Dc Converter
 
+- 메타버스랩
+    - 반도체·디스플레이 전문 인력 양성을 위한 VR 교육 콘텐츠 개발
+
 

@@ -49,4 +49,7 @@ Period : 2023-06-12 ~ Present
 - Power Electronics
     - Dc-to-Dc Converter
 
+- Metaverse Lab
+    - Development of VR educational contents to train semiconductor and display professionals
+
 
