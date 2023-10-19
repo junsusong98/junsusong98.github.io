@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Phu(RP)
-title: Pohang University's Lab (~ present)
+title: KMF2023 (~2023-10-18)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -43,7 +43,7 @@ Period : 2023-10-16 ~ 2023-10-18
 
 [KOREA METAVERSE FESTIVAL](https://kmfexpo.com/)
 
-We are participating in promoting the metaverse business with investors as the main company of Metaverse Lab.
+We are participating in promoting the metaverse business with investors as the main company of [Metaverse Lab](https://www.meta-lab.or.kr/lab12).
 
 I am in charge of metaverse lab project at Pohang University of Technology's WADE research lab
 1. Production of curriculum contents on semiconductor display devices and processing process
