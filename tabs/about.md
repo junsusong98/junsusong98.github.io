@@ -44,7 +44,7 @@ img: ":k-display_.jpeg"
 
 ### Education
 - 2023.06.12 ~ present
-    - Pohang University (POSTECH)
+    - Pohang University of Science And Technology (POSTECH)
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - Power Electronics Group
     - Researcher

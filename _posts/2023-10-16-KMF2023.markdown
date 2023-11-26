@@ -45,7 +45,7 @@ Period : 2023-10-16 ~ 2023-10-18
 
 We are participating in promoting the metaverse business with investors as the main company of [Metaverse Lab](https://www.meta-lab.or.kr/lab12).
 
-I am in charge of metaverse lab project at Pohang University of Technology's WADE research lab
+I am in charge of metaverse lab project at WADE research lab of Pohang University of of Science And Technology.
 1. Production of curriculum contents on semiconductor display devices and processing process
 2. Using Meta Quest Pro 2 equipment
 
