@@ -66,9 +66,9 @@ page_data:
 
     # Related_info
     - type: id_related_info
-      title: "Pohang University (POSTECH) WADE Lab"
+      title: "Pohang University of Science And Technology (POSTECH) WADE Lab"
       url: "https://sites.google.com/view/kimwooksung/home?authuser=0"
-      info: "Wave Arrays & Display Engineering Lab (WADE Lab), Pohang University (Jun.2023 ~ present) - [Dr. Wook-Sung Kim]"
+      info: "Wave Arrays & Display Engineering Lab (WADE Lab), Pohang University of Science And Technology (Jun.2023 ~ present) - [Dr. Wook-Sung Kim]"
 
     - type: id_related_info
       title: "Hanyang University ASDL Lab"
