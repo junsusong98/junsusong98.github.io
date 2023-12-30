@@ -71,10 +71,7 @@ img: ":k-display_.jpeg"
         - Total GPA : **4.24 / 4.5** (credit: 150)
 
 - TOEIC
-    - 700 / 990 (2023.08.06)
-
-- TOEIC Speaking
-    - Intermediate Mid 1 / 110 (2022.09.04)
+    - (updating soon)
 
 ### Research Interests
 - Power Electronics
