@@ -73,6 +73,9 @@ img: ":k-display_.jpeg"
 - TOEIC
     - (updating soon)
 
+- TOEIC Speaking
+    - (updating soon)
+
 ### Research Interests
 - Power Electronics
     - Dc-to-Dc Converter
