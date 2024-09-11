@@ -60,7 +60,7 @@ img: ":k-display_.jpeg"
 ![img](:HYU.jpg){: width="100" height="100"}
 ![img](:HYU2.png){: width="100" height="100"}
 ![img](:Sputter.png){: width="100" height="100"}
-![img](:Evaporator.png){: width="100" height="100"}
+![img](:Evaporator.png){: width="90" height="90"}
 ![img](:Aligner.jpg){: width="100" height="100"}
 ![img](:Keithley.png){: width="100" height="100"}
 
@@ -71,15 +71,15 @@ img: ":k-display_.jpeg"
         - Total GPA : **4.24 / 4.5** (credit: 150)
 
 - TOEIC
-    - (updating soon)
+    - Total 735 (LC 400 / RC 335)
 
 - TOEIC Speaking
-    - (updating soon)
+    - Intermediate Mid 3 (Score : 130)
 
 ### Research Interests
 - Power Electronics
     - Dc-to-Dc Converter
-
+- HMD(Head Mounted Display)
 - Oxide TFT
     - Oxide Semiconductors ITZO TFT
     - Ferroelectric ITZO TFT (FeFET)
