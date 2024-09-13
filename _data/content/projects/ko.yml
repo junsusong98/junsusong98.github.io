@@ -42,16 +42,18 @@ page_data:
 
         ## 2. 협력 단체
         - [NINT 나노융합기술원](https://www.nano.or.kr/new2019/index4.php)
-        ![Image](:NINT_logo.gif)
+        ![Image](:NINT_logo.gif){: width="100" height="100"}
         - [RAPA 한국전파진흥협회](https://www.rapa.or.kr/ft/main.do)
-        ![Image](:RAPA_logo.jpeg)
+        ![Image](:RAPA_logo.jpeg){: width="100" height="100"}
         - [ReadyMade](https://readymade.co.kr/)
-        ![Image](:ReadyMade_logo.png)
+        ![Image](:ReadyMade_logo.png){: width="100" height="100"}
         - POSTECH
         - WADE 연구실
 
         ## 3. 콘텐츠 홍보 영상
         [VR 반도체·디스플레이 소자 교육 콘텐츠](https://youtu.be/pjKoSKKm6XM?si=wmRVyBb1h-xGadB8)
+
+        ## 4. 브로셔
 
         ![Image](:brochure1.jpg)
 

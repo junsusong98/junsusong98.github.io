@@ -43,16 +43,18 @@ page_data:
 
         ## 2. Partner Organizations
         - [NINT National Institute for Nonomoterials Technology](https://www.nano.or.kr/new2019/index4.php)
-        ![Image](:NINT_logo.gif)
+        ![Image](:NINT_logo.gif): {: width="100" height="100"}
         - [RAPA KOREA RADIO PROMOTION ASSOCIATION](https://www.rapa.or.kr/ft/main.do)
-        ![Image](:RAPA_logo.jpeg)
+        ![Image](:RAPA_logo.jpeg): {: width="100" height="100"}
         - [ReadyMade](https://readymade.co.kr/)
-        ![Image](:ReadyMade_logo.png)
+        ![Image](:ReadyMade_logo.png): {: width="100" height="100"}
         - POSTECH
         - WADE Lab
 
         ## 3. Promotional Video for the Content
         [VR Semiconductor and Display Device Educational Content](https://youtu.be/pjKoSKKm6XM?si=wmRVyBb1h-xGadB8)
+
+        ## 4. brochure
 
         ![Image](:brochure1.jpg)
 
