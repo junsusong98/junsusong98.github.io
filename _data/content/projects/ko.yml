@@ -29,12 +29,40 @@ page_data:
       color: "gray"
 
   list:
+    # VR 콘텐츠
+    - type: id_Lab
+      project_name: "VR 반도체·디스플레이 소자 교육 콘텐츠"
+      project_excerpt: "포항공대 WADE 연구실 VR 콘텐츠"
+      img: ":MOSFET.png"
+      img_title: "img title13"
+      date: "2024-04-04"
+      post: |
+        ## 1. 동기
+        물리적 제약을 극복하고 학습효과를 극대화한 VR 반도체 및 디스플레이 소자, 공정 등의 교육 콘텐츠를 제작 및 판매함으로써 교육 혁신과 산업 발전에 기여할 수 있을 것으로 기대
+
+        ## 2. 협력 단체
+        - [NINT 나노융합기술원](https://www.nano.or.kr/new2019/index4.php)
+        ![Image](:NINT_logo.gif)
+        - [RAPA 한국전파진흥협회](https://www.rapa.or.kr/ft/main.do)
+        ![Image](:RAPA_logo.jpeg)
+        - [ReadyMade](https://readymade.co.kr/)
+        ![Image](:ReadyMade_logo.png)
+        - POSTECH
+        - WADE 연구실
+
+        ## 3. 콘텐츠 홍보 영상
+        [VR 반도체·디스플레이 소자 교육 콘텐츠](https://youtu.be/pjKoSKKm6XM?si=wmRVyBb1h-xGadB8)
+
+        ![Image](:brochure1.jpg)
+
+        ![Image](:brochure2.jpg)
+
     # git
     - type: id_git
       project_name: "github 블로그 제작 과정"
       project_excerpt: "나만의 홈페이지 만들기"
       img: ":github.png"
-      img_title: "img title8"
+      img_title: "img title 12"
       date: "2022-04-20"
       post: |
         ## 1. 동기
@@ -101,7 +129,7 @@ page_data:
       project_name: "Ferroelectric FET 제작 (~2021-11-12)"
       project_excerpt: "FeFET 제작과정 및 mask제작"
       img: ":FeFET.jpg"
-      img_title: "img title6"
+      img_title: "img title 11"
       date: "2021-08-27"
       post: |
         ## 1. 동기
@@ -337,7 +365,7 @@ page_data:
       project_name: "TFT 열처리 조건에 따른 상태 변화 [캡스톤] (~ 2021-12-01)"
       project_excerpt: "Hot plate : AS, 150도, 200도, 250도"
       img: ":TFT.jpg"
-      img_title: "img title5"
+      img_title: "img title 10"
       date: "2021-08-20"
       post: |
         ## 1. 동기
@@ -417,7 +445,7 @@ page_data:
       project_name: "TFT 성능 확인 (~ 2021-10-06)"
       project_excerpt: "TFT[Thin File Transistor] Width, Length에 따른 TFT 성질"
       img: ":TFT(W,L).jpg"
-      img_title: "img title4"
+      img_title: "img title 9"
       date: "2021-08-02"
       post: |
         ## 1. 동기
@@ -465,7 +493,7 @@ page_data:
       project_name: "TCAD Sentaurus 다운 로드 및 실행 과정 (~ 2021-11-12)"
       project_excerpt: "리눅스 CenOS8 버전, 반도체 시뮬레이션 TCAD Sentaurus"
       img: ":sentaurus.png"
-      img_title: "img title6"
+      img_title: "img title 8"
       date: "2021-10-01"
       post: |
         
@@ -494,7 +522,7 @@ page_data:
       project_name: "GaN-mini LED (~2021-08-02)"
       project_excerpt: "GaN mini LED mask제작"
       img: ":LED_mask.jpg"
-      #img_title: "img title2"
+      img_title: "img title 7"
       date: "2021-06-30"
       post: |
         ## 1. 팀원 소개
@@ -516,7 +544,7 @@ page_data:
       project_name: "오버테일 게임잼(2022) (~ 2022-07-20)"
       project_excerpt: "나만의 게임 만들기"
       img: ":Game1.png"
-      img_title: "img title9"
+      img_title: "img title 6"
       date: "2022-07-18"
       post: |
         ## 1. 대회 설명
@@ -565,7 +593,7 @@ page_data:
       project_name: "IC-PBL 경진대회(2019) (~ 2019-12-19)"
       project_excerpt: "ERICA를 부탁해"
       img: ":IC-PBL(2019).png"
-      img_title: "img title9"
+      img_title: "img title 5"
       date: "2019-09-01"
       post: |
         ## 1. 대회 설명
@@ -636,7 +664,7 @@ page_data:
       project_name: "창업동아리[SSSAP] (~ 2021-08-30)"
       project_excerpt: "쇼핑 어플리케이션"
       img: ":startup.png"
-      img_title: "img title10"
+      img_title: "img title 4"
       date: "2021-01-01"
       post: |
         ## 1. 동기
@@ -684,7 +712,7 @@ page_data:
       project_name: "IC-PBL 경진대회(2021) (~ 2021-08-04)"
       project_excerpt: "IC-PBL을 통해 배운 경험을 공유하자"
       img: ":IC-PBL(2021)_info.png"
-      img_title: "img title11"
+      img_title: "img title3"
       date: "2021-06-01"
       post: |
         ## 1. 대회 설명
@@ -718,7 +746,7 @@ page_data:
       project_name: "아이디어로 우리만의 로봇 제작 (~ 2019-11-30)"
       project_excerpt: "광전자창의아이디어 : 일상생활에 필요한 로봇을 만들어보기"
       img: ":ideal3.png"
-      img_title: "img title7"
+      img_title: "img title2"
       date: "2019-09-01"
       post: |
         ## 광전자창의아이디어 과제

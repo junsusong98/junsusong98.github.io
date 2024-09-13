@@ -30,6 +30,36 @@ page_data:
 
   list:
     # git
+    # VR 콘텐츠
+    - type: id_Lab
+      project_name: "VR Semiconductor and Display Device Educational Content"
+      project_excerpt: "WADE Lab VR Content from POSTECH (Pohang University of Science and Technology)"
+      img: ":MOSFET.png"
+      img_title: "img title13"
+      date: "2024-04-04"
+      post: |
+        ## 1. Motivation
+        By creating and distributing VR educational content on semiconductors, display devices, and processes that overcome physical limitations and maximize learning effectiveness, we expect to contribute to educational innovation and industrial development.
+
+        ## 2. Partner Organizations
+        - [NINT National Institute for Nonomoterials Technology](https://www.nano.or.kr/new2019/index4.php)
+        ![Image](:NINT_logo.gif)
+        - [RAPA KOREA RADIO PROMOTION ASSOCIATION](https://www.rapa.or.kr/ft/main.do)
+        ![Image](:RAPA_logo.jpeg)
+        - [ReadyMade](https://readymade.co.kr/)
+        ![Image](:ReadyMade_logo.png)
+        - POSTECH
+        - WADE Lab
+
+        ## 3. Promotional Video for the Content
+        [VR Semiconductor and Display Device Educational Content](https://youtu.be/pjKoSKKm6XM?si=wmRVyBb1h-xGadB8)
+
+        ![Image](:brochure1.jpg)
+
+        ![Image](:brochure2.jpg)
+
+
+    # git
     - type: id_git
       project_name: "Github blogging process"
       project_excerpt: "Create my own homepage"
