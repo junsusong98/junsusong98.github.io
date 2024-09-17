@@ -72,7 +72,7 @@ img: ":k-display_.jpeg"
         - 총 학점 : **4.24 / 4.5** (credit: 150)
 
 - TOEIC
-    - Total 735 (LC 400 / RC 335)
+    - Total 755 (LC 390 / RC 365)
 
 - TOEIC Speaking
     - Intermediate Mid 3 (Score : 130)
