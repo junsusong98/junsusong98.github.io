@@ -36,7 +36,7 @@ img: ":k-display_.jpeg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 ### Introduction
-- Name : **Junsu Song**
+- Name : **Junsu Song ( 宋準守 )**
 - Date of birth : **February 1st, 1998**
 - Address : **Danwon-gu, Ansan-si, Gyeonggi-do (Sujeongyang)**
 - Email : **sb020578@hanyang.ac.kr , sb020578@naver.com**
