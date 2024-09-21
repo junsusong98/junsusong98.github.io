@@ -52,6 +52,6 @@ For more information, visit [Project](https://junsusong98.github.io/tabs/project
 - TFT performance check (2021-08-02 to 2021-10-06)
 - Condition change according to TFT heat treatment conditions (Capstone) (2021-08-20 to 2021-12-01)
 - Manufactured by Ferroelectric FET (2021-08-27 to 2021-11-12)
-- TCAD Sentaurus Download and Execution Process (2021-10-01 to 2021-11-12)
+- TCAD Sentaurus Download and Execution Process (2021-10-01 to 2022-02-18)
 
 
