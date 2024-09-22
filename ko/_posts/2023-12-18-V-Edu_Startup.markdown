@@ -1,22 +1,22 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_hyu(Bachelor)
-title: Start-up club[SID audition] (~2021-08-30)
+lng_pair: id_Phu(RP)
+title: V-Edu_창업 (~2022-07-20)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
 author: Songjunsu
 # multiple category is not supported
-category: hanyang univ
+category: 포항공대
 # multiple tag entries are possible
-tags: [hanyang univ, club]
+tags: [포항공대, 연구원, 연구실]
 # thumbnail image for post
-img: ":HYU2.png"
+img: ":PHU.png"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2021-01-18 12:00:00 +0900
+date: 2023-12-18 12:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -37,25 +37,22 @@ date: 2021-01-18 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
+## V-Edu [2024]
 
-## Start-up club[SSSAP]
+더 많은 정보를 보고 싶다면, 방문해주세요~ [Project](https://junsusong98.github.io/ko/tabs/projects.html#id_Lab)!
 
-For more information, Please visit [Project](https://junsusong98.github.io/tabs/projects.html#id_club)!
+대표님 ( CEO ) : 어현석
 
-You can see the introduction of our team's start-up club in [창업교육센터](https://eec.hanyang.ac.kr/circles/clubView/124).
-
-***
-
-#### Company introduction
-![img](:startup_club.png){: width="800" height="800"}
+사내이사 ( CTO ) : 김욱성
 
 ***
 
-## Content infomation
-![img](:SID.png){: width="300" height="300"}
+## 사업자 등록증
+
+![img](:V-Edu_startup.jpeg)
 
 ***
 
-#### Prize in a contest
-![img](:startup_prime.png)
+## 저작권 등록증
 
+![img](:patent.jpeg)
