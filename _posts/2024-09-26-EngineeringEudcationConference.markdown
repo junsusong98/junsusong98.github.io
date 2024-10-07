@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Phu(RP)
-title: KMF2023 (~2023-10-18)
+title: 2024 Korean Society for Engineering Education (~2024-09-27)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -16,7 +16,7 @@ img: ":PHU.png"
 #comments_disable: true
 
 # publish date
-date: 2023-10-16 12:00:00 +0900
+date: 2024-09-26 12:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -59,14 +59,23 @@ We secured five Quest 3 VR devices, and the available content includes:
 ### Related Picture
 
 ![img](:EEC-01.jpeg)
+
 ![img](:EEC-02.jpeg)
+
 ![img](:EEC-03.jpeg)
+
 ![img](:EEC-04.jpeg)
+
 ![img](:EEC-1.jpeg)
+
 ![img](:EEC-2.jpeg)
+
 ![img](:EEC-3.jpeg)
+
 ![img](:EEC-4.jpeg)
+
 ![img](:EEC-5.jpeg)
+
 ![img](:EEC-6.jpeg)
 
 
