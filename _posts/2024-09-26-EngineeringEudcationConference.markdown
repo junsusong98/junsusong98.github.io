@@ -43,7 +43,7 @@ Period : 2024-09-26 ~ 2024-09-27
 
 [Korean Society for Engineering Education](https://www.ksee.org/html/)
 
-I had the opportunity to collaborate with the [POSTECH Metaversity Promotion Group](https://metaversity.postech.ac.kr/) and V-Edu to showcase POSTECH's metaverse environment and VR content focused on semiconductor and display education.
+ [POSTECH Metaversity Promotion Group](https://metaversity.postech.ac.kr/) and V-Edu jointly organized an exhibition. This event provided an opportunity to showcase POSTECH's metaverse environment and VR educational content on semiconductors and displays.
 
 We secured five Quest 3 VR devices, and the available content includes:
 
@@ -59,23 +59,23 @@ We secured five Quest 3 VR devices, and the available content includes:
 ### Related Picture
 
 ![img](:EEC-01.jpeg)
-
+***
 ![img](:EEC-02.jpeg)
-
+***
 ![img](:EEC-03.jpeg)
-
+***
 ![img](:EEC-04.jpeg)
-
+***
 ![img](:EEC-1.jpeg)
-
+***
 ![img](:EEC-2.jpeg)
-
+***
 ![img](:EEC-3.jpeg)
-
+***
 ![img](:EEC-4.jpeg)
-
+***
 ![img](:EEC-5.jpeg)
-
+***
 ![img](:EEC-6.jpeg)
 
 

@@ -43,10 +43,11 @@ date: 2024-09-26 12:00:00 +0900
 
 [공학교육학술대회](https://www.ksee.org/html/)
 
-[Postech 메타버시티 교육추진단](https://metaversity.postech.ac.kr/)과 V-Edu와 같이 Postech의 메타버스 환경과 VR 반도체·디스플레이 교육 콘텐츠를 알리는 기회를 가졌습니다.
+[Postech 메타버시티 교육추진단](https://metaversity.postech.ac.kr/)과 V-Edu가 같이 전시회를 진행했습니다.
+Postech의 메타버스 환경과 VR 반도체·디스플레이 교육 콘텐츠를 알리는 기회를 가졌습니다.
 
 VR 기기 (Quest 3) 5대 마련!
-콘텐츠 종류
+콘텐츠 종류 :
 1. 반도체·디스플레이 소자 교육 콘텐츠
 2. Postech VR 포털
 3. 하노이탑 게임
@@ -59,22 +60,22 @@ VR 기기 (Quest 3) 5대 마련!
 ### 관련 사진
 
 ![img](:EEC-01.jpeg)
-
+***
 ![img](:EEC-02.jpeg)
-
+***
 ![img](:EEC-03.jpeg)
-
+***
 ![img](:EEC-04.jpeg)
-
+***
 ![img](:EEC-1.jpeg)
-
+***
 ![img](:EEC-2.jpeg)
-
+***
 ![img](:EEC-3.jpeg)
-
+***
 ![img](:EEC-4.jpeg)
-
+***
 ![img](:EEC-5.jpeg)
-
+***
 ![img](:EEC-6.jpeg)
 
