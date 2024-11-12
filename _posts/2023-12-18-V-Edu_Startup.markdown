@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Phu(RP)
-title: V-Edu_Startup (~ing)
+title: <Note> V-Edu_Startup (~ing)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml

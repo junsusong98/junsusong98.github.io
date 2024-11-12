@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Phu(RP)
-title: 포항공과대학교 연구참여생 (~ present)
+title: <기록> 포항공과대학교 연구참여생 (~ present)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml

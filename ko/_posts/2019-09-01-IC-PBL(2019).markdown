@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: IC-PBL 경진대회[2019](~2019-12-18)
+title: <기록> IC-PBL 경진대회[2019](~2019-12-18)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml

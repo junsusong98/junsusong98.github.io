@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: 한양대학교 컴퓨터전공 다중전공[3학년 2학기] 시작 (~2023-08-17)
+title: <기록> 한양대학교 컴퓨터전공 다중전공[3학년 2학기] 시작 (~2023-08-17)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
