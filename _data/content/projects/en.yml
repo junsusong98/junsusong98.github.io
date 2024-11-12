@@ -43,30 +43,20 @@ page_data:
 
         ## 2. Partner Organizations
         - [NINT National Institute for Nonomoterials Technology](https://www.nano.or.kr/new2019/index4.php)
-        
         ![Image](:NINT_logo.gif){: width="300" height="300"}
-        
         - [RAPA KOREA RADIO PROMOTION ASSOCIATION](https://www.rapa.or.kr/ft/main.do)
-        
         ![Image](:RAPA_logo.jpeg){: width="300" height="300"}
-        
         - [ReadyMade](https://readymade.co.kr/)
-        
         ![Image](:ReadyMade_logo.png){: width="200" height="200"}
-        
         - POSTECH
         - WADE Lab
 
         ## 3. Promotional Video for the Content
-        
         1. [VR Semiconductor and Display Device Educational Content](https://youtu.be/pjKoSKKm6XM?si=wmRVyBb1h-xGadB8)
-        
         2. [아시아경제 TV (24.09.17 클로즈업 기업현장)](https://www.youtube.com/watch?v=eMYbhnTXdGU&t=1080s)
-        
+  
         ## 4. brochure
-
         ![Image](:brochure1.jpg)
-
         ![Image](:brochure2.jpg)
 
 
@@ -79,9 +69,9 @@ page_data:
       date: "2022-04-20"
       post: |
         ## 1. Motivation
-        I always wanted to make my own homepage. 
-        I tried to make it using react and node.js, but it took a long time to learn design and coding.
-        Therefore, while looking for a simple way to make it, I learned how to create a blog with github.
+        I always wanted to make my own homepage. <br/>
+        I tried to make it using react and node.js, but it took a long time to learn design and coding. <br/>
+        Therefore, while looking for a simple way to make it, I learned how to create a blog with github. <br/>
         
         ***
         ### 2. Start github blog
@@ -98,27 +88,16 @@ page_data:
         ### 3. Local build detailed method
         1. Install ruby [Install Jekyll](https://jekyllrb.com/docs/installation/)
         2. Go from Ruby 'start command'.
-
         ![Image](:ruby.png)
-        
-        3. Enter `gem install bundler jekyll` after going to code address imported to 'local' via cd
-        
-        ![Image](:ruby2.png)
-        
-        ![Image](:ruby3.png)
-        
+        3. Enter `gem install bundler jekyll` after going to code address imported to 'local' via cd <br/>
+        ![Image](:ruby2.png) <br/>
+        ![Image](:ruby3.png) <br/>
         4. Enter `bundle exec jekyll serve` after installation is completed
-        
         ![Image](:ruby4.png)
-        
         5. Enter **http://localhost:4000/** in Chrome after loading!!
-
         Then, you can see that it's floating well
-
         ***
-
-        ## 4. Analyzing my own homepage code
-
+        ## 4. Analyzing my own homepage code <br/>
         |   name   | detail  |        Info                                                                       |
         | :------: | :-----: | :-------------------------------------------------------------------------------: |
         | _data    | owner   | Where to enter your name and personal information                                 |
@@ -133,10 +112,8 @@ page_data:
         | ko       |   -     | Place to manage **(Ko)links** and **(Ko)About** and **(Ko)Blog**                  |
         | vi       |  -      | Place to manage **(Vi)links** and **(Vi)About** and **(Vi)Blog**                  |
 
-        Oh, it's hard! But it's so nice that it's organized neatly!
-
-        Decorate your own homepage from 2022-04-20!
-
+        Oh, it's hard! But it's so nice that it's organized neatly! <br/>
+        Decorate your own homepage from 2022-04-20! <br/>
     # 연구실
     - type: id_Lab
       project_name: "Making a Ferroelectric FET (~2021-11-12)"
@@ -149,56 +126,32 @@ page_data:
         Paper : [IGZO channel ferroelectric memory FET](https://ieeexplore.ieee.org/document/9224469) (Masaharu Kobayashi ,1-4 Sept. 2020) <br/>
         An experiment was conducted to confirm the ferroelectric phenomenon in ITZO rather than IGZO by adding HZO based on the paper. <br/>
         To that end, it is important to plan the manufacturing process of FeFET well, and we made the mask necessary for the photolithography process. <br/>
-
         ***
-
         ## 2. Introduction of team members
         - [Taewon Jin](https://yh2424.github.io/people/taewonjin/)
         - [Teahyeon Noh](https://yh2424.github.io/people/NTH/)
-
         ***
-
         ## 3. Progress
-        **Please understand that there is a private part of the lab that is covered.**
-
-        ![Image](:FeFET2.png)
-
-        In the process, it is necessary to check how it is deposited on the Si substrate.
-        
-        Therefore, we check the deposition process while making it using the shape of the ppt.
-
-        ![Image](:FeFET4.png)
-
-        It was also necessary to identify which process was required for each step.
-
-        If the mask is not checked several times, the position of the Mask may change.
-        
-        I may have to wait for the Mask production again, so we need to check carefully.
-
-        ![Image](:FeFET3.png)
-
-        I made a Mask using Klayout and check the ppt to see if there is any problem.
-
-        ![Image](:FeFET5.png)
-
-        Steps to request the manufacture of the Mask to the company
-
+        **Please understand that there is a private part of the lab that is covered.** <br/>
+        ![Image](:FeFET2.png) <br/>
+        In the process, it is necessary to check how it is deposited on the Si substrate. <br/>
+        Therefore, we check the deposition process while making it using the shape of the ppt. <br/>
+        ![Image](:FeFET4.png) <br/>
+        It was also necessary to identify which process was required for each step. <br/>
+        If the mask is not checked several times, the position of the Mask may change. <br/>
+        I may have to wait for the Mask production again, so we need to check carefully. <br/>
+        ![Image](:FeFET3.png) <br/>
+        I made a Mask using Klayout and check the ppt to see if there is any problem. <br/>
+        ![Image](:FeFET5.png) <br/>
+        Steps to request the manufacture of the Mask to the company <br/>
         ***
-
         ## 4. Result
-
-        All were completed without re-deposition and the ferroelectic phenomenon was confirmed.
-
-        However, the performance was lower than that of IGZO.
-
+        All were completed without re-deposition and the ferroelectic phenomenon was confirmed. <br/>
+        However, the performance was lower than that of IGZO. <br/>
         ***
-
         ## 5. Code
-
-        This is the Klayout python code.
-
+        This is the Klayout python code. <br/>
         - Making a square
-
         ```python
         class Square :
           global layout,unit,top
@@ -281,9 +234,7 @@ page_data:
               
             return new_obj
         ```
-
-        - Making a circle
-
+        - Making a circle <br/>
         ```python
         class Circle:
           global layout,unit,top,angle_point
@@ -365,12 +316,9 @@ page_data:
                 total_obj += new_obj
             return total_obj
         ```
-
-        In addition, I have defined codes that make other shapes such as align mark and name.
-
-        If you need it or want to use it, please send me an email.
-
-        I will explain in detail with my example code.
+        In addition, I have defined codes that make other shapes such as align mark and name. <br/>
+        If you need it or want to use it, please send me an email. <br/>
+        I will explain in detail with my example code. <br/>
 
     - type: id_Lab
       project_name: "Condition change according to TFT heat treatment conditions [Capstone] (~ 2021-12-01)"
