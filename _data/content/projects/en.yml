@@ -41,22 +41,25 @@ page_data:
         ## 1. Motivation
         By creating and distributing VR educational content on semiconductors, display devices, and processes that overcome physical limitations and maximize learning effectiveness, we expect to contribute to educational innovation and industrial development.
 
+        ***
         ## 2. Partner Organizations
-        - [NINT National Institute for Nonomoterials Technology](https://www.nano.or.kr/new2019/index4.php)
-        ![Image](:NINT_logo.gif){: width="300" height="300"}
-        - [RAPA KOREA RADIO PROMOTION ASSOCIATION](https://www.rapa.or.kr/ft/main.do)
-        ![Image](:RAPA_logo.jpeg){: width="300" height="300"}
-        - [ReadyMade](https://readymade.co.kr/)
-        ![Image](:ReadyMade_logo.png){: width="200" height="200"}
+        - [NINT National Institute for Nonomoterials Technology](https://www.nano.or.kr/new2019/index4.php) <br/>
+        ![Image](:NINT_logo.gif){: width="300" height="300"} <br/>
+        - [RAPA KOREA RADIO PROMOTION ASSOCIATION](https://www.rapa.or.kr/ft/main.do) <br/>
+        ![Image](:RAPA_logo.jpeg){: width="300" height="300"} <br/>
+        - [ReadyMade](https://readymade.co.kr/) <br/>
+        ![Image](:ReadyMade_logo.png){: width="200" height="200"} <br/>
         - POSTECH
         - WADE Lab
 
+        ***
         ## 3. Promotional Video for the Content
         1. [VR Semiconductor and Display Device Educational Content](https://youtu.be/pjKoSKKm6XM?si=wmRVyBb1h-xGadB8)
         2. [아시아경제 TV (24.09.17 클로즈업 기업현장)](https://www.youtube.com/watch?v=eMYbhnTXdGU&t=1080s)
   
+        ***
         ## 4. brochure
-        ![Image](:brochure1.jpg)
+        ![Image](:brochure1.jpg) <br/>
         ![Image](:brochure2.jpg)
 
 
@@ -84,20 +87,21 @@ page_data:
           - But I may not know what you mean...
 
         ***
-
         ### 3. Local build detailed method
-        1. Install ruby [Install Jekyll](https://jekyllrb.com/docs/installation/)
-        2. Go from Ruby 'start command'.
-        ![Image](:ruby.png)
+        1. Install ruby [Install Jekyll](https://jekyllrb.com/docs/installation/) <br/>
+        2. Go from Ruby 'start command'. <br/>
+        ![Image](:ruby.png) <br/>
         3. Enter `gem install bundler jekyll` after going to code address imported to 'local' via cd <br/>
         ![Image](:ruby2.png) <br/>
         ![Image](:ruby3.png) <br/>
-        4. Enter `bundle exec jekyll serve` after installation is completed
-        ![Image](:ruby4.png)
-        5. Enter **http://localhost:4000/** in Chrome after loading!!
+        4. Enter `bundle exec jekyll serve` after installation is completed <br/>
+        ![Image](:ruby4.png) <br/>
+        5. Enter **http://localhost:4000/** in Chrome after loading!! <br/>
         Then, you can see that it's floating well
+
         ***
-        ## 4. Analyzing my own homepage code <br/>
+        ## 4. Analyzing my own homepage code
+
         |   name   | detail  |        Info                                                                       |
         | :------: | :-----: | :-------------------------------------------------------------------------------: |
         | _data    | owner   | Where to enter your name and personal information                                 |
@@ -126,10 +130,12 @@ page_data:
         Paper : [IGZO channel ferroelectric memory FET](https://ieeexplore.ieee.org/document/9224469) (Masaharu Kobayashi ,1-4 Sept. 2020) <br/>
         An experiment was conducted to confirm the ferroelectric phenomenon in ITZO rather than IGZO by adding HZO based on the paper. <br/>
         To that end, it is important to plan the manufacturing process of FeFET well, and we made the mask necessary for the photolithography process. <br/>
+
         ***
         ## 2. Introduction of team members
         - [Taewon Jin](https://yh2424.github.io/people/taewonjin/)
         - [Teahyeon Noh](https://yh2424.github.io/people/NTH/)
+
         ***
         ## 3. Progress
         **Please understand that there is a private part of the lab that is covered.** <br/>
@@ -144,10 +150,12 @@ page_data:
         I made a Mask using Klayout and check the ppt to see if there is any problem. <br/>
         ![Image](:FeFET5.png) <br/>
         Steps to request the manufacture of the Mask to the company <br/>
+
         ***
         ## 4. Result
         All were completed without re-deposition and the ferroelectic phenomenon was confirmed. <br/>
         However, the performance was lower than that of IGZO. <br/>
+        
         ***
         ## 5. Code
         This is the Klayout python code. <br/>
