@@ -62,7 +62,7 @@ page_data:
         ![Image](:brochure1.jpg) <br/>
         ![Image](:brochure2.jpg)
 
-
+        ***
     # git
     - type: id_git
       project_name: "Github blogging process"
@@ -118,6 +118,8 @@ page_data:
 
         Oh, it's hard! But it's so nice that it's organized neatly! <br/>
         Decorate your own homepage from 2022-04-20! <br/>
+
+        ***
     # 연구실
     - type: id_Lab
       project_name: "Making a Ferroelectric FET (~2021-11-12)"
@@ -328,6 +330,7 @@ page_data:
         If you need it or want to use it, please send me an email. <br/>
         I will explain in detail with my example code. <br/>
 
+        ***
     - type: id_Lab
       project_name: "Condition change according to TFT heat treatment conditions [Capstone] (~ 2021-12-01)"
       project_excerpt: "Hot plate : AS, 150°C, 200°C, 250°C"
@@ -336,17 +339,12 @@ page_data:
       date: "2021-08-20"
       post: |
         ## 1. Motivation
-
-        ITZO (In-Sn-Zn-O) has higher mobility than IGZO.
-
-        In addition, an efficient orbital overlapping chip phenomenon occurs in the 5s orbital of n3+ and Sn4+, making it easy to move electrons.
-
-        Annelling has an effect on ITZO in the process.
+        ITZO (In-Sn-Zn-O) has higher mobility than IGZO. <br/>
+        In addition, an efficient orbital overlapping chip phenomenon occurs in the 5s orbital of n3+ and Sn4+, making it easy to move electrons. <br/>
+        Annelling has an effect on ITZO in the process. <br/>
         - The annealing process increases the electrical properties and stability of the TFT thin film. It also increases oxygen vacancy removal, M-O bond formation, and charge carrier generation.
         - Oxygen in the chamber is diffused into the empty space of the channel to reduce the empty space of oxygen and increase the interface trap between a-ITZO/SiO2.
-
         Thus, **I will grasp the characteristics of ITZO according to Annelling.**
-
         `Conditions`
         - Hot plate (AS, 150°C, 200°C, 250°C) [1 hour]
         - RTA (AS, 200°C, 300°C, 400°C, 500°C) [30 second]
@@ -354,60 +352,43 @@ page_data:
         Announcement day : 2021-12-01
 
         ***
-
         ## 2. Introduction of team members
         - [Taewon Jin](https://yh2424.github.io/people/taewonjin/)
         - [Xinkai Sun](https://yh2424.github.io/people/xinkaisun/)
         - [Teahyeon Noh](https://yh2424.github.io/people/NTH/)
 
         ***
-
         ## 3. Progress & Results
-
         - <kbd> [Experiment 1] Determine the temperature dependence of ITZO </kbd>
-
-        ![Image](:TFT2.png)
-
-        ![Image](:TFT3.png)
+        ![Image](:TFT2.png) <br/>
+        ![Image](:TFT3.png) <br/>
         
-        `Problem Occurred`
-
-        ![Image](:TFT4.png)
+        - `Problem Occurred`
+        ![Image](:TFT4.png) <br/>
 
         - <kbd> [Experiment 2] Changes in the device after isolation </kbd>
+        ![Image](:TFT5.png) <br/>
 
-        ![Image](:TFT5.png)
-
-        `Solution`
-
-        ![Image](:TFT6.png)
+        - `Solution`
+        ![Image](:TFT6.png) <br/>
 
         - <kbd> [Experiment 3] RTA </kbd>
-
-        ![Image](:TFT7.png)
-
-        ![Image](:TFT8.png)
+        ![Image](:TFT7.png) <br/>
+        ![Image](:TFT8.png) <br/>
 
         - <kbd> Conclusion </kbd>
-
-        ![Image](:TFT9.png)
+        ![Image](:TFT9.png) <br/>
 
         ***
-
         ## 4. The final conclusion
-
         ![Image](:TFT10.png)
 
         ***
-
         ## 5. Reference
-
-        [1] Junghwan Kim, Hoichang Yang& Jae Kyeong Jeong(2020.October.1). Nature research
-
-        [2] Youngjoon Choi, Saeroonter Choi and Jaekyun Kim(2020. September. 29). Semicomductor Science and Technology
+        [1] Junghwan Kim, Hoichang Yang& Jae Kyeong Jeong(2020.October.1). Nature research <br/>
+        [2] Youngjoon Choi, Saeroonter Choi and Jaekyun Kim(2020. September. 29). Semicomductor Science and Technology <br/>
 
         ***
-
     - type: id_Lab
       project_name: "Check TFT performance (~ 2021-10-06)"
       project_excerpt: "TFT[Thin File Transistor] Properties according to TFT Width, Length"
@@ -416,46 +397,30 @@ page_data:
       date: "2021-08-02"
       post: |
           ## 1. Motivation
-
-          The voltage-current relationship of TFT(Thin File Transistor) is as follows.
-
-          ![Image](:TFT_VI2.png){: width="200" height="200"}
-
-          ![Image](:TFT_VI3.png){: width="200" height="200"}
-
-          Therefore, an experiment was conducted to check whether the properties of TFTs change according to changes in W and L.
+          The voltage-current relationship of TFT(Thin File Transistor) is as follows. <br/>
+          ![Image](:TFT_VI2.png){: width="200" height="200"} <br/>
+          ![Image](:TFT_VI3.png){: width="200" height="200"} <br/>
+          Therefore, an experiment was conducted to check whether the properties of TFTs change according to changes in W and L. <br/>
 
           ***
-
           ## 2. Introduction of team members
           - [Taewon Jin](https://yh2424.github.io/people/taewonjin/)
 
           ***
-
           ## 3. Process
-
-          Use the following TFTs:
-
-          ![Image](:TFT(W,L)2.png)
-
-          The Mask that will shape the Metal
-
-          ![Image](:TFT(W,L)3.png)
+          Use the following TFTs: <br/>
+          ![Image](:TFT(W,L)2.png) <br/>
+          The Mask that will shape the Metal <br/>
+          ![Image](:TFT(W,L)3.png) <br/>
 
           ***
-
           ## 4. Conclusion
-
-          <kbd> Result of Width change! </kbd>
-
-          ![Image](:TFT(W,L)4.png)
-
-          <kbd> Result of Length change! </kbd>
-
-          ![Image](:TFT(W,L)5.png)
+          - <kbd> Result of Width change! </kbd>
+          ![Image](:TFT(W,L)4.png) <br/>
+          - <kbd> Result of Length change! </kbd>
+          ![Image](:TFT(W,L)5.png) <br/>
 
           ***
-      
     - type: id_Lab
       project_name: "TCAD Sentaurus Download and Execution Process (~ 2021-11-12)"
       project_excerpt: "Linux CenOS8 version, Semiconductor Simulation TCAD Sentaurus"
@@ -465,26 +430,20 @@ page_data:
       post: |
         
         ##  1. What is TCAD Sentaurus?
-        Technology Computer-Aided Design (TCAD) refers to using computer simulations to develop and optimize semiconductor processing technologies and devices. 
-        TCAD simulation tools solve fundamental, physical, partial differential equations, such as diffusion and transport equations for discretized geometries, representing the silicon wafer or the layer system in a semiconductor device. 
-        This deep physical approach gives TCAD simulation predictive accuracy.
-        
-        Therefore, it is possible to substitute TCAD computer simulations for costly and time-consuming test wafer runs when developing and characterizing a new semiconductor device or technology.
+        Technology Computer-Aided Design (TCAD) refers to using computer simulations to develop and optimize semiconductor processing technologies and devices.  <br/>
+        TCAD simulation tools solve fundamental, physical, partial differential equations, such as diffusion and transport equations for discretized geometries, representing the silicon wafer or the layer system in a semiconductor device.  <br/>
+        This deep physical approach gives TCAD simulation predictive accuracy. <br/>
+        Therefore, it is possible to substitute TCAD computer simulations for costly and time-consuming test wafer runs when developing and characterizing a new semiconductor device or technology. <br/>
 
         ***
-
         ## 2. Process
-
         I would appreciate it if you could refer to the pdf for detailed instructions. [PDF](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/SENTAURUS다운로드방법_컴퓨터설정_송준수.pdf)
 
         ***
-
         ## 3. Result
-
         ![Image](:sentaurus2.jpg)
 
         ***
-
     - type: id_Lab
       project_name: "GaN-mini LED (~2021-08-02)"
       project_excerpt: "Making GaN mini LED Mask"
@@ -497,15 +456,11 @@ page_data:
         - [Seoungmin Park](https://yh2424.github.io/people/seoungminpark/)
 
         ***
-
         ## 2. Process
-
-        ![Image](:LED_mask2.jpg)
-
-        **Please understand that the detailed process has a private laboratory.**
+        ![Image](:LED_mask2.jpg) <br/>
+        **Please understand that the detailed process has a private laboratory.** <br/>
 
         ***
-
     # 대외 활동
     - type: id_club
       project_name: "Overtail GameJam[2022] (~ 2022-07-20)"
@@ -515,44 +470,30 @@ page_data:
       date: "2022-07-18"
       post: |
         ## 1. Explain of the contest
-
-        Competition: Overtail_GameJam
-
-        Organized by: College of computing
-
-        Period: Monday, July 18, 2022 to Wednesday, July 20, 2022 (3 Days)  
-
-        ![Image](:Game_schedule.jpg)
+        Competition: Overtail_GameJam <br/>
+        Organized by: College of computing <br/>
+        Period: Monday, July 18, 2022 to Wednesday, July 20, 2022 (3 Days) <br/>
+        ![Image](:Game_schedule.jpg) <br/>
 
         ***
-
         ## 2. Introduction of team members
-
-        Team member: [Kim Taeyeop](https://blog.naver.com/bible20141) , [Kim kangseok](https://yh2424.github.io/people/kangseokkim/) , Song Junsu
+        - [Kim Taeyeop](https://blog.naver.com/bible20141)
+        - [Kim kangseok](https://yh2424.github.io/people/kangseokkim/)
+        - Song Junsu
 
         ***
-
         ## 3. Process
-
-        Team name: NaRoHo
-
-        Keywords: water(물), heat(더위), passion(정열)  
-
-        Topic: On the 18th, three words related to summer will be randomly extracted and distributed to the team. Create a game using keywords for the next 3 days
-
-        ![img](:Game2.jpg)
-
-        After making the game, film the video and upload it to YouTube.
+        Team name: NaRoHo <br/>
+        Keywords: water(물), heat(더위), passion(정열) <br/>
+        Topic: On the 18th, three words related to summer will be randomly extracted and distributed to the team. Create a game using keywords for the next 3 days <br/>
+        ![img](:Game2.jpg) <br/>
+        After making the game, film the video and upload it to YouTube. <br/>
 
         ***
-
         ## 4. Result
-
-        Result: 2022 Overtail Game Jam Software Dean's Excellence Award (3rd place)
-
-        Announcement video : [https://youtu.be/uRoRvXMdkAk](https://youtu.be/uRoRvXMdkAk)
-
-        ![img](:Overtail.jpg)
+        Result: 2022 Overtail Game Jam Software Dean's Excellence Award (3rd place) <br/>
+        Announcement video : [https://youtu.be/uRoRvXMdkAk](https://youtu.be/uRoRvXMdkAk) <br/>
+        ![img](:Overtail.jpg) <br/>
 
         ***
 
@@ -564,69 +505,41 @@ page_data:
       date: "2019-09-01"
       post: |
         ## 1. Explain of the contest
-
-        ![Image](:IC-PBL(2019).png)
-
-        It is a contest to present ideas about what Hanyang University ERICA needs.
+        ![Image](:IC-PBL(2019).png) <br/>
+        It is a contest to present ideas about what Hanyang University ERICA needs. <br/>
 
         ***
-
         ## 2. Introduction of team members
-        Leader: Junsu Song (ME)
-
-        Team members: Jin Taewon, Kim Minje, Yang Heejun
-
-        ![Image](:contest19.png)
-
+        Leader: Junsu Song (ME) <br/>
+        Team members: Jin Taewon, Kim Minje, Yang Heejun <br/>
+        ![Image](:contest19.png) <br/>
 
         ***
-
         ## 3. Process
-
-        Our team presented <kbd>the problem of Hanyang University application</kbd> and conducted a survey accordingly.
-
-        ![Image](:contest19_2.png)
-
-        ![Image](:contest19_3.png)
-
-        ![Image](:contest19_4.png)
-
-        We proceeded with the <kbd>preparation step</kbd> for designing the optimal application.
-
+        Our team presented <kbd>the problem of Hanyang University application</kbd> and conducted a survey accordingly. <br/>
+        ![Image](:contest19_2.png) <br/>
+        ![Image](:contest19_3.png) <br/>
+        ![Image](:contest19_4.png) <br/>
+        We proceeded with the <kbd>preparation step</kbd> for designing the optimal application. <br/>
         - Current status of application contracts with univ
-
-        ![Image](:contest19_5.png)
-
-        ![Image](:contest19_6.png)
-
+        ![Image](:contest19_5.png) <br/>
+        ![Image](:contest19_6.png) <br/>
         - Investigate what students need
-
-        ![Image](:contest19_7.png)
-
+        ![Image](:contest19_7.png) <br/>
         - Research the optimal GUI by examining various universities
-
-        ![Image](:contest19_8.png)
-
-        ![Image](:IC-PBL(2019).jpg)
-
-        <kbd>The final GUI</kbd> designed by our team [Website used](https://quv.kr/)
-
-        ![Image](:contest19_9.png)
-
-        ![Image](:contest19_10.png)
-
-        ![Image](:contest19_11.png)
+        ![Image](:contest19_8.png) <br/>
+        ![Image](:IC-PBL(2019).jpg) <br/>
+        - <kbd>The final GUI</kbd> designed by our team [Website used](https://quv.kr/)
+        ![Image](:contest19_9.png) <br/>
+        ![Image](:contest19_10.png) <br/>
+        ![Image](:contest19_11.png) <br/>
 
         ***
-
         ## 4. Result
-
-        We won `the Excellence Award` ~!
-
-        ![Image](:IC-PBL_prime.jpg)
+        We won `the Excellence Award` ~! <br/>
+        ![Image](:IC-PBL_prime.jpg) <br/>
 
         ***
-
     - type: id_club
       project_name: "Start-up club [SSSAP] (~ 2021-08-30)"
       project_excerpt: "shopping application"
@@ -635,46 +548,30 @@ page_data:
       date: "2021-01-01"
       post: |
         ## 1. Motivation
-
-        The start-up club was started under the guidance of [Professor Kim Young-hyun](https://yh2424.github.io/people/younghyunkim/).
-
-        Until February, the team members steadily presented their ideas once a week and selected the best start-up idea among them.
-
-        After that, I presented my idea to Hanyang University's [start-up education center](https://eec.hanyang.ac.kr/circles/clubView/124) and I was able to receive support as a start-up club.
-
-        I decided to participate in the contest and get the team's ideas evaluated.
-
-        ![Image](:SID.png)
+        The start-up club was started under the guidance of [Professor Kim Young-hyun](https://yh2424.github.io/people/younghyunkim/). <br/>
+        Until February, the team members steadily presented their ideas once a week and selected the best start-up idea among them. <br/>
+        After that, I presented my idea to Hanyang University's [start-up education center](https://eec.hanyang.ac.kr/circles/clubView/124) and I was able to receive support as a start-up club. <br/>
+        I decided to participate in the contest and get the team's ideas evaluated. <br/>
+        ![Image](:SID.png) <br/>
 
         ***
-
         ## 2. Introduction of team members
-        Leader: Junsu Song (ME)
-
-        Team members: Kim Sang Hoon, Kim Dong Gu, Kim Sung Mok, Roh Tae Hyun, Park Seung Min, Park Jae Hyuk
-
-        ![Image](:startup_club.png)
+        Leader: Junsu Song (ME) <br/>
+        Team members: Kim Sang Hoon, Kim Dong Gu, Kim Sung Mok, Roh Tae Hyun, Park Seung Min, Park Jae Hyuk <br/>
+        ![Image](:startup_club.png) <br/>
 
         ***
-
         ## 3. Process
-
-        ![Image](:Club3.png)
-
-        ![Image](:Club.png)
-
-        ![Image](:Club2.png)
+        ![Image](:Club3.png) <br/>
+        ![Image](:Club.png) <br/>
+        ![Image](:Club2.png) <br/>
 
         ***
-
         ## 4. Result
-
-        ![Image](:startup_prime.png)
-
-        ![Image](:SID.jpg)
+        ![Image](:startup_prime.png) <br/>
+        ![Image](:SID.jpg) <br/>
 
         ***
-
     - type: id_club
       project_name: "IC-PBL contest(2021) (~ 2021-08-04)"
       project_excerpt: "Share your experiences with IC-PBL"
@@ -686,28 +583,20 @@ page_data:
         ![Image](:IC-PBL(2021)_info.png)
 
         ***
-
         ## 2. Introduction of team members
-        Leader: Junsu Song (ME)
-
-        Team members: [Kangseok Kim](https://yh2424.github.io/people/kangseokkim/), [Seoungmin Park](https://yh2424.github.io/people/seoungminpark/)
+        Leader: Junsu Song (ME) <br/>
+        Team members: [Kangseok Kim](https://yh2424.github.io/people/kangseokkim/), [Seoungmin Park](https://yh2424.github.io/people/seoungminpark/) <br/>
 
         ***
-
         ## 3. Process
-
         ![Image](:python.png)
 
         ***
-
         ## 4. Result
-
-        ![Image](:IC-PBL(2021)_prove.png)
-
-        ![Image](:IC-pbl.png)
+        ![Image](:IC-PBL(2021)_prove.png) <br/>
+        ![Image](:IC-pbl.png) <br/>
 
         ***
-
     # 컴퓨터
     - type: id_computer
       project_name: "Making Our Own Robot with Ideas (~ 2019-11-30)"
@@ -721,22 +610,15 @@ page_data:
         - Project2 : Making robots necessary for everyday life.
 
         ***
-
         ## Project1
-        
-        ![Image](:ideal2.jpg)
-
-        If you want to see [Video](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/ideal.mp4), please click the link and refer to ideal.mp4!
-
+        ![Image](:ideal2.jpg) <br/>
+        If you want to see [Video](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/ideal.mp4), please click the link and refer to ideal.mp4! <br/>
         ## Project2
-        Reason for creation: 
-        As more people go to eat alone, there will be more tables for one person
-
-        ![Image](:ideal3.png)
-
-        ![Image](:ideal.png)
-
-        If you raise the stick, it moves the object to the right color.
+        Reason for creation: <br/>
+        As more people go to eat alone, there will be more tables for one person <br/>
+        ![Image](:ideal3.png) <br/>
+        ![Image](:ideal.png) <br/>
+        If you raise the stick, it moves the object to the right color. <br/>
 
     # python
     - type: id_python
@@ -751,19 +633,12 @@ page_data:
         Team members : [Kangseok Kim](https://yh2424.github.io/people/kangseokkim/) , Choi Ilgyu
 
         ***
-
         ## 2. Process
-
-        I made a project through Python. Put the values measured by the semiconductor device into the project.
-
-        ![Image](:Grape3.png)
-
-        ![Image](:Grape4.png)
-
-        The project is designed to automatically create graphs as shown in the picture below. 
-
-        ![Image](:Grape1.png)
-
-        ![Image](:Grape2.png)
+        I made a project through Python. Put the values measured by the semiconductor device into the project. <br/>
+        ![Image](:Grape3.png) <br/>
+        ![Image](:Grape4.png) <br/>
+        The project is designed to automatically create graphs as shown in the picture below. <br/>
+        ![Image](:Grape1.png) <br/>
+        ![Image](:Grape2.png) <br/>
 
         ***
