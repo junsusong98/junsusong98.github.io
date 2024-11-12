@@ -40,33 +40,26 @@ page_data:
         ## 1. 동기
         물리적 제약을 극복하고 학습효과를 극대화한 VR 반도체 및 디스플레이 소자, 공정 등의 교육 콘텐츠를 제작 및 판매함으로써 교육 혁신과 산업 발전에 기여할 수 있을 것으로 기대
 
+        ***
         ## 2. 협력 단체
-        - [NINT 나노융합기술원](https://www.nano.or.kr/new2019/index4.php)
-        
-        ![Image](:NINT_logo.gif){: width="300" height="300"}
-        
-        - [RAPA 한국전파진흥협회](https://www.rapa.or.kr/ft/main.do)
-        
-        ![Image](:RAPA_logo.jpeg){: width="300" height="300"}
-        
-        - [ReadyMade](https://readymade.co.kr/)
-        
-        ![Image](:ReadyMade_logo.png){: width="200" height="200"}
-        
+        - [NINT 나노융합기술원](https://www.nano.or.kr/new2019/index4.php) <br/>
+        ![Image](:NINT_logo.gif){: width="300" height="300"} <br/>
+        - [RAPA 한국전파진흥협회](https://www.rapa.or.kr/ft/main.do) <br/>
+        ![Image](:RAPA_logo.jpeg){: width="300" height="300"} <br/>
+        - [ReadyMade](https://readymade.co.kr/) <br/>
+        ![Image](:ReadyMade_logo.png){: width="200" height="200"} <br/>
         - POSTECH
         - WADE 연구실
 
+        ***
         ## 3. 콘텐츠 홍보 영상
-        
         1. [VR 반도체·디스플레이 소자 교육 콘텐츠](https://youtu.be/pjKoSKKm6XM?si=wmRVyBb1h-xGadB8)
-
         2. [아시아경제 TV (24.09.17 클로즈업 기업현장)](https://www.youtube.com/watch?v=eMYbhnTXdGU&t=1080s)
 
+        ***
         ## 4. 브로셔
-
-        ![Image](:brochure1.jpg)
-
-        ![Image](:brochure2.jpg)
+        ![Image](:brochure1.jpg) <br/>
+        ![Image](:brochure2.jpg) <br/>
 
     # git
     - type: id_git
@@ -77,9 +70,9 @@ page_data:
       date: "2022-04-20"
       post: |
         ## 1. 동기
-        나만의 홈페이지를 만들고 싶은 마음은 항상 가지고 있었습니다.
-        react와 node.js를 이용해서 만들려고 하였지만 디자인과 코딩 학습에 긴 시간이 필요하였습니다.
-        따라서 간단하게 만들 수 있는 방법을 찾던 중 github로 블로그를 제작하는 방법을 알게 되었습니다.
+        나만의 홈페이지를 만들고 싶은 마음은 항상 가지고 있었습니다. <br/>
+        react와 node.js를 이용해서 만들려고 하였지만 디자인과 코딩 학습에 긴 시간이 필요하였습니다. <br/>
+        따라서 간단하게 만들 수 있는 방법을 찾던 중 github로 블로그를 제작하는 방법을 알게 되었습니다. <br/>
         
         ***
         ### 2. github 블로그 시작
@@ -95,26 +88,17 @@ page_data:
 
         ### 3. Local build 자세한 방법
         1. [Install Jekyll](https://jekyllrb.com/docs/installation/) os에 루비 설치
-        2. 루비 start command에서 간다. 
-
-        ![Image](:ruby.png)
-        
-        3. cd를 통해 로컬로 가져온 코드 주소로 이동 후에 `gem install bundler jekyll`입력
-        
-        ![Image](:ruby2.png)
-        
-        ![Image](:ruby3.png)
-        
-        4. 설치 완료 후 `bundle exec jekyll serve`
-        
-        ![Image](:ruby4.png)
-        
-        5. 로딩 후 chrome에서 **http://localhost:4000/** 입력!!
-
-        그럼 잘 뜨는 것을 확인 할 수 있습니다~
+        2. 루비 start command에서 간다. <br/>
+        ![Image](:ruby.png) <br/>
+        3. cd를 통해 로컬로 가져온 코드 주소로 이동 후에 `gem install bundler jekyll`입력 <br/>
+        ![Image](:ruby2.png) <br/>
+        ![Image](:ruby3.png) <br/>
+        4. 설치 완료 후 `bundle exec jekyll serve` <br/>
+        ![Image](:ruby4.png) <br/>
+        5. 로딩 후 chrome에서 **http://localhost:4000/** 입력!! <br/>
+        그럼 잘 뜨는 것을 확인 할 수 있습니다~ <br/>
 
         ***
-
         ## 4. 나만의 홈페이지 코드 분석
 
         |name|detail|Info|
@@ -131,9 +115,8 @@ page_data:
         |ko|-|**(Ko)블로그** 와 **(Ko)나의정보** 과 **(Ko)링크** 관리하는 곳|
         |vi|-|**(Vi)블로그** 와 **(Vi)나의정보** 과 **(Vi)링크** 관리하는 곳|
 
-        아 힘들당! 하지만 깔끔하게 정리해서 너무 좋다!!!
-
-        2022-04-20 부터 나만의 홈페이지를 꾸미자!
+        아 힘들당! 하지만 깔끔하게 정리해서 너무 좋다!!! <br/>
+        2022-04-20 부터 나만의 홈페이지를 꾸미자! <br/>
 
     # 연구실
     - type: id_Lab
@@ -144,61 +127,39 @@ page_data:
       date: "2021-08-27"
       post: |
         ## 1. 동기
-        논문 : [IGZO channel ferroelectric memory FET](https://ieeexplore.ieee.org/document/9224469) (Masaharu Kobayashi ,1-4 Sept. 2020)
-        
-        논문을 토대로 HZO를 첨가하여 IGZO가 아닌 ITZO에서의 Ferroelectric 현상을 확인하기 위해 실험을 진행하였다.
-
-        그러기 위해서 FeFET의 제작과정을 잘 구상하는 것이 중요하고 Photolithography 공정에서 필요한 mask를 제작해보았다.
+        논문 : [IGZO channel ferroelectric memory FET](https://ieeexplore.ieee.org/document/9224469) (Masaharu Kobayashi ,1-4 Sept. 2020) <br/>
+        논문을 토대로 HZO를 첨가하여 IGZO가 아닌 ITZO에서의 Ferroelectric 현상을 확인하기 위해 실험을 진행하였다. <br/>
+        그러기 위해서 FeFET의 제작과정을 잘 구상하는 것이 중요하고 Photolithography 공정에서 필요한 mask를 제작해보았다. <br/>
 
         ***
-
         ## 2. 팀원 소개
         - [진태원](https://yh2424.github.io/people/taewonjin/)
         - [노태현](https://yh2424.github.io/people/NTH/)
 
         ***
-
         ## 3. 진행 방식
-        **가려진 부분은 연구실만의 privary가 있기 때문에 이해부탁드립니다.**
-
-        ![Image](:FeFET2.png)
-
-        공정을 진행함에 있어 어떤 식으로 Si 기판 위에 증착되는지 확인해봐야합니다.
-        
-        따라서 ppt의 도형을 이용하여 만들어보면서 증착되는 과정을 확인해봅니다.
-
-        ![Image](:FeFET4.png)
-
-        각 단게마다 어떤 공정 과정이 필요한지 확인 하는 작업 또한 필요했습니다. 
-
-        여러번 확인을 안하게 된다면 mask가 있어야 할 곳에 없고 없어야 할 곳에 있는 경우가 생길 수 있습니다.
-        
-        다시 mask 제작을 기다려야 할 수 있기 때문에 신중하게 확인해야 합니다.
-
-        ![Image](:FeFET3.png)
-
-        이제는 Klayout을 이용하여 mask를 제작해보고 ppt를 확인하면서 문제가 없는지 한번 더 확인해봅니다.
-
-        ![Image](:FeFET5.png)
-
-        mask제작을 회사에 의뢰하기 위한 단계
+        **가려진 부분은 연구실만의 privary가 있기 때문에 이해부탁드립니다.** <br/>
+        ![Image](:FeFET2.png) <br/>
+        공정을 진행함에 있어 어떤 식으로 Si 기판 위에 증착되는지 확인해봐야합니다. <br/>
+        따라서 ppt의 도형을 이용하여 만들어보면서 증착되는 과정을 확인해봅니다. <br/>
+        ![Image](:FeFET4.png) <br/>
+        각 단게마다 어떤 공정 과정이 필요한지 확인 하는 작업 또한 필요했습니다. <br/>
+        여러번 확인을 안하게 된다면 mask가 있어야 할 곳에 없고 없어야 할 곳에 있는 경우가 생길 수 있습니다. <br/>
+        다시 mask 제작을 기다려야 할 수 있기 때문에 신중하게 확인해야 합니다. <br/>
+        ![Image](:FeFET3.png) <br/>
+        이제는 Klayout을 이용하여 mask를 제작해보고 ppt를 확인하면서 문제가 없는지 한번 더 확인해봅니다. <br/>
+        ![Image](:FeFET5.png) <br/>
+        mask제작을 회사에 의뢰하기 위한 단계 <br/>
 
         ***
-
         ## 4. 결과
-
-        다시 공정하는 일 없이 모두 마무리 하였고 ferroelectic 현상을 확인 하였습니다.
-
-        하지만 IGZO보다 성능은 낮게 나왔습니다.
+        다시 공정하는 일 없이 모두 마무리 하였고 ferroelectic 현상을 확인 하였습니다. <br/>
+        하지만 IGZO보다 성능은 낮게 나왔습니다. <br/>
 
         ***
-
         ## 5. 코드
-
-        Klayout python 코드입니다. 
-
-        - 네모 만들기
-
+        Klayout python 코드입니다.  <br/>
+        - 네모 만들기 <br/>
         ```python
         class Square :
           global layout,unit,top
@@ -281,9 +242,7 @@ page_data:
               
             return new_obj
         ```
-
-        - 원형 만들기
-
+        - 원형 만들기 <br/>
         ```python
         class Circle:
           global layout,unit,top,angle_point
@@ -365,12 +324,9 @@ page_data:
                 total_obj += new_obj
             return total_obj
         ```
-
-        그 외에 align mark, 이름 만들기 등 다른 모양도 만드는 코드도 정의 해두었습니다.
-
-        만약 필요하시거나 활용하고 싶으시면 메일 주시면 감사하겠습니다. 
-
-        저의 예시 코드와 상세한 설명 해드리겠습니다.
+        그 외에 align mark, 이름 만들기 등 다른 모양도 만드는 코드도 정의 해두었습니다. <br/>
+        만약 필요하시거나 활용하고 싶으시면 메일 주시면 감사하겠습니다. <br/>
+        저의 예시 코드와 상세한 설명 해드리겠습니다. <br/>
 
     - type: id_Lab
       project_name: "TFT 열처리 조건에 따른 상태 변화 [캡스톤] (~ 2021-12-01)"
@@ -380,78 +336,51 @@ page_data:
       date: "2021-08-20"
       post: |
         ## 1. 동기
-
-        ITZO(In-Sn-Zn-O)는 IGZO보다 Mobility(이동도)가 높다.
-
-        또한 n 3+ 와 Sn 4+ 의 5s 오비탈에서 효율적인 궤도 겹칩 현상이 발생하여 전자의 이동이 수월하다.
-
-        공정과정에 있어 Annealing은 ITZO에 미치는 영향이 있다.
+        ITZO(In-Sn-Zn-O)는 IGZO보다 Mobility(이동도)가 높다. <br/>
+        또한 n 3+ 와 Sn 4+ 의 5s 오비탈에서 효율적인 궤도 겹칩 현상이 발생하여 전자의 이동이 수월하다. <br/>
+        공정과정에 있어 Annealing은 ITZO에 미치는 영향이 있다. <br/>
         - Annealing 공정은 TFT 박막의 전기적 특성과 안정성을 증가시킨다. 또한 oxygen vacancy 제거, M-O 결합 형성, 전하 운반자 생성을 증가 시킨다.
         - 챔버에 있는 산소를 채널의 빈공간으로 확산 시켜 산소의 빈공간을 줄이고 a-ITZO/SiO2 사이의 interface trap을 증가시킨다.
-
-        따라서 **Annealing에 따라 ITZO의 특성을 파악할 것이다.**
+        따라서 **Annealing에 따라 ITZO의 특성을 파악할 것이다.** <br/>
 
         `조건`
         - Hot plate (AS, 150°C, 200°C, 250°C) [1 시간]
         - RTA (AS, 200°C, 300°C, 400°C, 500°C) [30 초]
-        
         발표날 : 2021-12-01
 
         ***
-
         ## 2. 팀원 소개
         - [진태원](https://yh2424.github.io/people/taewonjin/)
         - [선신개](https://yh2424.github.io/people/xinkaisun/)
         - [노태현](https://yh2424.github.io/people/NTH/)
 
         ***
-
         ## 3. 진행 방식 & 결과
-
-        - <kbd> [Experiment 1] ITZO 의 온도의존성확인 </kbd>
-
-        ![Image](:TFT2.png)
-
-        ![Image](:TFT3.png)
-        
-        `문제 발생`
-
-        ![Image](:TFT4.png)
-
-        - <kbd> [Experiment 2] Isolation 이후소자변화 </kbd>
-
-        ![Image](:TFT5.png)
-
-        `문제 해결`
-
-        ![Image](:TFT6.png)
-
-        - <kbd> [Experiment 3] RTA </kbd>
-
-        ![Image](:TFT7.png)
-
-        ![Image](:TFT8.png)
-
-        - <kbd> 결론 </kbd>
-
-        ![Image](:TFT9.png)
+        - <kbd> [Experiment 1] ITZO 의 온도의존성확인 </kbd> <br/>
+        ![Image](:TFT2.png) <br/>
+        ![Image](:TFT3.png) <br/>
+        - `문제 발생` <br/>
+        ![Image](:TFT4.png) <br/>
+        - <kbd> [Experiment 2] Isolation 이후소자변화 </kbd> <br/>
+        ![Image](:TFT5.png) <br/>
+        - `문제 해결` <br/>
+        ![Image](:TFT6.png) <br/>
+        - <kbd> [Experiment 3] RTA </kbd> <br/>
+        ![Image](:TFT7.png) <br/>
+        ![Image](:TFT8.png) <br/>
+        - <kbd> 결론 </kbd> <br/>
+        ![Image](:TFT9.png) <br/>
 
         ***
-
         ## 4. 최종 결론
-
         ![Image](:TFT10.png)
 
         ***
-
         ## 5. 참고문헌
-
-        [1] Junghwan Kim, Hoichang Yang& Jae Kyeong Jeong(2020.October.1). Nature research
-
-        [2] Youngjoon Choi, Saeroonter Choi and Jaekyun Kim(2020. September. 29). Semicomductor Science and Technology
+        [1] Junghwan Kim, Hoichang Yang& Jae Kyeong Jeong(2020.October.1). Nature research <br/>
+        [2] Youngjoon Choi, Saeroonter Choi and Jaekyun Kim(2020. September. 29). Semicomductor Science and Technology <br/>
 
         ***
-
     - type: id_Lab
       project_name: "TFT 성능 확인 (~ 2021-10-06)"
       project_excerpt: "TFT[Thin File Transistor] Width, Length에 따른 TFT 성질"
@@ -460,43 +389,28 @@ page_data:
       date: "2021-08-02"
       post: |
         ## 1. 동기
-
-        TFT(Thin File Transistor)의 전압전류관계는 다음과 같습니다.
-
-        ![Image](:TFT_VI2.png){: width="200" height="200"}
-
-        ![Image](:TFT_VI3.png){: width="200" height="200"}
-
-        따라서 정말 W,L의 변화에 따라 TFT의 성질을 변하는지 확인해보는 실험을 진행해 보았습니다.
+        TFT(Thin File Transistor)의 전압전류관계는 다음과 같습니다. <br/>
+        ![Image](:TFT_VI2.png){: width="200" height="200"} <br/>
+        ![Image](:TFT_VI3.png){: width="200" height="200"} <br/>
+        따라서 정말 W,L의 변화에 따라 TFT의 성질을 변하는지 확인해보는 실험을 진행해 보았습니다. <br/>
 
         ***
-
         ## 2. 팀원 소개
         - [진태원](https://yh2424.github.io/people/taewonjin/)
 
         ***
-
         ## 3. 진행 방식
-
-        다음과 같은 TFT를 이용
-
-        ![Image](:TFT(W,L)2.png)
-
-        metal에 모양을 만들어줄 mask
-
-        ![Image](:TFT(W,L)3.png)
+        다음과 같은 TFT를 이용 <br/>
+        ![Image](:TFT(W,L)2.png) <br/>
+        metal에 모양을 만들어줄 mask <br/>
+        ![Image](:TFT(W,L)3.png) <br/>
 
         ***
-
         ## 4. 결과
-
-        <kbd> Width변화에 따른 결과! </kbd>
-
-        ![Image](:TFT(W,L)4.png)
-
-        <kbd> Length변화에 따른 결과! </kbd>
-
-        ![Image](:TFT(W,L)5.png)
+        - <kbd> Width변화에 따른 결과! </kbd> <br/>
+        ![Image](:TFT(W,L)4.png) <br/>
+        - <kbd> Length변화에 따른 결과! </kbd> <br/>
+        ![Image](:TFT(W,L)5.png) <br/>
 
         ***
       
@@ -509,26 +423,20 @@ page_data:
       post: |
         
         ##  1. TCAD Sentaurus란?
-        TCAD(Technology Computer-Aided Design)는 컴퓨터 시뮬레이션을 사용하여 반도체 처리 기술 및 장치를 개발하고 최적화하는 것을 말합니다. 
-        TCAD 시뮬레이션 도구는 반도체 장치의 실리콘 웨이퍼 또는 레이어 시스템을 나타내는 이산화된 형상에 대한 확산 및 전송 방정식과 같은 기본, 물리적, 편미분 방정식을 해결합니다. 
-        이 심층적인 물리적 접근 방식은 TCAD 시뮬레이션 예측 정확도를 제공합니다.
-        
-        따라서 새로운 반도체 장치나 기술을 개발하고 특성화할 때 비용과 시간이 많이 소요되는 테스트 웨이퍼 실행을 TCAD 컴퓨터 시뮬레이션으로 대체하는 것이 가능합니다.
+        TCAD(Technology Computer-Aided Design)는 컴퓨터 시뮬레이션을 사용하여 반도체 처리 기술 및 장치를 개발하고 최적화하는 것을 말합니다.  <br/>
+        TCAD 시뮬레이션 도구는 반도체 장치의 실리콘 웨이퍼 또는 레이어 시스템을 나타내는 이산화된 형상에 대한 확산 및 전송 방정식과 같은 기본, 물리적, 편미분 방정식을 해결합니다.  <br/>
+        이 심층적인 물리적 접근 방식은 TCAD 시뮬레이션 예측 정확도를 제공합니다. <br/>
+        따라서 새로운 반도체 장치나 기술을 개발하고 특성화할 때 비용과 시간이 많이 소요되는 테스트 웨이퍼 실행을 TCAD 컴퓨터 시뮬레이션으로 대체하는 것이 가능합니다. <br/>
 
         ***
-
         ## 2. 진행 방식
-
-        자세한 진행방법은 pdf를 참고해주시면 감사하겠습니다. [PDF](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/SENTAURUS다운로드방법_컴퓨터설정_송준수.pdf)
+        자세한 진행방법은 pdf를 참고해주시면 감사하겠습니다. [PDF](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/SENTAURUS다운로드방법_컴퓨터설정_송준수.pdf) <br/>
 
         ***
-
         ## 3. 결과
-
-        ![Image](:sentaurus2.jpg)
+        ![Image](:sentaurus2.jpg) <br/>
 
         ***
-
     - type: id_Lab
       project_name: "GaN-mini LED (~2021-08-02)"
       project_excerpt: "GaN mini LED mask제작"
@@ -541,11 +449,8 @@ page_data:
         - [박승민](https://yh2424.github.io/people/seoungminpark/)
 
         ***
-
         ## 2. 진행 방식
-
-        ![Image](:LED_mask2.jpg)
-
+        ![Image](:LED_mask2.jpg) <br/>
         **상세한 공정과정은 연구실만의 privary가 있기 때문에 이해부탁드립니다.**
 
         ***
@@ -559,47 +464,30 @@ page_data:
       date: "2022-07-18"
       post: |
         ## 1. 대회 설명
-
-        대회 : 게임잼
-
-        주최 : 소프트웨어학부
-
-        기간 : 2022년 7월 18일 월요일 ~ 7월 20일 수요일 (무박 3일)  
-
-        ![Image](:Game_schedule.jpg)
+        대회 : 게임잼 <br/>
+        주최 : 소프트웨어학부 <br/>
+        기간 : 2022년 7월 18일 월요일 ~ 7월 20일 수요일 (무박 3일) <br/>
+        ![Image](:Game_schedule.jpg) <br/>
 
         ***
-
         ## 2. 팀원 소개
-
         팀원 : [김태엽](https://blog.naver.com/bible20141) , [김강석](https://yh2424.github.io/people/kangseokkim/) , 송준수
 
         ***
-
         ## 3. 진행 방식
-
-        팀 이름 : 나로호
-
-        제시 받은 키워드 : 물, 더위, 정열
-
-        주제 : 18일날 여름과 관련된 3가지 단어를 랜덤 추출하여 팀에게 배분된다. 이후 3일동안 키워드를 활용하여 게임을 만들어 보기
-
-        ![img](:Game2.jpg)
-
-        이후에 동영상 찰영 후에 Youtude에 업로드 합니다.
+        팀 이름 : 나로호 <br/>
+        제시 받은 키워드 : 물, 더위, 정열 <br/>
+        주제 : 18일날 여름과 관련된 3가지 단어를 랜덤 추출하여 팀에게 배분된다. 이후 3일동안 키워드를 활용하여 게임을 만들어 보기 <br/>
+        ![img](:Game2.jpg) <br/>
+        이후에 동영상 찰영 후에 Youtude에 업로드 합니다. <br/>
 
         ***
-
         ## 4. 결과
-
-        결과 : 우수상 수상 (3위)
-
-        발표 영상 : [https://youtu.be/uRoRvXMdkAk](https://youtu.be/uRoRvXMdkAk)
-
-        ![img](:Overtail.jpg)
+        결과 : 우수상 수상 (3위) <br/>
+        발표 영상 : [https://youtu.be/uRoRvXMdkAk](https://youtu.be/uRoRvXMdkAk) <br/>
+        ![img](:Overtail.jpg) <br/>
 
         ***
-
     - type: id_club
       project_name: "IC-PBL 경진대회(2019) (~ 2019-12-19)"
       project_excerpt: "ERICA를 부탁해"
@@ -608,69 +496,42 @@ page_data:
       date: "2019-09-01"
       post: |
         ## 1. 대회 설명
-
-        ![Image](:IC-PBL(2019).png)
-
-        한양대학교 ERICA에 필요한 것이 무엇이 있는지 아이디어를 제시해 보는 대회입니다.
+        ![Image](:IC-PBL(2019).png) <br/>
+        한양대학교 ERICA에 필요한 것이 무엇이 있는지 아이디어를 제시해 보는 대회입니다. <br/>
 
         ***
-
         ## 2. 팀원 소개
-        조장 : 송준수
-
-        팀원 : 진태원, 김민제, 양희준
-
-        ![Image](:contest19.png)
+        조장 : 송준수 <br/>
+        팀원 : 진태원, 김민제, 양희준 <br/>
+        ![Image](:contest19.png) <br/>
 
 
         ***
-
         ## 3. 진행 방식
-
-        저희 팀은 <kbd>한양대학교 어플리케이션에 대한 문제점</kbd> 을 제시하였고 그에 따른 설문조사도 진행하였습니다.
-
-        ![Image](:contest19_2.png)
-
-        ![Image](:contest19_3.png)
-
-        ![Image](:contest19_4.png)
-
-        최적의 어플리케이션을 디자인하기 위한 <kbd>준비단계</kbd> 를 진행하였습니다.
-
-        - 학교 측과 어플리케이션의 계약 현황
-
-        ![Image](:contest19_5.png)
-
-        ![Image](:contest19_6.png)
-
-        - 학생들이 필요한 것은 무엇인지 조사
-
-        ![Image](:contest19_7.png)
-
-        - 여러 대학들을 조사해서 최적의 GUI 조사
-
-        ![Image](:contest19_8.png)
-
-        ![Image](:IC-PBL(2019).jpg)
-
-        저희 팀이 디자인한 <kbd>최종 GUI</kbd> [이용한 사이트](https://quv.kr/)
-
-        ![Image](:contest19_9.png)
-
-        ![Image](:contest19_10.png)
-
-        ![Image](:contest19_11.png)
+        저희 팀은 <kbd>한양대학교 어플리케이션에 대한 문제점</kbd> 을 제시하였고 그에 따른 설문조사도 진행하였습니다. <br/>
+        ![Image](:contest19_2.png) <br/>
+        ![Image](:contest19_3.png) <br/>
+        ![Image](:contest19_4.png) <br/>
+        최적의 어플리케이션을 디자인하기 위한 <kbd>준비단계</kbd> 를 진행하였습니다. <br/>
+        - 학교 측과 어플리케이션의 계약 현황 <br/>
+        ![Image](:contest19_5.png) <br/>
+        ![Image](:contest19_6.png) <br/>
+        - 학생들이 필요한 것은 무엇인지 조사 <br/>
+        ![Image](:contest19_7.png) <br/>
+        - 여러 대학들을 조사해서 최적의 GUI 조사 <br/>
+        ![Image](:contest19_8.png) <br/>
+        ![Image](:IC-PBL(2019).jpg) <br/>
+        저희 팀이 디자인한 <kbd>최종 GUI</kbd> [이용한 사이트](https://quv.kr/) <br/>
+        ![Image](:contest19_9.png) <br/>
+        ![Image](:contest19_10.png) <br/>
+        ![Image](:contest19_11.png) <br/>
 
         ***
-
         ## 4. 결과
-
-        `우수상` 수상하였습니다 ~!
-
-        ![Image](:IC-PBL_prime.jpg)
+        `우수상` 수상하였습니다 ~! <br/>
+        ![Image](:IC-PBL_prime.jpg) <br/>
 
         ***
-
     - type: id_club
       project_name: "창업동아리[SSSAP] (~ 2021-08-30)"
       project_excerpt: "쇼핑 어플리케이션"
@@ -679,46 +540,30 @@ page_data:
       date: "2021-01-01"
       post: |
         ## 1. 동기
-
-        [김영현 교수님](https://yh2424.github.io/people/younghyunkim/)의 지도하에 창업동아리가 시작되었습니다.
-
-        2월까지 일주일에 한번씩 아이디어를 꾸준히 팀원들끼리 발표를 진행하였고 그 중에 가장 좋은 창업 아이디어를 선정하였습니다.
-
-        이후 한양대학교 [창업교육센터](https://eec.hanyang.ac.kr/circles/clubView/124)에 아이디어를 제시하였고 창업동아리로서 지원을 받을 수 있었습니다.
-
-        대회에 참여하여 팀의 아이디어를 평가 받기로 하였습니다.
-
-        ![Image](:SID.png)
+        [김영현 교수님](https://yh2424.github.io/people/younghyunkim/)의 지도하에 창업동아리가 시작되었습니다. <br/>
+        2월까지 일주일에 한번씩 아이디어를 꾸준히 팀원들끼리 발표를 진행하였고 그 중에 가장 좋은 창업 아이디어를 선정하였습니다. <br/>
+        이후 한양대학교 [창업교육센터](https://eec.hanyang.ac.kr/circles/clubView/124)에 아이디어를 제시하였고 창업동아리로서 지원을 받을 수 있었습니다. <br/>
+        대회에 참여하여 팀의 아이디어를 평가 받기로 하였습니다. <br/>
+        ![Image](:SID.png) <br/>
 
         ***
-
         ## 2. 팀원 소개
-        조장 : 송준수
-
-        팀원 : 김상훈, 김동구, 김성목, 노태현, 박승민, 박재혁
-
-        ![Image](:startup_club.png)
+        조장 : 송준수 <br/>
+        팀원 : 김상훈, 김동구, 김성목, 노태현, 박승민, 박재혁 <br/>
+        ![Image](:startup_club.png) <br/>
 
         ***
-
         ## 3. 진행 방식
-
-        ![Image](:Club3.png)
-
-        ![Image](:Club.png)
-
-        ![Image](:Club2.png)
+        ![Image](:Club3.png) <br/>
+        ![Image](:Club.png) <br/>
+        ![Image](:Club2.png) <br/>
 
         ***
-
         ## 4. 결과
-
-        ![Image](:startup_prime.png)
-
-        ![Image](:SID.jpg)
+        ![Image](:startup_prime.png) <br/>
+        ![Image](:SID.jpg) <br/>
 
         ***
-
     - type: id_club
       project_name: "IC-PBL 경진대회(2021) (~ 2021-08-04)"
       project_excerpt: "IC-PBL을 통해 배운 경험을 공유하자"
@@ -730,28 +575,20 @@ page_data:
         ![Image](:IC-PBL(2021)_info.png)
 
         ***
-
         ## 2. 팀원 소개
-        조장 : 송준수
-
-        팀원 : [김강석](https://yh2424.github.io/people/kangseokkim/) , [박승민](https://yh2424.github.io/people/seoungminpark/)
+        조장 : 송준수 <br/>
+        팀원 : [김강석](https://yh2424.github.io/people/kangseokkim/) , [박승민](https://yh2424.github.io/people/seoungminpark/) <br/>
 
         ***
-
         ## 3. 진행 방식
-
         ![Image](:python.png)
 
         ***
-
         ## 4. 결과
-
-        ![Image](:IC-PBL(2021)_prove.png)
-
-        ![Image](:IC-pbl.png)
+        ![Image](:IC-PBL(2021)_prove.png) <br/>
+        ![Image](:IC-pbl.png) <br/>
 
         ***
-
     # 컴퓨터
     - type: id_computer
       project_name: "아이디어로 우리만의 로봇 제작 (~ 2019-11-30)"
@@ -765,21 +602,15 @@ page_data:
         - Project2 : 일상생활에 필요한 로봇을 만들어보기
 
         ***
-
-        ## Project1
-        
-        ![Image](:ideal2.jpg)
-
-        [동영상](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/ideal.mp4)을 보고 싶으시다면 링크를 눌러서 ideal.mp4를 참조해주세요~!
+        ## Project1 
+        ![Image](:ideal2.jpg) <br/>
+        [동영상](https://github.com/junsusong98/junsusong98.github.io/blob/main/assets/img/projects/ideal.mp4)을 보고 싶으시다면 링크를 눌러서 ideal.mp4를 참조해주세요~! <br/>
 
         ## Project2
-        계기 : 혼자서 밥먹으로 가는 사람들이 많아지면서 1인 식탁이 많아질 것이라고 판단
-
-        ![Image](:ideal3.png)
-
-        ![Image](:ideal.png)
-
-        막대기를 올리면 그에 맞는 색으로 물건을 이동한다.
+        계기 : 혼자서 밥먹으로 가는 사람들이 많아지면서 1인 식탁이 많아질 것이라고 판단 <br/>
+        ![Image](:ideal3.png) <br/>
+        ![Image](:ideal.png) <br/>
+        막대기를 올리면 그에 맞는 색으로 물건을 이동한다. <br/>
 
     # python
     - type: id_python
@@ -794,19 +625,12 @@ page_data:
         팀원 : [김강석](https://yh2424.github.io/people/kangseokkim/) , 최일규
 
         ***
-
         ## 2. 진행 방식
-
-        파이썬을 통해서 프로젝트를 만들었습니다. 소자에서 측정한 값들을 프로젝트에 넣습니다. 
-
-        ![Image](:Grape3.png)
-
-        ![Image](:Grape4.png)
-
-        프로젝트는 밑에 사진과 같이 그래프를 자동을 만들 수 있도록 설계했습니다. 
-
-        ![Image](:Grape1.png)
-
-        ![Image](:Grape2.png)
+        파이썬을 통해서 프로젝트를 만들었습니다. 소자에서 측정한 값들을 프로젝트에 넣습니다. <br/>
+        ![Image](:Grape3.png) <br/>
+        ![Image](:Grape4.png) <br/>
+        프로젝트는 밑에 사진과 같이 그래프를 자동을 만들 수 있도록 설계했습니다. <br/>
+        ![Image](:Grape1.png) <br/>
+        ![Image](:Grape2.png) <br/>
 
         ***
