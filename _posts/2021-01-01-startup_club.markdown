@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: <Rec> Start-up club[SID audition] (~2021-08-30)
+title: <"Rec"> Start-up club[SID audition] (~2021-08-30)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml

@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: <Rec> Hanyang University's double-Major in Computer [3rd year - 2nd semester] (~2023-08-17)
+title: <"Rec"> Hanyang University's double-Major in Computer [3rd year - 2nd semester] (~2023-08-17)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
