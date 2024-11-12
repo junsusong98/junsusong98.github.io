@@ -1,0 +1,74 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_Phu(RP)
+title: KMF2024 (~2024-10-19)
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+author: Songjunsu
+# multiple category is not supported
+category: 포항공대
+# multiple tag entries are possible
+tags: [포항공대, 연구원, 연구실, 전시회]
+# thumbnail image for post
+img: ":PHU.png"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2024-10-17 12:00:00 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-01-01 10:04:30 +0900
+# check the meta_common_description in _data/lang/[language].yml
+#meta_description: ""
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+<!-- outline-start -->
+## KOREA METAVERSE FESTIVAL (KMF 2023)
+
+기간 : 2024-10-17~ 2024-10-19
+
+[KOREA METAVERSE FESTIVAL](https://kmfexpo.com/)
+
+[메타버스랩](https://www.meta-lab.or.kr/lab12)에서 주체하는 곳으로 투자자들과 메타버스 사업을 홍보하기 위해 참여하게 됐습니다.
+
+포항공과대학교 WADE연구실에서 메타버스랩 과제를 담당
+1. 반도체 디스플레이 소자 및 공정 과정에 대한 교육과정 콘텐츠를 제작 역할
+2. Meta Quest Pro 3 장비 사용
+
+***
+
+### 관련 사진
+
+![img](:KMF24-0.jpg)
+
+***
+![img](:KMF24-1.jpeg)
+
+***
+![img](:KMF24-2.jpeg)
+
+***
+![img](:KMF24-3.jpeg)
+
+***
+![img](:KMF24-4.jpeg)
+
+***
+![img](:KMF24-5.jpeg)
+
+***
+![img](:KMF24-6.jpeg)
