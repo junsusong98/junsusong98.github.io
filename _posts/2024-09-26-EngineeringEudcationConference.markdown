@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Phu(RP)
-title: <NOTE> 2024 Korean Society for Engineering Education (~2024-09-27)
+title: <Rec> 2024 Korean Society for Engineering Education (~2024-09-27)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
