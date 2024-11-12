@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_hyu(Bachelor)
-title: <Note> Hanyang University's Lab (~2022-01-14)
+title: <NOTE> Hanyang University's Lab (~2022-01-14)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
