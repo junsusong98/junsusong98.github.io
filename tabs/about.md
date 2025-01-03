@@ -43,10 +43,11 @@ img: ":k-display_.jpeg"
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### Education
-- 2023.06.12 ~ present
+- 2023.09.16 ~ present
     - Pohang University of Science And Technology (POSTECH)
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - Power Electronics Group
+        - V-Edu staff
     - Researcher
 
 ![img](:Pohang.png){: width="300" height="200"}

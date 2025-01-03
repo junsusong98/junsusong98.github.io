@@ -43,10 +43,11 @@ img: ":k-display_.jpeg"
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### 학력
-- 2023.06.12 ~ present
+- 2023.09.16 ~ present
     - 포항공과대학교 (포스텍)
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - 전력 전자 팀
+        - V-Edu 직원
     - 연구원
 
 ![img](:Pohang.png){: width="300" height="200"}
