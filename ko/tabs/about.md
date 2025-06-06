@@ -57,7 +57,9 @@ img: ":k-display_.jpeg"
     - LG-Display 산학협력센터 ( POSTECH )
     - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [교육혁신센터](https://ice.postech.ac.kr/)
     - V-Edu 사원
-<br/>
+</div>
+
+<div>
 
 - 2017.03.01 ~ 2023.08.17
     - 한양대학교
