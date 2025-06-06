@@ -45,8 +45,7 @@ img: ":k-display_.jpeg"
 ### Education
 - 2025.09.01 ~ present
     - Pohang University of Science And Technology (POSTECH)
-    - [Electrical engineering](https://eetemp.postech.ac.kr/)
-    - M.S.degree 
+    - M.S. student in [Electrical engineering](https://eetemp.postech.ac.kr/) 
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - Power Electronics Group
     - V-Edu staff
@@ -57,12 +56,12 @@ img: ":k-display_.jpeg"
 - 2023.09.16 ~ 2025.07.30
     - LG-Display Research and Business Development Foundaton ( POSTECH )
     - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [Innovation center for education](https://ice.postech.ac.kr/)
-    - V-Edu staff
+    - V-Edu staff<br/>
 
 - 2017.03.01 ~ 2023.08.17
     - Hanyang University
-    - [Department of Photonics & Nanoelectronics](http://photonics.hanyang.ac.kr/) & [Department of Computer Engineering](http://sw.hanyang.ac.kr/)
-    - B.S.degree
+    - B.S. in [Photonics & Nanoelectronics](http://photonics.hanyang.ac.kr/) 
+    - B.S. in [Computer Engineering](http://sw.hanyang.ac.kr/)
 
 ![img](:HYU.jpg){: width="100" height="100"}
 ![img](:HYU2.png){: width="100" height="100"}

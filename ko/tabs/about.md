@@ -57,12 +57,12 @@ img: ":k-display_.jpeg"
 - 2023.09.16 ~ 2025.07.30
     - LG-Display 산학협력센터 ( POSTECH )
     - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [교육혁신센터](https://ice.postech.ac.kr/)
-    - V-Edu 사원
+    - V-Edu 사원<br/>
 
 - 2017.03.01 ~ 2023.08.17
     - 한양대학교
-    - [나노광전자학과](http://photonics.hanyang.ac.kr/) & [컴퓨터전공](http://sw.hanyang.ac.kr/)
-    - 학사
+    - [나노광전자학과](http://photonics.hanyang.ac.kr/) 학사 
+    - [컴퓨터전공](http://sw.hanyang.ac.kr/) 학사
 
 ![img](:HYU.jpg){: width="100" height="100"}
 ![img](:HYU2.png){: width="100" height="100"}
