@@ -43,20 +43,25 @@ img: ":k-display_.jpeg"
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### Education
-- 2023.09.16 ~ present
+- 2025.09.01 ~ present
     - Pohang University of Science And Technology (POSTECH)
-    - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
+    - [Electrical engineering](https://eetemp.postech.ac.kr/)
+    - M.S.degree [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - Power Electronics Group
-        - V-Edu staff
-    - Researcher
+    - V-Edu staff
 
 ![img](:Pohang.png){: width="300" height="200"}
 ![img](:WADE.png){: width="300" height="200"}
 
+- 2023.09.16 ~ 2025.07.30
+    - LG-Display Research and Business Development Foundaton ( POSTECH )
+    - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [Innovation center for education](https://ice.postech.ac.kr/)
+    - V-Edu staff
+
 - 2017.03.01 ~ 2023.08.17
     - Hanyang University
     - [Department of Photonics & Nanoelectronics](http://photonics.hanyang.ac.kr/) & [Department of Computer Engineering](http://sw.hanyang.ac.kr/)
-    - B.S (a Senior)
+    - B.S.degree
 
 ![img](:HYU.jpg){: width="100" height="100"}
 ![img](:HYU2.png){: width="100" height="100"}

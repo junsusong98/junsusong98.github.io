@@ -1,12 +1,12 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Phu(RP)
-title: <"Rec"> Pohang University of Science And Technology's Lab (~ present)
+title: <"Rec"> LG-Display Research and Business Development Foundaton ( POSTECH ) (~ 2025.07.30)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
 author: Songjunsu
-# multiple category is not supported
+# multiple category is not support
 category: Pohang univ
 # multiple tag entries are possible
 tags: [Pohang univ, RP, Lab]
@@ -16,7 +16,7 @@ img: ":PHU.png"
 #comments_disable: true
 
 # publish date
-date: 2023-06-12 12:00:00 +0900
+date: 2023-09-16 12:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -37,18 +37,15 @@ date: 2023-06-12 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
-## Pohang University of Science And Technology WADE Laboratory
+## LG-Display Research and Business Development Foundaton ( POSTECH )
 
-Period : 2023-06-12 ~ Present
+Period : 2023.09.16 ~ 2025.07.30
 
-[Pohang University of Science And Technology WADE Laboratory](https://sites.google.com/view/kimwooksung/home?authuser=0)
+[POSTECH](https://www.postech.ac.kr/kor/index.do#;), [Innovation center for education](https://ice.postech.ac.kr/)
 
 ***
 
 #### Project
-- Power Electronics
-    - Dc-to-Dc Converter
-
 - Metaverse Lab
     - Development of VR educational contents to train semiconductor and display professionals
 

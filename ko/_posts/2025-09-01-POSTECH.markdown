@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_Phu(RP)
-title: <기록> LG-Display 산학협력센터 ( POSTECH ) (~ 2025.07.30)
+title: <기록> 포항공과대학교 ( POSTECH 포스텍 ) (~ present)
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -16,7 +16,7 @@ img: ":PHU.png"
 #comments_disable: true
 
 # publish date
-date: 2023-09-16 12:00:00 +0900
+date: 2025-09-01 12:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -37,17 +37,17 @@ date: 2023-09-16 12:00:00 +0900
 #published: false
 ---
 <!-- outline-start -->
-## LG-Display 산학협력센터 ( POSTECH )
+## 포항공과대학교 ( POSTECH 포스텍 )
 
-기간 : 2023.09.16 ~ 2025.07.30
+기간 : 2025.09.01 ~ present
 
-- [POSTECH](https://www.postech.ac.kr/kor/index.do#;)
-- [교육혁신센터](https://ice.postech.ac.kr/)
+- [전자전기공학과](https://eetemp.postech.ac.kr/)
+- 석사 [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
 
 ***
 
-#### 프로젝트
-- 메타버스랩
-    - 반도체·디스플레이 전문 인력 양성을 위한 VR 교육 콘텐츠 개발
+#### 합격증
+
+![img](:Certificate.jpeg)
 
 
