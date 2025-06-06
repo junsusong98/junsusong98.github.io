@@ -57,7 +57,7 @@ img: ":k-display_.jpeg"
     - LG-Display Research and Business Development Foundaton ( POSTECH )
     - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [Innovation center for education](https://ice.postech.ac.kr/)
     - V-Edu staff
-
+&nbsp;<br>
 - 2017.03.01 ~ 2023.08.17
     - Hanyang University
     - B.S. in [Photonics & Nanoelectronics](http://photonics.hanyang.ac.kr/) 
