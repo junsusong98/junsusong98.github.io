@@ -39,7 +39,7 @@ img: ":k-display_.jpeg"
 - Name : **Junsu Song ( 宋準守 )**
 - Date of birth : **February 1st, 1998**
 - Address : **Danwon-gu, Ansan-si, Gyeonggi-do (Sujeongyang)**
-- Email : **sb020578@hanyang.ac.kr , sb020578@naver.com**
+- Email : **sb020578@postech.ac.kr**
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### Education
@@ -56,7 +56,8 @@ img: ":k-display_.jpeg"
 - 2023.09.16 ~ 2025.07.30
     - LG-Display Research and Business Development Foundaton ( POSTECH )
     - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [Innovation center for education](https://ice.postech.ac.kr/)
-    - V-Edu staff<br/>
+    - V-Edu staff
+<br>
 
 - 2017.03.01 ~ 2023.08.17
     - Hanyang University

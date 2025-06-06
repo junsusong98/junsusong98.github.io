@@ -39,14 +39,13 @@ img: ":k-display_.jpeg"
 - 이름 : **송준수 ( 宋準守 )**
 - 생년월일 : **1998년 2월 1일**
 - 살고있는 곳 : **경기도 안산시 단원구**
-- 이메일 : **sb020578@hanyang.ac.kr , sb020578@naver.com**
+- 이메일 : **sb020578@postech.ac.kr**
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### 학력
 - 2025.09.01 ~ present
     - 포항공과대학교 ( POSTECH 포스텍 )
-    - [전자전기공학과](https://eetemp.postech.ac.kr/)
-    - 석사 
+    - [전자전기공학과](https://eetemp.postech.ac.kr/) 석사
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - 전력 전자 팀
     - V-Edu 사원
@@ -57,7 +56,8 @@ img: ":k-display_.jpeg"
 - 2023.09.16 ~ 2025.07.30
     - LG-Display 산학협력센터 ( POSTECH )
     - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [교육혁신센터](https://ice.postech.ac.kr/)
-    - V-Edu 사원<br/>
+    - V-Edu 사원
+<br>
 
 - 2017.03.01 ~ 2023.08.17
     - 한양대학교
