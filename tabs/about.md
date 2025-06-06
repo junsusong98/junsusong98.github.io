@@ -46,7 +46,8 @@ img: ":k-display_.jpeg"
 - 2025.09.01 ~ present
     - Pohang University of Science And Technology (POSTECH)
     - [Electrical engineering](https://eetemp.postech.ac.kr/)
-    - M.S.degree [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
+    - M.S.degree 
+    - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - Power Electronics Group
     - V-Edu staff
 

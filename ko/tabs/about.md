@@ -46,7 +46,8 @@ img: ":k-display_.jpeg"
 - 2025.09.01 ~ present
     - 포항공과대학교 ( POSTECH 포스텍 )
     - [전자전기공학과](https://eetemp.postech.ac.kr/)
-    - 석사 [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
+    - 석사 
+    - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - 전력 전자 팀
     - V-Edu 사원
 
