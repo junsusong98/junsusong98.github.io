@@ -44,18 +44,16 @@ img: ":k-display_.jpeg"
 
 ### Education
 - 2025.09.01 ~ present
-    - Pohang University of Science And Technology (POSTECH)
+    - Pohang University of Science And Technology ([POSTECH](https://www.postech.ac.kr/kor/index.do#;))
     - M.S. student in [Electrical engineering](https://eetemp.postech.ac.kr/) 
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - Power Electronics Group
-    - V-Edu staff
 
 ![img](:Pohang.png){: width="300" height="200"}
 ![img](:WADE.png){: width="300" height="200"}
 
 - 2023.09.16 ~ 2025.07.30
-    - LG-Display Research and Business Development Foundaton ( POSTECH )
-    - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [Innovation center for education](https://ice.postech.ac.kr/)
+    - LG-Display Research and Business Development Foundaton ( & POSTECH )
     - V-Edu staff
 
 - 2017.03.01 ~ 2023.08.17

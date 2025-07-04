@@ -44,18 +44,16 @@ img: ":k-display_.jpeg"
 
 ### 학력
 - 2025.09.01 ~ present
-    - 포항공과대학교 ( POSTECH 포스텍 )
+    - 포항공과대학교 ( [POSTECH](https://www.postech.ac.kr/kor/index.do#;) 포스텍 )
     - [전자전기공학과](https://eetemp.postech.ac.kr/) 석사
     - [Wave Arrays & Display Engineering Lab (WADE Lab)](https://sites.google.com/view/kimwooksung/home?authuser=0)
         - 전력 전자 팀
-    - V-Edu 사원
 
 ![img](:Pohang.png){: width="300" height="200"}
 ![img](:WADE.png){: width="300" height="200"}
 
 - 2023.09.16 ~ 2025.07.30
-    - LG-Display 산학협력센터 ( POSTECH )
-    - [POSTECH](https://www.postech.ac.kr/kor/index.do#;), [교육혁신센터](https://ice.postech.ac.kr/)
+    - LG-Display 산학협력센터 ( & POSTECH )
     - V-Edu 사원
 
 - 2017.03.01 ~ 2023.08.17
