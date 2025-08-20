@@ -39,7 +39,7 @@ img: ":k-display_.jpeg"
 - Name : **Junsu Song ( 宋準守 )**
 - Date of birth : **February 1st, 1998**
 - Address : **Danwon-gu, Ansan-si, Gyeonggi-do (Sujeongyang)**
-- Email : **sb020578@postech.ac.kr**
+- Email : **junsu.song@postech.ac.kr**
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### Education

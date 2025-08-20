@@ -39,7 +39,7 @@ img: ":k-display_.jpeg"
 - 이름 : **송준수 ( 宋準守 )**
 - 생년월일 : **1998년 2월 1일**
 - 살고있는 곳 : **경기도 안산시 단원구**
-- 이메일 : **sb020578@postech.ac.kr**
+- 이메일 : **junsu.song@postech.ac.kr**
 - Git Blog : [BLOG](https://junsusong98.github.io/ko/)
 
 ### 학력
