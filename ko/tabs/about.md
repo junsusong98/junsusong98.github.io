@@ -84,7 +84,9 @@ img: ":k-display_.jpeg"
 ### 연구
 - Power Electronics
     - Dc-to-Dc Converter
+    - Actuator for operating High Voltage
 - HMD(Head Mounted Display)
+
 - Oxide TFT
     - Oxide Semiconductors ITZO TFT
     - Ferroelectric ITZO TFT (FeFET)
